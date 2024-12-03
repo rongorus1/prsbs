@@ -1065,3 +1065,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03Dec2024 02:27:26.788] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [03Dec2024 02:27:26.788] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
 [03Dec2024 02:27:46.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Here They Come]
+[03Dec2024 02:32:03.120] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iTzBorisxD lost connection: You logged in from another location
+[03Dec2024 02:32:03.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD left the game
+[03Dec2024 02:32:03.186] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Dec2024 02:32:03.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iTzBorisxD[/[::1]:53346] logged in with entity id 10066 at (-902.7131801870297, 218.0, 48.802134346473366)
+[03Dec2024 02:32:03.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD joined the game
+[03Dec2024 02:32:03.281] [Server thread/INFO] [Jade/]: Syncing config to iTzBorisxD (1b8b3778-a274-3a4f-84aa-45f89ea102bb)
