@@ -1,0 +1,1051 @@
+[03Dec2024 01:57:26.998] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03Dec2024 01:57:27.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[03Dec2024 01:57:28.809] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03Dec2024 01:57:28.826] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.3 (285f951adc7537f49ae3ef9fc0d2fd3e) from union:/workspaces/prsbs/servidor_minecraft/mods/essential_1-3-4_forge_1-20-1.jar%23205!/essential-loader-stage2-modlauncher9-1.6.3.jar
+[03Dec2024 01:57:28.831] [main/FATAL] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Encountered serious error loading transformation service, expect problems
+java.util.ServiceConfigurationError: cpw.mods.modlauncher.api.ITransformationService: Provider gg.essential.container.loader.stage0.EssentialTransformationService could not be instantiated
+	at java.util.ServiceLoader.fail(ServiceLoader.java:586) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:813) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.get(ServiceLoader.java:729) ~[?:?]
+	at cpw.mods.modlauncher.util.ServiceLoaderUtils.lambda$streamWithErrorHandling$0(ServiceLoaderUtils.java:39) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.ServiceLoader$ProviderSpliterator.tryAdvance(ServiceLoader.java:1499) ~[?:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at cpw.mods.modlauncher.TransformationServicesHandler.discoverServices(TransformationServicesHandler.java:133) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:87) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1OrThrow(EssentialTransformationServiceBase.java:27) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.lambda$new$0(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.util.DelegatingTransformationServiceBase.<init>(DelegatingTransformationServiceBase.java:13) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationService.<init>(EssentialTransformationService.java:7) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
+	... 16 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1(EssentialTransformationServiceBase.java:47) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1OrThrow(EssentialTransformationServiceBase.java:25) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.lambda$new$0(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.util.DelegatingTransformationServiceBase.<init>(DelegatingTransformationServiceBase.java:13) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationService.<init>(EssentialTransformationService.java:7) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
+	... 16 more
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/codec/digest/DigestUtils
+	at gg.essential.loader.stage1.EssentialLoaderBase.getChecksum(EssentialLoaderBase.java:356) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.downloadFile(EssentialLoaderBase.java:473) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.doDownload(EssentialLoaderBase.java:326) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.load(EssentialLoaderBase.java:176) ~[?:?]
+	at gg.essential.loader.stage1.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:46) ~[?:?]
+	at gg.essential.loader.stage1.EssentialTransformationService.<init>(EssentialTransformationService.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1(EssentialTransformationServiceBase.java:47) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1OrThrow(EssentialTransformationServiceBase.java:25) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.lambda$new$0(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.util.DelegatingTransformationServiceBase.<init>(DelegatingTransformationServiceBase.java:13) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationService.<init>(EssentialTransformationService.java:7) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.DigestUtils
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.getChecksum(EssentialLoaderBase.java:356) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.downloadFile(EssentialLoaderBase.java:473) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.doDownload(EssentialLoaderBase.java:326) ~[?:?]
+	at gg.essential.loader.stage1.EssentialLoaderBase.load(EssentialLoaderBase.java:176) ~[?:?]
+	at gg.essential.loader.stage1.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:46) ~[?:?]
+	at gg.essential.loader.stage1.EssentialTransformationService.<init>(EssentialTransformationService.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1(EssentialTransformationServiceBase.java:47) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.loadStage1OrThrow(EssentialTransformationServiceBase.java:25) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.lambda$new$0(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.util.DelegatingTransformationServiceBase.<init>(DelegatingTransformationServiceBase.java:13) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationServiceBase.<init>(EssentialTransformationServiceBase.java:20) ~[?:?]
+	at gg.essential.container.loader.stage0.EssentialTransformationService.<init>(EssentialTransformationService.java:7) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
+	... 16 more
+[03Dec2024 01:57:28.894] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/prsbs/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03Dec2024 01:57:29.322] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[03Dec2024 01:57:29.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Dec2024 01:57:29.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Dec2024 01:57:29.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Dec2024 01:57:29.631] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[03Dec2024 01:57:29.633] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/prsbs/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[03Dec2024 01:57:29.633] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/prsbs/servidor_minecraft/mods/expandability-9.0.4.jar
+[03Dec2024 01:57:29.634] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[03Dec2024 01:57:32.414] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Dec2024 01:57:32.637] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[03Dec2024 01:57:32.639] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03Dec2024 01:57:32.738] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[03Dec2024 01:57:32.739] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[03Dec2024 01:57:32.753] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 154 options available, 0 override(s) found
+[03Dec2024 01:57:32.781] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Dec2024 01:57:32.788] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Dec2024 01:57:32.794] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Dec2024 01:57:32.833] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Dec2024 01:57:32.847] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/prsbs/servidor_minecraft/mods/kotlinforforge-4.3.0-all.jar#262_/META-INF/jarjar/kffmod-4.3.0.jar#347!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11e9ac24, /workspaces/prsbs/servidor_minecraft/mods/tombstone-1.20.1-8.6.8.jar#297!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74f280bd, /workspaces/prsbs/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.8.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@675b18ff, /workspaces/prsbs/servidor_minecraft/mods/mcw-doors-1.1.1forge-mc1.20.1.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@34279b8a, /workspaces/prsbs/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#215!/=fuzs.puzzleslib.impl.core.ForgeModContainer@687389a6, /workspaces/prsbs/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar#287!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8641b7d, /workspaces/prsbs/servidor_minecraft/mods/mcw-furniture-3.3.0-mc1.20.1forge.jar#270!/=fuzs.puzzleslib.impl.core.ForgeModContainer@37c7766e, /workspaces/prsbs/servidor_minecraft/mods/FpsReducer2-forge-1.20-2.5.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3fb450d7, /workspaces/prsbs/servidor_minecraft/mods/inventoryhud.forge.1.20.1-3.4.26.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4b7ed03e, /workspaces/prsbs/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#239!/=fuzs.puzzleslib.impl.core.ForgeModContainer@636985df, /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#316!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6f91fbda, /workspaces/prsbs/servidor_minecraft/mods/journeymap-1.20.1-5.10.1-forge.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@723e3c17, /workspaces/prsbs/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar#308!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ffced4e, /workspaces/prsbs/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#279!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6094de13, /workspaces/prsbs/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar#228!/=fuzs.puzzleslib.impl.core.ForgeModContainer@bbb6f0, /workspaces/prsbs/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#286!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e6ec74, /workspaces/prsbs/servidor_minecraft/mods/carryon-forge-1.20.1-2.1.2.7.jar#223!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2bd8f7db, /workspaces/prsbs/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.6.jar#295!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d7ad0f5, /workspaces/prsbs/servidor_minecraft/mods/collective-1.20.1-7.84.jar#229!/=fuzs.puzzleslib.impl.core.ForgeModContainer@30abf79c, /workspaces/prsbs/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#219!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49a38b1, /workspaces/prsbs/servidor_minecraft/mods/jei-1.20.1-forge-15.12.3.54.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@681061d6, /workspaces/prsbs/servidor_minecraft/mods/balm-forge-1.20.1-7.3.7-all.jar#212_/META-INF/jarjar/kuma-api-forge-20.1.8+1.20.1.jar#344!/=fuzs.puzzleslib.impl.core.ForgeModContainer@53d6e959, /workspaces/prsbs/servidor_minecraft/mods/skinrestorer-forge-2.0.3+1.20.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3caee3a8, /workspaces/prsbs/servidor_minecraft/mods/DungeonsArise-1.20.1-2.1.57-release.jar#240!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69a40b3c, /workspaces/prsbs/servidor_minecraft/mods/silent-lib-1.20.1-8.0.0.jar#290!/=fuzs.puzzleslib.impl.core.ForgeModContainer@251c90f, /workspaces/prsbs/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#301!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6629643d, /workspaces/prsbs/servidor_minecraft/mods/architectury-9.2.14-forge.jar#209!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2dd178f3, /workspaces/prsbs/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#206!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64656b9e, /workspaces/prsbs/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#275!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6870cfac, /workspaces/prsbs/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#285!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45554613, /workspaces/prsbs/servidor_minecraft/mods/libIPN-forge-1.20-4.0.2.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@63e5b8aa, /workspaces/prsbs/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#309!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c9306d3, /workspaces/prsbs/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#304!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4270b142, /workspaces/prsbs/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.36_mc1.20.1.jar#233!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2dfa02c1, /workspaces/prsbs/servidor_minecraft/mods/Cardinal Sins 1.0.3.jar#222!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6314df3c, /workspaces/prsbs/servidor_minecraft/mods/balm-forge-1.20.1-7.3.7-all.jar#212!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5785e813, /workspaces/prsbs/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@10b8b900, /workspaces/prsbs/servidor_minecraft/mods/comforts-forge-6.4.0+1.20.1.jar#230!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d294ddc, /workspaces/prsbs/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#211!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2801827a, /workspaces/prsbs/servidor_minecraft/mods/bendy-lib-forge-4.0.0.jar#213!/=fuzs.puzzleslib.impl.core.ForgeModContainer@50bc3219, /workspaces/prsbs/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#241!/=fuzs.puzzleslib.impl.core.ForgeModContainer@599f1b7, /workspaces/prsbs/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#227!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22791b75, /workspaces/prsbs/servidor_minecraft/mods/walljump-1.20.1-1.2.1-forge.jar#300!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64f4f12, /workspaces/prsbs/servidor_minecraft/mods/trashslot-forge-1.20-15.1.0.jar#298!/=fuzs.puzzleslib.impl.core.ForgeModContainer@37d28938, /workspaces/prsbs/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d0cd23c, /workspaces/prsbs/servidor_minecraft/mods/artifacts-forge-9.5.11.jar#210!/=fuzs.puzzleslib.impl.core.ForgeModContainer@17c4dc5b, /workspaces/prsbs/servidor_minecraft/mods/embeddium-0.3.30+mc1.20.1.jar#243!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b0f266e, /workspaces/prsbs/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar#232!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4837f97e, /workspaces/prsbs/servidor_minecraft/mods/PrettyPipes-1.15.0-all.jar#284!/=fuzs.puzzleslib.impl.core.ForgeModContainer@53314f76, /workspaces/prsbs/servidor_minecraft/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@62a6674f, /workspaces/prsbs/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70881123, /workspaces/prsbs/servidor_minecraft/mods/butcher-2.5.4-forge-1.20.1.jar#220!/=fuzs.puzzleslib.impl.core.ForgeModContainer@703fa45, /workspaces/prsbs/servidor_minecraft/mods/ScalingHealth-1.20.1-8.0.2+9.jar#289!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5e905f2c, /workspaces/prsbs/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#285_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#354!/=fuzs.puzzleslib.impl.core.ForgeModContainer@fddd7ae, /workspaces/prsbs/servidor_minecraft/mods/ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f6cce7f, /workspaces/prsbs/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#237!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2725ca05, /workspaces/prsbs/servidor_minecraft/mods/mcw-windows-2.3.0-mc1.20.1forge.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b9088f2, /workspaces/prsbs/servidor_minecraft/mods/EyesInTheDarkness-1.20.1-1.3.10.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1a914089, /workspaces/prsbs/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#218!/=fuzs.puzzleslib.impl.core.ForgeModContainer@43d76a92, /workspaces/prsbs/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#282_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#348!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a2bf50f, /workspaces/prsbs/servidor_minecraft/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#236!/=fuzs.puzzleslib.impl.core.ForgeModContainer@350323a0, /workspaces/prsbs/servidor_minecraft/mods/Corgilib-Forge-1.20.1-4.0.3.0.jar#231!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2506b881, /workspaces/prsbs/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.15.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d7dd549, /workspaces/prsbs/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#221!/=fuzs.puzzleslib.impl.core.ForgeModContainer@486bd064, /workspaces/prsbs/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6459f4ea, /workspaces/prsbs/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#282!/=fuzs.puzzleslib.impl.core.ForgeModContainer@740b9a50, /workspaces/prsbs/servidor_minecraft/mods/monolib-forge-1.20.1-1.3.0.jar#272!/=fuzs.puzzleslib.impl.core.ForgeModContainer@476fde05, /workspaces/prsbs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#311!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5111de7c, /workspaces/prsbs/servidor_minecraft/mods/immersive_melodies-0.3.0+1.20.1-forge.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7ac48e10, /workspaces/prsbs/servidor_minecraft/mods/CyclopsCore-1.20.1-1.19.5.jar#238!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52354202, /workspaces/prsbs/servidor_minecraft/mods/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b1321b7, /workspaces/prsbs/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#276!/=fuzs.puzzleslib.impl.core.ForgeModContainer@342ee097, /workspaces/prsbs/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6ac45c0c, /workspaces/prsbs/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar#217!/=fuzs.puzzleslib.impl.core.ForgeModContainer@12192604, /workspaces/prsbs/servidor_minecraft/mods/expandability-9.0.4.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6075b369, /workspaces/prsbs/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@231cdda8, /workspaces/prsbs/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.5.jar#293!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b70d1fb, /workspaces/prsbs/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar#288!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3002e397, /workspaces/prsbs/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#226!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7da1e005, /workspaces/prsbs/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar#208!/=fuzs.puzzleslib.impl.core.ForgeModContainer@38159384, /workspaces/prsbs/servidor_minecraft/mods/alexsmobs-1.22.8.jar#207!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55877274, /workspaces/prsbs/servidor_minecraft/mods/Fallingleaves-1.20.1-2.1.0.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@723e2d08, /workspaces/prsbs/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d4a82, /workspaces/prsbs/servidor_minecraft/mods/mysticsbiomes-1.20.1-3.4.jar#277!/=fuzs.puzzleslib.impl.core.ForgeModContainer@14f060b8, /workspaces/prsbs/servidor_minecraft/mods/Chipped-forge-1.20.1-3.0.6.jar#225!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a0ab480, /workspaces/prsbs/servidor_minecraft/mods/more_bows_and_arrows-merged-1.20.1-3.1.0.jar#273!/=fuzs.puzzleslib.impl.core.ForgeModContainer@79df80a4, /workspaces/prsbs/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#264!/=fuzs.puzzleslib.impl.core.ForgeModContainer@130cfc47, /workspaces/prsbs/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#224!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4eeab3e, /workspaces/prsbs/servidor_minecraft/mods/bettercombat-forge-1.8.6+1.20.1.jar#214!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b6fb197, /workspaces/prsbs/servidor_minecraft/mods/elevatorid-1.20.1-1.8.15.jar#242!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2eb0cefe, /workspaces/prsbs/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#280!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a2ae1ab, /workspaces/prsbs/servidor_minecraft/mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar#283!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2bec068b, /workspaces/prsbs/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d59e968, /workspaces/prsbs/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar#307!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55361f03, /workspaces/prsbs/servidor_minecraft/mods/artifacts-forge-9.5.11.jar#210_/META-INF/jars/mixinextras-forge-0.3.5.jar#346!/=fuzs.puzzleslib.impl.core.ForgeModContainer@581c9bb7, /workspaces/prsbs/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar#305!/=fuzs.puzzleslib.impl.core.ForgeModContainer@138f0661, /workspaces/prsbs/servidor_minecraft/mods/Incendium_1.20.1_v5.3.1.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@212fafd1, /workspaces/prsbs/servidor_minecraft/mods/YouDied-1.20-3.0.0.17-forge.jar#303!/=fuzs.puzzleslib.impl.core.ForgeModContainer@448462f0, /workspaces/prsbs/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar#216!/=fuzs.puzzleslib.impl.core.ForgeModContainer@787988f4, /workspaces/prsbs/servidor_minecraft/mods/Lunar-forge-1.20.1-0.2.0.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@132e3594, /workspaces/prsbs/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#302!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f235107, /workspaces/prsbs/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar#306!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28d739f1, /workspaces/prsbs/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#296!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c5d3a37, /workspaces/prsbs/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar#268!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7e3d2ebd, /workspaces/prsbs/servidor_minecraft/mods/immersive_armors-1.6.1+1.20.1-forge.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b43f314, /workspaces/prsbs/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar#235!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a4a5f3c, /workspaces/prsbs/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f3356c0, /workspaces/prsbs/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar#281!/=fuzs.puzzleslib.impl.core.ForgeModContainer@586cc15d, /workspaces/prsbs/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c835217}
+[03Dec2024 01:57:32.848] [main/INFO] [Puzzles Lib/]: Scheme for kotlinforforge: /workspaces/prsbs/servidor_minecraft/mods/kotlinforforge-4.3.0-all.jar#262!/
+[03Dec2024 01:57:32.848] [main/INFO] [Puzzles Lib/]: Scheme for tombstone: /workspaces/prsbs/servidor_minecraft/mods/tombstone-1.20.1-8.6.8.jar#297!/
+[03Dec2024 01:57:32.848] [main/INFO] [Puzzles Lib/]: Scheme for lithostitched: /workspaces/prsbs/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.8.jar#265!/
+[03Dec2024 01:57:32.848] [main/INFO] [Puzzles Lib/]: Scheme for mcwdoors: /workspaces/prsbs/servidor_minecraft/mods/mcw-doors-1.1.1forge-mc1.20.1.jar#269!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for bettervillage: /workspaces/prsbs/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#215!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for resourcefulconfig: /workspaces/prsbs/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar#287!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for mcwfurnitures: /workspaces/prsbs/servidor_minecraft/mods/mcw-furniture-3.3.0-mc1.20.1forge.jar#270!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for fpsreducer: /workspaces/prsbs/servidor_minecraft/mods/FpsReducer2-forge-1.20-2.5.jar#251!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for inventoryhud: /workspaces/prsbs/servidor_minecraft/mods/inventoryhud.forge.1.20.1-3.4.26.jar#258!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for deep_dark_regrowth: /workspaces/prsbs/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#239!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/prsbs/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#316!/
+[03Dec2024 01:57:32.849] [main/INFO] [Puzzles Lib/]: Scheme for journeymap: /workspaces/prsbs/servidor_minecraft/mods/journeymap-1.20.1-5.10.1-forge.jar#261!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for betteroceanmonuments: /workspaces/prsbs/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar#308!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for patchouli: /workspaces/prsbs/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#279!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for clumps: /workspaces/prsbs/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar#228!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for realmrpg_demons: /workspaces/prsbs/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#286!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for carryon: /workspaces/prsbs/servidor_minecraft/mods/carryon-forge-1.20.1-2.1.2.7.jar#223!/
+[03Dec2024 01:57:32.850] [main/INFO] [Puzzles Lib/]: Scheme for terrablender: /workspaces/prsbs/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.6.jar#295!/
+[03Dec2024 01:57:32.851] [main/INFO] [Puzzles Lib/]: Scheme for collective: /workspaces/prsbs/servidor_minecraft/mods/collective-1.20.1-7.84.jar#229!/
+[03Dec2024 01:57:32.851] [main/INFO] [Puzzles Lib/]: Scheme for born_in_chaos_v1: /workspaces/prsbs/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#219!/
+[03Dec2024 01:57:32.851] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/prsbs/servidor_minecraft/mods/jei-1.20.1-forge-15.12.3.54.jar#260!/
+[03Dec2024 01:57:32.851] [main/INFO] [Puzzles Lib/]: Scheme for kuma_api: /workspaces/prsbs/servidor_minecraft/mods/balm-forge-1.20.1-7.3.7-all.jar#212!/
+[03Dec2024 01:57:32.852] [main/INFO] [Puzzles Lib/]: Scheme for skinrestorer: /workspaces/prsbs/servidor_minecraft/mods/skinrestorer-forge-2.0.3+1.20.jar#291!/
+[03Dec2024 01:57:32.852] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise: /workspaces/prsbs/servidor_minecraft/mods/DungeonsArise-1.20.1-2.1.57-release.jar#240!/
+[03Dec2024 01:57:32.852] [main/INFO] [Puzzles Lib/]: Scheme for silentlib: /workspaces/prsbs/servidor_minecraft/mods/silent-lib-1.20.1-8.0.0.jar#290!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for waystones: /workspaces/prsbs/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#301!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/prsbs/servidor_minecraft/mods/architectury-9.2.14-forge.jar#209!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for securitycraft: /workspaces/prsbs/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#206!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for mutantsbuff: /workspaces/prsbs/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#275!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/prsbs/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#285!/
+[03Dec2024 01:57:32.853] [main/INFO] [Puzzles Lib/]: Scheme for libipn: /workspaces/prsbs/servidor_minecraft/mods/libIPN-forge-1.20-4.0.2.jar#263!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for betterstrongholds: /workspaces/prsbs/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#309!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/prsbs/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#304!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for creativecore: /workspaces/prsbs/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.36_mc1.20.1.jar#233!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for cardinal_sins: /workspaces/prsbs/servidor_minecraft/mods/Cardinal Sins 1.0.3.jar#222!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for balm: /workspaces/prsbs/servidor_minecraft/mods/balm-forge-1.20.1-7.3.7-all.jar#212!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for farmersdelight: /workspaces/prsbs/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#249!/
+[03Dec2024 01:57:32.854] [main/INFO] [Puzzles Lib/]: Scheme for comforts: /workspaces/prsbs/servidor_minecraft/mods/comforts-forge-6.4.0+1.20.1.jar#230!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for athena: /workspaces/prsbs/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#211!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for bendylib: /workspaces/prsbs/servidor_minecraft/mods/bendy-lib-forge-4.0.0.jar#213!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for ecologics: /workspaces/prsbs/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#241!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/prsbs/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#227!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for walljump: /workspaces/prsbs/servidor_minecraft/mods/walljump-1.20.1-1.2.1-forge.jar#300!/
+[03Dec2024 01:57:32.855] [main/INFO] [Puzzles Lib/]: Scheme for trashslot: /workspaces/prsbs/servidor_minecraft/mods/trashslot-forge-1.20-15.1.0.jar#298!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for creeperoverhaul: /workspaces/prsbs/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar#234!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for artifacts: /workspaces/prsbs/servidor_minecraft/mods/artifacts-forge-9.5.11.jar#210!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for embeddium: /workspaces/prsbs/servidor_minecraft/mods/embeddium-0.3.30+mc1.20.1.jar#243!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for cosmeticarmorreworked: /workspaces/prsbs/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar#232!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for prettypipes: /workspaces/prsbs/servidor_minecraft/mods/PrettyPipes-1.15.0-all.jar#284!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for epherolib: /workspaces/prsbs/servidor_minecraft/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#245!/
+[03Dec2024 01:57:32.856] [main/INFO] [Puzzles Lib/]: Scheme for iceandfire: /workspaces/prsbs/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#254!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for butcher: /workspaces/prsbs/servidor_minecraft/mods/butcher-2.5.4-forge-1.20.1.jar#220!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for scalinghealth: /workspaces/prsbs/servidor_minecraft/mods/ScalingHealth-1.20.1-8.0.2+9.jar#289!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/prsbs/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#285!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for forgeconfigscreens: /workspaces/prsbs/servidor_minecraft/mods/ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar#250!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/prsbs/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#237!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for mcwwindows: /workspaces/prsbs/servidor_minecraft/mods/mcw-windows-2.3.0-mc1.20.1forge.jar#271!/
+[03Dec2024 01:57:32.857] [main/INFO] [Puzzles Lib/]: Scheme for eyesinthedarkness: /workspaces/prsbs/servidor_minecraft/mods/EyesInTheDarkness-1.20.1-1.3.10.jar#247!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for bookshelf: /workspaces/prsbs/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#218!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for spectrelib: /workspaces/prsbs/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#282!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for croptopia: /workspaces/prsbs/servidor_minecraft/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#236!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for corgilib: /workspaces/prsbs/servidor_minecraft/mods/Corgilib-Forge-1.20.1-4.0.3.0.jar#231!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for travelersbackpack: /workspaces/prsbs/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.15.jar#299!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for caelus: /workspaces/prsbs/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#221!/
+[03Dec2024 01:57:32.858] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/prsbs/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#253!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for polymorph: /workspaces/prsbs/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#282!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for monolib: /workspaces/prsbs/servidor_minecraft/mods/monolib-forge-1.20.1-1.3.0.jar#272!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/prsbs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#311!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for immersive_melodies: /workspaces/prsbs/servidor_minecraft/mods/immersive_melodies-0.3.0+1.20.1-forge.jar#256!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for cyclopscore: /workspaces/prsbs/servidor_minecraft/mods/CyclopsCore-1.20.1-1.19.5.jar#238!/
+[03Dec2024 01:57:32.859] [main/INFO] [Puzzles Lib/]: Scheme for watching: /workspaces/prsbs/servidor_minecraft/mods/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar#252!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for mvs: /workspaces/prsbs/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#276!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for mutantmonsters: /workspaces/prsbs/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#274!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for blueprint: /workspaces/prsbs/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar#217!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for expandability: /workspaces/prsbs/servidor_minecraft/mods/expandability-9.0.4.jar#246!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for paraglider: /workspaces/prsbs/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#278!/
+[03Dec2024 01:57:32.860] [main/INFO] [Puzzles Lib/]: Scheme for sound_physics_remastered: /workspaces/prsbs/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.5.jar#293!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for resourcefullib: /workspaces/prsbs/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar#288!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/prsbs/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#226!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for ambientsounds: /workspaces/prsbs/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar#208!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/prsbs/servidor_minecraft/mods/alexsmobs-1.22.8.jar#207!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for fallingleaves: /workspaces/prsbs/servidor_minecraft/mods/Fallingleaves-1.20.1-2.1.0.jar#248!/
+[03Dec2024 01:57:32.861] [main/INFO] [Puzzles Lib/]: Scheme for enhancedvisuals: /workspaces/prsbs/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#244!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for mysticsbiomes: /workspaces/prsbs/servidor_minecraft/mods/mysticsbiomes-1.20.1-3.4.jar#277!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for chipped: /workspaces/prsbs/servidor_minecraft/mods/Chipped-forge-1.20.1-3.0.6.jar#225!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for more_bows_and_arrows: /workspaces/prsbs/servidor_minecraft/mods/more_bows_and_arrows-merged-1.20.1-3.1.0.jar#273!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for libraryferret: /workspaces/prsbs/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#264!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for cfm: /workspaces/prsbs/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#224!/
+[03Dec2024 01:57:32.862] [main/INFO] [Puzzles Lib/]: Scheme for bettercombat: /workspaces/prsbs/servidor_minecraft/mods/bettercombat-forge-1.8.6+1.20.1.jar#214!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for elevatorid: /workspaces/prsbs/servidor_minecraft/mods/elevatorid-1.20.1-1.8.15.jar#242!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /workspaces/prsbs/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#280!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for presencefootsteps: /workspaces/prsbs/servidor_minecraft/mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar#283!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for spelunkers_charm: /workspaces/prsbs/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar#294!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for betterfortresses: /workspaces/prsbs/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar#307!/
+[03Dec2024 01:57:32.863] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/prsbs/servidor_minecraft/mods/artifacts-forge-9.5.11.jar#210!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for betterdeserttemples: /workspaces/prsbs/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar#305!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for incendium: /workspaces/prsbs/servidor_minecraft/mods/Incendium_1.20.1_v5.3.1.jar#257!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for you_died: /workspaces/prsbs/servidor_minecraft/mods/YouDied-1.20-3.0.0.17-forge.jar#303!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for biomesoplenty: /workspaces/prsbs/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar#216!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for lunar: /workspaces/prsbs/servidor_minecraft/mods/Lunar-forge-1.20.1-0.2.0.jar#266!/
+[03Dec2024 01:57:32.864] [main/INFO] [Puzzles Lib/]: Scheme for weaponmaster_ydm: /workspaces/prsbs/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#302!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for betterjungletemples: /workspaces/prsbs/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar#306!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for graveyard: /workspaces/prsbs/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#296!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for mavm: /workspaces/prsbs/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar#268!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for immersive_armors: /workspaces/prsbs/servidor_minecraft/mods/immersive_armors-1.6.1+1.20.1-forge.jar#255!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for crittersandcompanions: /workspaces/prsbs/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar#235!/
+[03Dec2024 01:57:32.865] [main/INFO] [Puzzles Lib/]: Scheme for jade: /workspaces/prsbs/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar#259!/
+[03Dec2024 01:57:32.866] [main/INFO] [Puzzles Lib/]: Scheme for playerrevive: /workspaces/prsbs/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar#281!/
+[03Dec2024 01:57:32.866] [main/INFO] [Puzzles Lib/]: Scheme for mavapi: /workspaces/prsbs/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar#267!/
+[03Dec2024 01:57:32.870] [main/INFO] [Puzzles Lib/]: Loading 109 mods:
+	- alexsmobs 1.22.8
+	- ambientsounds 6.0.3
+	- architectury 9.2.14
+	- artifacts 9.5.11
+		\-- mixinextras 0.3.5
+	- athena 3.1.2
+	- balm 7.3.7
+		\-- kuma_api 20.1.8
+	- bendylib 4.0.0
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.1.0
+	- biomesoplenty 18.0.0.592
+	- blueprint 7.1.0
+	- bookshelf 20.2.13
+	- born_in_chaos_v1 1.0.0
+	- butcher 2.5.4
+	- caelus 3.2.0+1.20.1
+	- cardinal_sins 1.0.0
+	- carryon 2.1.2.7
+	- cfm 7.0.0-pre36
+	- chipped 3.0.6
+	- citadel 2.5.4
+	- cloth_config 11.1.118
+	- clumps 12.0.0.4
+	- collective 7.84
+	- comforts 6.4.0+1.20.1
+	- corgilib 4.0.3.0
+	- cosmeticarmorreworked 1.20.1-v1a
+	- creativecore 2.11.36
+	- creeperoverhaul 3.0.2
+	- crittersandcompanions 1.20.1-2.1.6
+	- croptopia 3.0.4
+	- curios 5.9.1+1.20.1
+	- cyclopscore 1.19.5
+	- deep_dark_regrowth 1.2.6.1
+	- dungeons_arise 2.1.57-1.20.1
+	- ecologics 2.2.0
+	- elevatorid 1.20.1-1.8.15
+	- embeddium 0.3.30+mc1.20.1
+		\-- rubidium 0.7.1
+	- enhancedvisuals 1.8.1
+	- epherolib 0.1.2
+	- expandability 9.0.4
+	- eyesinthedarkness 1.3.10
+	- fallingleaves 2.1.0
+	- farmersdelight 1.20.1-1.2.4
+	- forge 47.3.7
+	- forgeconfigscreens 8.0.2
+	- fpsreducer 1.20-2.5
+	- geckolib 4.4.7
+	- graveyard 3.1
+	- iceandfire 2.1.13-1.20.1
+	- immersive_armors 1.6.1+1.20.1
+	- immersive_melodies 0.3.0+1.20.1
+	- incendium 5.3.1
+	- inventoryhud 3.4.26
+	- jade 11.9.2+forge
+	- jei 15.12.3.54
+	- journeymap 5.10.1
+	- kotlinforforge 4.3.0
+	- libipn 4.0.2
+	- libraryferret 4.0.0
+	- lithostitched 1.1.5
+	- lunar 0.2.0
+	- mavapi 1.1.4
+	- mavm 1.2.6
+	- mcwdoors 1.1.1
+	- mcwfurnitures 3.3.0
+	- mcwwindows 2.3.0
+	- minecraft 1.20.1
+	- monolib 1.3.0
+	- more_bows_and_arrows 3.1.0
+	- mutantmonsters 8.0.7
+	- mutantsbuff 1.0.0
+	- mvs 4.1.2-1.20-forge
+	- mysticsbiomes 3.4
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84-FORGE
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.27
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- presencefootsteps 1.20.1-1.9.1-beta.1
+	- prettypipes 1.15.0
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- realmrpg_demons 0.9.0
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.29
+	- scalinghealth 8.0.2+9
+	- securitycraft 1.9.10
+	- silentlib 8.0.0
+	- skinrestorer 2.0.3+1.20
+	- sound_physics_remastered 1.20.1-1.4.5
+	- spelunkers_charm 3.6.0
+	- terrablender 3.0.1.6
+	- tombstone 8.6.8
+	- trashslot 15.1.0
+	- travelersbackpack 9.1.15
+	- walljump 1.20.1-1.2.1-forge
+	- watching 1.9.2
+	- waystones 14.1.4
+	- weaponmaster_ydm 4.2.3
+	- you_died 3.0.0.17
+	- yungsapi 1.20-Forge-4.0.5
+[03Dec2024 01:57:34.568] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[03Dec2024 01:57:36.156] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zll000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03Dec2024 01:57:42.330] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.345] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.345] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.345] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.346] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.346] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.346] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[03Dec2024 01:57:42.872] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[03Dec2024 01:57:43.328] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03Dec2024 01:57:43.336] [modloading-worker-0/INFO] [MonoLib/]: Hello Forge world!
+[03Dec2024 01:57:43.338] [modloading-worker-0/INFO] [MonoLib/]: Hello from Common init on Forge! we are currently in a production environment!
+[03Dec2024 01:57:43.339] [modloading-worker-0/INFO] [MonoLib/]: The ID for diamonds is minecraft:diamond
+[03Dec2024 01:57:43.339] [modloading-worker-0/INFO] [MonoLib/]: Hello to monolib
+[03Dec2024 01:57:43.589] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[03Dec2024 01:57:43.770] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[03Dec2024 01:57:43.787] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[03Dec2024 01:57:43.806] [modloading-worker-0/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
+[03Dec2024 01:57:43.984] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[03Dec2024 01:57:43.993] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[03Dec2024 01:57:43.999] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[03Dec2024 01:57:44.001] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[03Dec2024 01:57:44.002] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[03Dec2024 01:57:44.007] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[03Dec2024 01:57:44.008] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[03Dec2024 01:57:44.117] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[03Dec2024 01:57:44.144] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[03Dec2024 01:57:44.144] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[03Dec2024 01:57:44.875] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[03Dec2024 01:57:44.911] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[03Dec2024 01:57:45.131] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[03Dec2024 01:57:45.245] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[03Dec2024 01:57:45.329] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[03Dec2024 01:57:50.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.sniffer.Sniffer from class com.mysticsbiomes.common.entity.animal.SeaOtter
+[03Dec2024 01:57:51.141] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[03Dec2024 01:57:51.516] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[03Dec2024 01:57:51.527] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[03Dec2024 01:57:51.541] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[03Dec2024 01:57:51.639] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[03Dec2024 01:57:51.911] [main/INFO] [journeymap/]: Initializing Packet Registries
+[03Dec2024 01:57:51.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[03Dec2024 01:57:51.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[03Dec2024 01:57:51.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[03Dec2024 01:57:51.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[03Dec2024 01:57:51.941] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[03Dec2024 01:57:51.941] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[03Dec2024 01:57:51.941] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[03Dec2024 01:57:51.942] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[03Dec2024 01:57:51.946] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[03Dec2024 01:57:51.946] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[03Dec2024 01:57:51.946] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[03Dec2024 01:57:51.947] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[03Dec2024 01:57:51.947] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[03Dec2024 01:57:51.947] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[03Dec2024 01:57:51.947] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[03Dec2024 01:57:51.958] [main/INFO] [terrablender/]: Registered region mysticsbiomes:overworld_provider to index 4 for type OVERWORLD
+[03Dec2024 01:57:52.044] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[03Dec2024 01:57:52.054] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[03Dec2024 01:57:52.055] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[03Dec2024 01:57:52.068] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[03Dec2024 01:57:52.072] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[03Dec2024 01:57:52.073] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[03Dec2024 01:57:52.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[03Dec2024 01:57:52.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[03Dec2024 01:57:52.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[03Dec2024 01:57:52.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[03Dec2024 01:57:52.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.5 Target: null
+[03Dec2024 01:57:52.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[03Dec2024 01:57:52.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.8 Target: 8.8.6
+[03Dec2024 01:57:52.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[03Dec2024 01:57:53.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[03Dec2024 01:57:53.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[03Dec2024 01:57:53.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[03Dec2024 01:57:53.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
+[03Dec2024 01:57:53.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
+[03Dec2024 01:57:53.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[03Dec2024 01:57:53.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.7 Target: null
+[03Dec2024 01:57:53.385] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[03Dec2024 01:57:53.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[03Dec2024 01:57:53.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[03Dec2024 01:57:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[03Dec2024 01:57:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[03Dec2024 01:57:53.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.15 Target: 9.1.16
+[03Dec2024 01:57:53.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[03Dec2024 01:57:53.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[03Dec2024 01:57:53.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Dec2024 01:57:53.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[03Dec2024 01:57:53.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigscreens.json
+[03Dec2024 01:57:53.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[03Dec2024 01:57:53.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
+[03Dec2024 01:57:53.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
+[03Dec2024 01:57:53.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[03Dec2024 01:57:54.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.10 Target: 1.9.12
+[03Dec2024 01:57:54.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[03Dec2024 01:57:54.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[03Dec2024 01:57:54.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[03Dec2024 01:57:54.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.20 Target: 8.1.25
+[03Dec2024 01:57:54.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
+[03Dec2024 01:57:54.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
+[03Dec2024 01:57:56.705] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Dec2024 01:58:00.501] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prsbs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23311!/assets/.mcassetsroot' uses unexpected schema
+[03Dec2024 01:58:00.501] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prsbs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23311!/data/.mcassetsroot' uses unexpected schema
+[03Dec2024 01:58:00.641] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[03Dec2024 01:58:03.381] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[03Dec2024 01:58:03.614] [Worker-Main-2/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.6.8.jar
+[03Dec2024 01:58:03.700] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/machetes as it is missing following references: nethersdelight:iron_machete (from butcher-2.5.4-forge-1.20.1.jar), 
+	nethersdelight:golden_machete (from butcher-2.5.4-forge-1.20.1.jar), 
+	nethersdelight:diamond_machete (from butcher-2.5.4-forge-1.20.1.jar), 
+	nethersdelight:netherite_machete (from butcher-2.5.4-forge-1.20.1.jar)
+[03Dec2024 01:58:03.701] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/hunting_tools as it is missing following references: #nethersdelight:tools/machetes (from butcher-2.5.4-forge-1.20.1.jar)
+[03Dec2024 01:58:03.732] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tfc:unfired_molds as it is missing following references: butcher:unfired_cleaver_mold (from butcher-2.5.4-forge-1.20.1.jar)
+[03Dec2024 01:58:05.138] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[03Dec2024 01:58:05.298] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeknapping
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.319] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierknapping
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.395] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:fireskinningknifemold
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.423] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifebladerecipe
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.476] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:ironcleaveranviltfc
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.497] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firecleavermold
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.498] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeanviltfc
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.512] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firepliermold
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.515] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleavercrafting
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.516] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:butcheryjar
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:glassworking'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.524] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverknapping
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.559] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierjawrecipe
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.560] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverblade
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.561] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifecrafting
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.565] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plieranviltfc
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.599] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:crushedflowersrecipe
+com.google.gson.JsonSyntaxException: Unknown item 'butcher:pestleandmortar'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23316!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23316!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23316!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.626] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:pliercrafting
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[03Dec2024 01:58:05.651] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[03Dec2024 01:58:05.651] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[03Dec2024 01:58:05.656] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23311!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[03Dec2024 01:58:05.848] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4806 advancements
+[03Dec2024 01:58:05.871] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[03Dec2024 01:58:05.888] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[03Dec2024 01:58:05.891] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[03Dec2024 01:58:05.937] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[03Dec2024 01:58:05.967] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[03Dec2024 01:58:10.122] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03Dec2024 01:58:10.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Dec2024 01:58:10.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Dec2024 01:58:10.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Dec2024 01:58:10.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Dec2024 01:58:10.301] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Dec2024 01:58:10.369] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Dec2024 01:58:10.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Dec2024 01:58:10.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Dec2024 01:58:10.371] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Dec2024 01:58:10.410] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[03Dec2024 01:58:10.412] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[03Dec2024 01:58:10.412] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Dec2024 01:58:10.413] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[03Dec2024 01:58:10.414] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Dec2024 01:58:11.120] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[03Dec2024 01:58:11.593] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[03Dec2024 01:58:11.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Dec2024 01:58:28.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Dec2024 01:58:32.221] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.262] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.273] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.276] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.284] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.285] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.286] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.312] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.398] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:32.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Dec2024 01:58:33.391] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[03Dec2024 01:58:33.891] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[03Dec2024 01:58:34.193] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5803 ms
+[03Dec2024 01:58:34.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.806s)! For help, type "help"
+[03Dec2024 01:58:34.295] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Dec2024 01:58:34.312] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[03Dec2024 01:58:34.361] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[03Dec2024 01:58:34.393] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[03Dec2024 01:58:34.393] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[03Dec2024 01:58:34.502] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 63623 bytes (in 7 string chunks with the size of 10000)
+[03Dec2024 01:58:34.504] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[03Dec2024 01:59:16.767] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[03Dec2024 01:59:16.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iTzBorisxD[/[::1]:54920] logged in with entity id 755 at (-814.6021033410269, 185.0, 19.40329873102855)
+[03Dec2024 01:59:16.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD joined the game
+[03Dec2024 01:59:17.027] [Server thread/INFO] [Jade/]: Syncing config to iTzBorisxD (1b8b3778-a274-3a4f-84aa-45f89ea102bb)
+[03Dec2024 01:59:21.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4525ms or 90 ticks behind
+[03Dec2024 01:59:24.317] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/952, l='ServerLevel[world]', x=-733.50, y=70.00, z=-70.50]
+[03Dec2024 01:59:35.610] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/1098, l='ServerLevel[world]', x=-777.50, y=75.00, z=7.50]
+[03Dec2024 01:59:39.559] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/1101, l='ServerLevel[world]', x=-732.50, y=70.00, z=-71.50]
+[03Dec2024 01:59:59.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [The Imperial March]
+[03Dec2024 02:00:25.109] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/1225, l='ServerLevel[world]', x=-779.50, y=75.00, z=7.50]
+[03Dec2024 02:00:25.510] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/1227, l='ServerLevel[world]', x=-751.50, y=73.00, z=106.50]
+[03Dec2024 02:00:33.560] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/1245, l='ServerLevel[world]', x=-689.50, y=72.00, z=47.50]
+[03Dec2024 02:03:15.311] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2066, l='ServerLevel[world]', x=-688.50, y=70.00, z=62.50]
+[03Dec2024 02:04:09.859] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2185, l='ServerLevel[world]', x=-789.50, y=71.00, z=84.50]
+[03Dec2024 02:04:15.560] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2216, l='ServerLevel[world]', x=-741.50, y=72.00, z=115.50]
+[03Dec2024 02:04:22.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Phantom
+[03Dec2024 02:04:22.376] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:04:22.407] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:04:54.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Phantom
+[03Dec2024 02:04:54.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Your First Grave]
+[03Dec2024 02:05:01.474] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:05:01.475] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[03Dec2024 02:05:09.160] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2686, l='ServerLevel[world]', x=-754.50, y=72.00, z=61.50]
+[03Dec2024 02:05:49.610] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2803, l='ServerLevel[world]', x=-739.50, y=72.00, z=117.50]
+[03Dec2024 02:06:08.211] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2833, l='ServerLevel[world]', x=-741.50, y=72.00, z=116.50]
+[03Dec2024 02:06:12.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Diamonds!]
+[03Dec2024 02:06:16.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Cover Me with Diamonds]
+[03Dec2024 02:06:23.660] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2852, l='ServerLevel[world]', x=-766.50, y=72.00, z=126.50]
+[03Dec2024 02:06:28.259] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2861, l='ServerLevel[world]', x=-750.50, y=71.00, z=136.50]
+[03Dec2024 02:06:47.808] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/2926, l='ServerLevel[world]', x=-779.50, y=75.00, z=6.50]
+[03Dec2024 02:07:15.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD withered away
+[03Dec2024 02:07:15.876] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:07:15.879] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:07:22.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD withered away
+[03Dec2024 02:07:30.939] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:07:30.940] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[03Dec2024 02:07:43.510] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/3436, l='ServerLevel[world]', x=-751.50, y=71.00, z=136.50]
+[03Dec2024 02:08:13.059] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/3510, l='ServerLevel[world]', x=-767.50, y=72.00, z=124.50]
+[03Dec2024 02:08:39.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was burnt to a crisp whilst fighting Wither Skeleton
+[03Dec2024 02:08:39.573] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:08:39.576] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:08:49.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD burned to death
+[03Dec2024 02:08:56.424] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:08:56.424] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[03Dec2024 02:09:03.261] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/4027, l='ServerLevel[world]', x=-749.50, y=71.00, z=134.50]
+[03Dec2024 02:09:29.310] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/4070, l='ServerLevel[world]', x=-750.50, y=73.00, z=105.50]
+[03Dec2024 02:09:37.759] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/4092, l='ServerLevel[world]', x=-702.50, y=71.00, z=70.50]
+[03Dec2024 02:10:49.559] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/4316, l='ServerLevel[world]', x=-749.50, y=71.00, z=136.50]
+[03Dec2024 02:11:06.111] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[03Dec2024 02:11:26.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was doomed to fall by Wither Skeleton
+[03Dec2024 02:11:26.746] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:11:26.747] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:11:33.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was doomed to fall by Wither Skeleton
+[03Dec2024 02:11:40.902] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:11:40.903] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[03Dec2024 02:13:08.910] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/5591, l='ServerLevel[world]', x=-690.50, y=70.00, z=60.50]
+[03Dec2024 02:15:41.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Wither Skeleton
+[03Dec2024 02:15:41.517] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:15:41.519] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:16:00.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Wither Skeleton
+[03Dec2024 02:16:07.677] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:16:07.677] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[03Dec2024 02:17:19.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was blown up by Jungle Creeper
+[03Dec2024 02:17:19.084] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[03Dec2024 02:17:19.098] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[03Dec2024 02:17:27.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was blown up by Jungle Creeper
+[03Dec2024 02:17:53.370] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[03Dec2024 02:17:53.371] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
