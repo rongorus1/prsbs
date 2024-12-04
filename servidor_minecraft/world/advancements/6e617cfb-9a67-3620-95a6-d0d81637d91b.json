@@ -2190,6 +2190,24 @@
     },
     "done": true
   },
+  "tombstone:adventure/find_lost_tablet": {
+    "criteria": {
+      "has_lost_tablet": "2024-12-04 00:02:05 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 00:03:39 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_lost_tablet_treasure": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 00:03:39 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/food/cooked_tuna_from_tuna": {
     "criteria": {
       "has_tuna": "2024-12-03 23:59:41 +0000"
@@ -2205,6 +2223,18 @@
   "croptopia:recipes/misc/tuna_roll": {
     "criteria": {
       "has_tuna": "2024-12-03 23:59:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 00:04:23 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_grave_type": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 00:05:15 +0000"
     },
     "done": true
   },

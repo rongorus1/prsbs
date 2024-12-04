@@ -7,3 +7,12 @@
 [04Dec2024 00:04:23.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rancho99 has made the advancement [Knowledge raises the soul]
 [04Dec2024 00:05:15.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rancho99 has reached the goal [Die Classy]
 [04Dec2024 00:05:40.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to Rancho99
+[04Dec2024 00:06:12.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[04Dec2024 00:06:12.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: effect  nausea<--[HERE]
+[04Dec2024 00:06:18.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to iTzBorisxD
+[04Dec2024 00:09:09.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was doomed to fall
+[04Dec2024 00:09:09.055] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 00:09:09.088] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 00:09:17.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was doomed to fall
+[04Dec2024 00:09:24.312] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 00:09:24.312] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
