@@ -84,10 +84,12 @@
       "minecraft:beach": "2024-12-02 22:13:15 +0000",
       "minecraft:sparse_jungle": "2024-12-04 16:14:43 +0000",
       "minecraft:river": "2024-12-02 22:17:52 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-04 17:31:02 +0000",
       "minecraft:forest": "2024-12-02 22:39:34 +0000",
       "minecraft:jungle": "2024-12-02 22:51:04 +0000",
       "minecraft:ocean": "2024-12-02 22:13:45 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-02 22:49:06 +0000",
+      "minecraft:savanna": "2024-12-04 17:40:56 +0000",
       "minecraft:plains": "2024-12-02 22:10:02 +0000"
     },
     "done": false
@@ -823,6 +825,7 @@
       "cooked_beef": "2024-12-02 22:31:56 +0000",
       "beef": "2024-12-02 22:16:43 +0000",
       "bread": "2024-12-02 22:19:45 +0000",
+      "golden_apple": "2024-12-04 17:36:18 +0000",
       "golden_carrot": "2024-12-03 02:17:07 +0000"
     },
     "done": false
@@ -2567,6 +2570,7 @@
       "minecraft:skeleton": "2024-12-02 22:57:32 +0000",
       "minecraft:hoglin": "2024-12-03 02:18:33 +0000",
       "minecraft:spider": "2024-12-02 22:42:10 +0000",
+      "minecraft:creeper": "2024-12-04 17:29:26 +0000",
       "minecraft:slime": "2024-12-03 23:53:48 +0000",
       "minecraft:phantom": "2024-12-04 17:18:02 +0000",
       "minecraft:wither_skeleton": "2024-12-03 02:03:58 +0000",
@@ -2817,7 +2821,9 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "woodland": "2024-12-04 17:34:11 +0000",
       "shrubland": "2024-12-02 22:46:07 +0000",
+      "old_growth_woodland": "2024-12-04 17:45:32 +0000",
       "rocky_rainforest": "2024-12-03 02:03:18 +0000",
       "volcanic_plains": "2024-12-04 16:19:29 +0000",
       "grassland": "2024-12-02 22:49:31 +0000",
@@ -4997,6 +5003,18 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_spruce_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/ash_to_charcoal": {
+    "criteria": {
+      "has_item": "2024-12-04 17:42:41 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/food/fire_stew": {
     "criteria": {
       "has_item": "2024-12-04 16:36:27 +0000"
@@ -5021,9 +5039,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-12-04 17:55:34 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/mangrove_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5057,9 +5093,21 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_oak_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-04 17:41:19 +0000"
     },
     "done": true
   },
@@ -5069,15 +5117,39 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/light_blue_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-04 17:13:34 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/green_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_upgraded_gate": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_lightning_dragon": "2024-12-04 17:38:19 +0000"
     },
     "done": true
   },
@@ -5093,9 +5165,21 @@
     },
     "done": true
   },
+  "securitycraft:recipes/decorations/display_case": {
+    "criteria": {
+      "has_item_frame": "2024-12-04 17:48:06 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_kitchen_counter": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5123,9 +5207,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/misc/cinnamon_wood": {
     "criteria": {
       "has_cinnamon_log": "2024-12-04 16:21:17 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/nest": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
     },
     "done": true
   },
@@ -5144,6 +5246,24 @@
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/blue_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_bow": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
     },
     "done": true
   },
@@ -5183,6 +5303,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/dragon_bone_block": {
+    "criteria": {
+      "has_dragonbone": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
@@ -5204,6 +5330,12 @@
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2024-12-04 17:41:19 +0000"
     },
     "done": true
   },
@@ -5239,6 +5371,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_hoe": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "croptopia:getseeds": {
     "criteria": {
       "has_seeds": "2024-12-04 17:10:33 +0000"
@@ -5263,15 +5401,39 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_dark_oak_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_park_bench": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_warped_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2024-12-04 17:45:07 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/jungle": {
     "criteria": {
       "has_wood": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_cupidity": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 17:54:27 +0000"
     },
     "done": true
   },
@@ -5287,15 +5449,51 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_birch_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:junior_summoner": {
     "criteria": {
       "junior_summoner_0": "2024-12-04 16:49:49 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-12-04 17:55:34 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-12-04 17:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2024-12-04 17:41:02 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/crimson_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5341,9 +5539,45 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_shovel": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-04 17:41:19 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/orange_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5362,6 +5596,12 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-12-04 17:48:06 +0000"
     },
     "done": true
   },
@@ -5389,9 +5629,27 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/white_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-04 17:36:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
     },
     "done": true
   },
@@ -5413,9 +5671,51 @@
     },
     "done": true
   },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 17:37:31 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/bestiary": {
+    "criteria": {
+      "has_item": "2024-12-04 17:41:00 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/brown_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/yellow_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/decorations/copper_pile": {
+    "criteria": {
+      "has_item": "2024-12-04 17:38:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
     },
     "done": true
   },
@@ -5428,6 +5728,18 @@
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/pink_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/spruce_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5467,6 +5779,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/copper_nuggets_to_ingot": {
+    "criteria": {
+      "has_item": "2024-12-04 17:38:16 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_desk": {
     "criteria": {
       "has_planks": "2024-12-04 16:21:08 +0000"
@@ -5485,6 +5803,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/acacia_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
@@ -5494,6 +5818,18 @@
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/warped_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/cyan_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5521,6 +5857,18 @@
     },
     "done": true
   },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2024-12-04 17:40:25 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_crimson_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/birch_kitchen_counter": {
     "criteria": {
       "has_planks": "2024-12-04 17:13:34 +0000"
@@ -5533,9 +5881,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },
@@ -5545,9 +5905,21 @@
     },
     "done": false
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-12-04 17:57:24 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/diamond_hippogryph_armor": {
     "criteria": {
       "has_item": "2024-12-04 17:15:54 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_sword_fire": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:29 +0000"
     },
     "done": true
   },
@@ -5569,6 +5941,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2024-12-04 17:56:22 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/use_reach": {
     "criteria": {
       "has_magic_scroll": "2024-12-04 17:22:33 +0000"
@@ -5587,15 +5965,45 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_mangrove_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_desk": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2024-12-04 17:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2024-12-04 16:59:36 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/magenta_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/lime_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-12-04 17:51:43 +0000"
     },
     "done": true
   },

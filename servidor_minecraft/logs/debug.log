@@ -9620,3 +9620,234 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04Dec2024 17:31:06.952] [Server thread/WARN] [tombstone/]: The death event of the player Cinnamoroll was canceled by another mod
 [04Dec2024 17:31:06.977] [Server thread/INFO] [tombstone/]: The player Cinnamoroll has successfully been saved
 [04Dec2024 17:31:12.675] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[04Dec2024 17:31:38.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11044ms or 220 ticks behind
+[04Dec2024 17:31:58.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was energized by a dragon
+[04Dec2024 17:31:58.714] [Server thread/DEBUG] [tombstone/]: A new grave of the player Legacho was created at position [x:-31, y:66, z:-922, dim:minecraft:overworld]
+[04Dec2024 17:32:03.992] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10328ms or 206 ticks behind
+[04Dec2024 17:32:04.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll was struck with lightning by a dragon
+[04Dec2024 17:32:04.178] [Server thread/DEBUG] [tombstone/]: A new grave of the player Cinnamoroll was created at position [x:-70, y:66, z:-923, dim:minecraft:overworld]
+[04Dec2024 17:32:07.010] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:32:07.011] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:32:19.432] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:32:19.433] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:32:28.123] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9159ms or 183 ticks behind
+[04Dec2024 17:32:44.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Good Demoman]
+[04Dec2024 17:32:50.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7405ms or 148 ticks behind
+[04Dec2024 17:33:08.279] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2766ms or 55 ticks behind
+[04Dec2024 17:33:22.657] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:33:22.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:33:23.750] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56276, l='ServerLevel[world]', x=-169.50, y=73.00, z=-220.50]
+[04Dec2024 17:33:24.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Teleported Legacho to rongorus]
+[04Dec2024 17:33:26.736] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3472ms or 69 ticks behind
+[04Dec2024 17:33:29.574] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56349, l='ServerLevel[world]', x=-183.50, y=70.00, z=-176.50]
+[04Dec2024 17:33:35.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Teleported Cinnamoroll to Legacho]
+[04Dec2024 17:33:37.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [An Extra Seedy Place]
+[04Dec2024 17:34:36.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was energized by Lightning Dragon
+[04Dec2024 17:34:36.281] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 17:34:36.307] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 17:34:44.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was energized by Lightning Dragon
+[04Dec2024 17:34:44.472] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[04Dec2024 17:34:44.499] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[04Dec2024 17:34:52.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was struck with lightning by a dragon
+[04Dec2024 17:34:52.754] [Server thread/DEBUG] [tombstone/]: A new grave of the player rongorus was created at position [x:-83, y:65, z:-927, dim:minecraft:overworld]
+[04Dec2024 17:34:59.402] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:34:59.402] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:35:28.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Bypassing the Expiration Date]
+[04Dec2024 17:35:30.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Diamonds!]
+[04Dec2024 17:35:53.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Dark Metallurgy]
+[04Dec2024 17:36:15.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Suit Up]
+[04Dec2024 17:36:30.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was energized by Lightning Dragon
+[04Dec2024 17:36:30.731] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:36:30.755] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:36:38.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was energized by a dragon
+[04Dec2024 17:36:38.973] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for iTzBorisxD with unique ID travelersbackpack.gold_04.12.2024-17.36.38.dat
+[04Dec2024 17:36:38.977] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -113 Y: 64 Z: -922
+[04Dec2024 17:36:38.978] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:-112, y:64, z:-923, dim:minecraft:overworld]
+[04Dec2024 17:36:45.800] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:36:45.800] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:36:54.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Teleported iTzBorisxD to rongorus]
+[04Dec2024 17:37:12.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was struck with lightning by Lightning Dragon
+[04Dec2024 17:37:12.229] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[04Dec2024 17:37:12.249] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[04Dec2024 17:37:19.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was struck with lightning by a dragon
+[04Dec2024 17:37:19.744] [Server thread/DEBUG] [tombstone/]: A new grave of the player rongorus was created at position [x:-113, y:65, z:-920, dim:minecraft:overworld]
+[04Dec2024 17:37:24.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was struck with lightning by Lightning Dragon
+[04Dec2024 17:37:24.779] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 17:37:24.799] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 17:37:25.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Lightning Dragon
+[04Dec2024 17:37:25.379] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:37:25.401] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:37:26.496] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:37:26.497] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:37:31.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Chain Death]
+[04Dec2024 17:37:31.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Lightning Dragon
+[04Dec2024 17:37:31.749] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:-98, y:65, z:-925, dim:minecraft:overworld]
+[04Dec2024 17:37:34.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was energized by a dragon
+[04Dec2024 17:37:34.345] [Server thread/DEBUG] [tombstone/]: A new grave of the player Legacho was created at position [x:-100, y:65, z:-923, dim:minecraft:overworld]
+[04Dec2024 17:37:38.492] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:37:38.493] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:37:40.899] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:37:40.899] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:38:13.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cinnamoroll lost connection: Disconnected
+[04Dec2024 17:38:13.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll left the game
+[04Dec2024 17:38:14.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Disconnected
+[04Dec2024 17:38:14.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[04Dec2024 17:38:14.947] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[04Dec2024 17:38:19.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Dragonslayer]
+[04Dec2024 17:38:24.015] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:38:24.050] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:40:29.356] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/62509, l='ServerLevel[world]', x=181.75, y=70.76, z=-878.93] died, message: 'Fletcher was slain by Fire Dragon'
+[04Dec2024 17:41:02.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Suit Up]
+[04Dec2024 17:41:11.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito is bleeding. Jugandito was shot by Supreme Bonescaller
+[04Dec2024 17:41:11.789] [Server thread/WARN] [tombstone/]: The death event of the player Jugandito was canceled by another mod
+[04Dec2024 17:41:11.793] [Server thread/INFO] [tombstone/]: The player Jugandito has successfully been saved
+[04Dec2024 17:41:26.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:41:26.031] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:41:26.053] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:41:30.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito was shot by Supreme Bonescaller
+[04Dec2024 17:41:30.966] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jugandito was created at position [x:-366, y:97, z:-615, dim:minecraft:overworld]
+[04Dec2024 17:41:30.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Your First Grave]
+[04Dec2024 17:41:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:41:32.724] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:162, y:66, z:-933, dim:minecraft:overworld]
+[04Dec2024 17:41:32.874] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=26, z=-310}
+[04Dec2024 17:41:32.875] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-226, y=26, z=-311}
+[04Dec2024 17:41:38.282] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:41:38.282] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[04Dec2024 17:41:40.610] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:41:40.610] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[04Dec2024 17:42:08.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has reached the goal [Here They Come]
+[04Dec2024 17:42:15.927] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-230, y=26, z=-311}
+[04Dec2024 17:42:15.928] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-229, y=26, z=-310}
+[04Dec2024 17:42:15.928] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-232, y=26, z=-312}
+[04Dec2024 17:42:15.928] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-231, y=25, z=-315}
+[04Dec2024 17:42:15.929] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-229, y=31, z=-312}
+[04Dec2024 17:42:20.095] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=30, z=-334}
+[04Dec2024 17:42:23.907] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64715, l='ServerLevel[world]', x=-231.50, y=73.00, z=-153.50]
+[04Dec2024 17:42:25.193] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64741, l='ServerLevel[world]', x=-242.50, y=69.00, z=-117.50]
+[04Dec2024 17:42:27.466] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-351, y=30, z=-358}
+[04Dec2024 17:42:33.773] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-272, y=30, z=-338}
+[04Dec2024 17:42:33.774] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=35, z=-340}
+[04Dec2024 17:42:35.276] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-348, y=36, z=-361}
+[04Dec2024 17:42:39.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:42:39.531] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:42:39.552] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:42:46.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:42:46.431] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:163, y:66, z:-926, dim:minecraft:overworld]
+[04Dec2024 17:42:49.647] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-241, y=27, z=-334}
+[04Dec2024 17:42:49.649] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-241, y=27, z=-333}
+[04Dec2024 17:42:49.701] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-321, y=31, z=-307}
+[04Dec2024 17:42:49.702] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-321, y=30, z=-307}
+[04Dec2024 17:42:49.702] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-317, y=26, z=-306}
+[04Dec2024 17:42:49.703] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-317, y=26, z=-307}
+[04Dec2024 17:42:49.703] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=31, z=-307}
+[04Dec2024 17:42:51.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Who You Gonna Call?]
+[04Dec2024 17:42:53.342] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:42:53.343] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:42:59.396] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-325, y=25, z=-316}
+[04Dec2024 17:42:59.397] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-319, y=25, z=-315}
+[04Dec2024 17:42:59.471] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-244, y=27, z=-330}
+[04Dec2024 17:42:59.472] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-246, y=27, z=-330}
+[04Dec2024 17:43:13.204] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66048, l='ServerLevel[world]', x=-244.50, y=73.00, z=-190.50]
+[04Dec2024 17:43:24.044] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:43:24.080] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:43:30.717] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66346, l='ServerLevel[world]', x=-362.50, y=74.00, z=-370.50]
+[04Dec2024 17:43:55.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:43:55.436] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:43:55.452] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:44:05.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Fire Dragon
+[04Dec2024 17:44:05.206] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:154, y:65, z:-901, dim:minecraft:overworld]
+[04Dec2024 17:44:12.147] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:44:12.147] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:44:33.979] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/63859, l='ServerLevel[world]', x=151.28, y=71.94, z=-968.31] died, message: 'Farmer burned to death'
+[04Dec2024 17:45:01.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has reached the goal [Senior Summoner]
+[04Dec2024 17:45:02.403] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61851, l='ServerLevel[world]', x=164.79, y=69.00, z=-893.50] died, message: 'Unemployed went up in flames'
+[04Dec2024 17:45:54.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was slain by Fire Dragon
+[04Dec2024 17:45:54.988] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 17:45:55.006] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 17:45:55.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Piece of Chaos]
+[04Dec2024 17:46:09.681] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/61914, l='ServerLevel[world]', x=148.73, y=72.27, z=-884.61] died, message: 'Leatherworker was incinerated by Fire Dragon'
+[04Dec2024 17:46:11.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was slain by Fire Dragon
+[04Dec2024 17:46:11.751] [Server thread/DEBUG] [tombstone/]: A new grave of the player Legacho was created at position [x:160, y:65, z:-904, dim:minecraft:overworld]
+[04Dec2024 17:46:18.405] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:46:18.405] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[04Dec2024 17:46:49.881] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/63938, l='ServerLevel[world]', x=139.13, y=71.94, z=-933.95] died, message: 'Nitwit was burnt to a crisp whilst fighting Fire Dragon'
+[04Dec2024 17:46:58.791] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61781, l='ServerLevel[world]', x=125.14, y=72.76, z=-946.94] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:47:04.594] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/63850, l='ServerLevel[world]', x=118.03, y=72.76, z=-943.48] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:47:04.793] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/61576, l='ServerLevel[world]', x=117.72, y=72.76, z=-943.44] died, message: 'Nitwit was slain by Fire Dragon'
+[04Dec2024 17:47:11.946] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61616, l='ServerLevel[world]', x=107.78, y=69.70, z=-934.38] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:47:26.432] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/63750, l='ServerLevel[world]', x=131.93, y=70.00, z=-926.31] died, message: 'Nitwit burned to death'
+[04Dec2024 17:47:30.177] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61840, l='ServerLevel[world]', x=155.29, y=68.00, z=-912.10] died, message: 'Unemployed burned to death'
+[04Dec2024 17:47:34.216] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/60702, l='ServerLevel[world]', x=154.47, y=73.00, z=-970.51] died, message: 'Farmer was slain by Fire Dragon'
+[04Dec2024 17:47:39.585] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/63878, l='ServerLevel[world]', x=149.25, y=67.00, z=-962.43] died, message: 'Unemployed was incinerated by Fire Dragon'
+[04Dec2024 17:47:40.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was incinerated by Fire Dragon
+[04Dec2024 17:47:40.042] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 17:47:40.064] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 17:47:52.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was turned into KFC by a dragon
+[04Dec2024 17:47:52.747] [Server thread/DEBUG] [tombstone/]: A new grave of the player Legacho was created at position [x:153, y:70, z:-963, dim:minecraft:overworld]
+[04Dec2024 17:47:54.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Where Is The Stone Pen?]
+[04Dec2024 17:47:59.552] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:47:59.552] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:48:16.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was turned into KFC by Fire Dragon
+[04Dec2024 17:48:16.605] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:48:16.626] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:48:22.146] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61615, l='ServerLevel[world]', x=102.63, y=68.00, z=-917.34] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:48:23.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was turned into KFC by a dragon
+[04Dec2024 17:48:23.120] [Server thread/DEBUG] [tombstone/]: A new grave of the player iTzBorisxD was created at position [x:93, y:66, z:-934, dim:minecraft:overworld]
+[04Dec2024 17:48:23.139] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61850, l='ServerLevel[world]', x=102.77, y=67.00, z=-920.45] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:48:24.048] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:48:24.080] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:48:26.690] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61594, l='ServerLevel[world]', x=98.81, y=67.00, z=-918.51] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:48:29.803] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:48:29.803] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:48:30.458] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/61617, l='ServerLevel[world]', x=111.73, y=70.00, z=-930.69] died, message: 'Nitwit burned to death'
+[04Dec2024 17:48:31.328] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61779, l='ServerLevel[world]', x=107.70, y=67.00, z=-920.70] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:48:31.755] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61593, l='ServerLevel[world]', x=111.14, y=67.00, z=-927.99] died, message: 'Unemployed was burnt to a crisp whilst fighting Fire Dragon'
+[04Dec2024 17:48:40.780] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/65487, l='ServerLevel[world]', x=112.27, y=63.00, z=-849.16] died, message: 'Unemployed burned to death'
+[04Dec2024 17:48:50.478] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/65278, l='ServerLevel[world]', x=92.17, y=63.00, z=-885.16] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:48:52.979] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/61780, l='ServerLevel[world]', x=99.86, y=64.00, z=-896.70] died, message: 'Nitwit was slain by Fire Dragon'
+[04Dec2024 17:49:02.230] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/61599, l='ServerLevel[world]', x=121.70, y=64.00, z=-881.75] died, message: 'Unemployed was incinerated by Fire Dragon'
+[04Dec2024 17:49:04.376] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/65279, l='ServerLevel[world]', x=94.85, y=63.00, z=-887.82] died, message: 'Unemployed was burnt to a crisp whilst fighting Fire Dragon'
+[04Dec2024 17:50:56.019] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/72837, l='ServerLevel[world]', x=-510.50, y=70.00, z=-866.50]
+[04Dec2024 17:52:21.519] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/74521, l='ServerLevel[world]', x=-502.50, y=69.00, z=-855.50]
+[04Dec2024 17:52:51.119] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/74703, l='ServerLevel[world]', x=-510.50, y=70.00, z=-864.50]
+[04Dec2024 17:53:21.769] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/74891, l='ServerLevel[world]', x=-504.50, y=69.00, z=-855.50]
+[04Dec2024 17:53:24.021] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:53:24.056] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:54:16.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has reached the goal [Greed may lead to loss]
+[04Dec2024 17:54:27.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Greed may lead to loss]
+[04Dec2024 17:54:28.721] [Server thread/DEBUG] [mixin/]: Mixing boat.VanillaInventoryCodeHooksMixin from securitycraft.mixins.json into net.minecraftforge.items.VanillaInventoryCodeHooks
+[04Dec2024 17:54:28.722] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$securitycraft$callGetCapabilityForSecuritySeaBoat$0(Lnet/geforcemods/securitycraft/entity/SecuritySeaBoat;Lnet/minecraftforge/items/IItemHandler;)Lorg/apache/commons/lang3/tuple/Pair; to md8812a2$lambda$securitycraft$callGetCapabilityForSecuritySeaBoat$0$0 in securitycraft.mixins.json:boat.VanillaInventoryCodeHooksMixin
+[04Dec2024 17:54:34.188] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75779, l='ServerLevel[world]', x=-421.50, y=71.00, z=127.50]
+[04Dec2024 17:54:36.968] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75793, l='ServerLevel[world]', x=-476.50, y=71.00, z=113.50]
+[04Dec2024 17:54:44.306] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75838, l='ServerLevel[world]', x=-414.50, y=71.00, z=84.50]
+[04Dec2024 17:54:46.397] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75896, l='ServerLevel[world]', x=-413.50, y=71.00, z=85.50]
+[04Dec2024 17:54:47.987] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75913, l='ServerLevel[world]', x=-491.50, y=71.00, z=119.50]
+[04Dec2024 17:55:12.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76230, l='ServerLevel[world]', x=-417.50, y=73.00, z=109.50]
+[04Dec2024 17:55:13.019] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76236, l='ServerLevel[world]', x=-482.50, y=71.00, z=129.50]
+[04Dec2024 17:55:45.272] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76549, l='ServerLevel[world]', x=-408.50, y=74.00, z=69.50]
+[04Dec2024 17:56:17.470] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76773, l='ServerLevel[world]', x=-450.50, y=74.00, z=261.50]
+[04Dec2024 17:56:21.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Magic Writing]
+[04Dec2024 17:56:45.570] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76967, l='ServerLevel[world]', x=-481.50, y=71.00, z=131.50]
+[04Dec2024 17:56:48.220] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/76981, l='ServerLevel[world]', x=-417.50, y=73.00, z=107.50]
+[04Dec2024 17:57:18.518] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/77185, l='ServerLevel[world]', x=-414.50, y=71.00, z=83.50]
+[04Dec2024 17:57:23.119] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/77212, l='ServerLevel[world]', x=-477.50, y=71.00, z=113.50]
+[04Dec2024 17:57:23.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Chest Slayer]
+[04Dec2024 17:57:24.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Amateur Archaeologist]
+[04Dec2024 17:57:48.881] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/77389, l='ServerLevel[world]', x=-413.50, y=71.00, z=83.50]
+[04Dec2024 17:58:05.775] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/77564, l='ServerLevel[world]', x=-485.50, y=75.00, z=157.50]
+[04Dec2024 17:58:24.030] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:58:24.063] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:58:54.606] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/78068, l='ServerLevel[world]', x=-448.50, y=73.00, z=123.50]
+[04Dec2024 17:59:12.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[04Dec2024 17:59:25.795] [Worker-Main-16/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1, y=-2, z=813}
+[04Dec2024 17:59:25.830] [Worker-Main-14/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-11, y=-2, z=809}
+[04Dec2024 17:59:43.873] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/79081, l='ServerLevel[world]', x=-410.50, y=74.00, z=69.50]
+[04Dec2024 18:00:04.473] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/79372, l='ServerLevel[world]', x=-386.50, y=73.00, z=70.50]
+[04Dec2024 18:01:17.166] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80286, l='ServerLevel[world]', x=-419.50, y=70.00, z=79.50]
+[04Dec2024 18:01:18.608] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80302, l='ServerLevel[world]', x=-418.50, y=70.00, z=81.50]
+[04Dec2024 18:01:20.556] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80348, l='ServerLevel[world]', x=-407.50, y=73.00, z=98.50]
+[04Dec2024 18:01:32.318] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80432, l='ServerLevel[world]', x=-410.50, y=74.00, z=68.50]
+[04Dec2024 18:01:32.419] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80433, l='ServerLevel[world]', x=-487.50, y=74.00, z=110.50]
+[04Dec2024 18:01:34.566] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/80451, l='ServerLevel[world]', x=-497.50, y=70.00, z=148.50]
+[04Dec2024 18:02:03.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito lost connection: Disconnected
+[04Dec2024 18:02:03.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito left the game
