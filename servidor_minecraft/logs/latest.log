@@ -1096,3 +1096,210 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04Dec2024 16:29:56.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho left the game
 [04Dec2024 16:32:06.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Isn't It Iron Pick]
 [04Dec2024 16:35:38.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Stone Age]
+[04Dec2024 16:41:30.289] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jugandito[/127.64.92.131:37127] logged in with entity id 14654 at (-147.5, 71.0, 116.5)
+[04Dec2024 16:41:30.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito joined the game
+[04Dec2024 16:41:30.386] [Server thread/INFO] [Jade/]: Syncing config to Jugandito (3e09c1e6-86b0-33d9-bc2b-bfb1d0c4be9b)
+[04Dec2024 16:41:30.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Ice and Fire]
+[04Dec2024 16:41:45.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jugandito> olis
+[04Dec2024 16:41:47.040] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-145, y=70, z=118}
+[04Dec2024 16:41:47.517] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-146, y=70, z=118}
+[04Dec2024 16:41:47.518] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-145, y=70, z=118}
+[04Dec2024 16:41:47.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-144, y=70, z=119}
+[04Dec2024 16:41:51.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-140, y=73, z=114}
+[04Dec2024 16:41:51.690] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-139, y=74, z=114}
+[04Dec2024 16:41:51.837] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-139, y=74, z=114}
+[04Dec2024 16:41:51.890] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-138, y=75, z=115}
+[04Dec2024 16:41:52.093] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-138, y=75, z=115}
+[04Dec2024 16:41:52.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-138, y=75, z=115}
+[04Dec2024 16:41:52.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-137, y=76, z=115}
+[04Dec2024 16:41:52.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-137, y=76, z=115}
+[04Dec2024 16:42:46.508] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cinnamoroll[/127.201.248.73:45669] logged in with entity id 15326 at (-147.5, 71.0, 106.5)
+[04Dec2024 16:42:46.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll joined the game
+[04Dec2024 16:42:46.570] [Server thread/INFO] [Jade/]: Syncing config to Cinnamoroll (9e49deb4-c830-3337-af7f-4224139633fb)
+[04Dec2024 16:42:46.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Ice and Fire]
+[04Dec2024 16:42:51.451] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[04Dec2024 16:42:51.451] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[04Dec2024 16:42:51.451] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[04Dec2024 16:42:51.452] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[04Dec2024 16:43:14.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Alex's Mobs]
+[04Dec2024 16:43:28.684] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/8878, l='ServerLevel[world]', x=67.60, y=65.00, z=211.56] died, message: 'Cartographer was slain by Zombie'
+[04Dec2024 16:43:39.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Monster Hunter]
+[04Dec2024 16:43:45.166] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[04Dec2024 16:43:45.167] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[04Dec2024 16:43:45.167] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[04Dec2024 16:43:50.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Wither Skeleton
+[04Dec2024 16:43:50.563] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 16:43:50.597] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 16:43:54.539] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/717, l='ServerLevel[world]', x=45.70, y=64.00, z=247.14] died, message: 'Cartographer was shot by Pillager'
+[04Dec2024 16:44:03.201] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-102, y=57, z=39} BlockPos{x=-102, y=55, z=39}
+[04Dec2024 16:44:03.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-102, y=57, z=39} BlockPos{x=-102, y=55, z=39}
+[04Dec2024 16:44:03.292] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-102, y=57, z=39} BlockPos{x=-102, y=55, z=39}
+[04Dec2024 16:44:03.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-102, y=57, z=38} BlockPos{x=-102, y=55, z=39}
+[04Dec2024 16:44:10.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Wither Skeleton
+[04Dec2024 16:44:16.840] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 16:44:16.842] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 16:44:17.269] [Worker-Main-16/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=412, y=-6, z=383}
+[04Dec2024 16:44:20.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll is bleeding. Cinnamoroll was blown up by Creeper
+[04Dec2024 16:44:20.919] [Server thread/WARN] [tombstone/]: The death event of the player Cinnamoroll was canceled by another mod
+[04Dec2024 16:44:20.946] [Server thread/INFO] [tombstone/]: The player Cinnamoroll has successfully been saved
+[04Dec2024 16:44:36.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll was blown up by Creeper
+[04Dec2024 16:44:36.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Your First Grave]
+[04Dec2024 16:44:43.741] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 16:44:43.742] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 16:45:12.228] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-141, y=73, z=118}
+[04Dec2024 16:45:12.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iTzBorisxD moved too quickly! 2.9364579022707176,-1.4199999868869781,-9.655163551208489
+[04Dec2024 16:45:12.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3019ms or 60 ticks behind
+[04Dec2024 16:45:13.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-141, y=73, z=118}
+[04Dec2024 16:45:13.397] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-141, y=72, z=114}
+[04Dec2024 16:45:13.494] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-140, y=73, z=114}
+[04Dec2024 16:45:13.657] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-140, y=73, z=115}
+[04Dec2024 16:45:28.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has reached the goal [Here They Come]
+[04Dec2024 16:45:40.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Crops of the Wild]
+[04Dec2024 16:45:50.127] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Legacho[/127.232.66.244:48925] logged in with entity id 19090 at (-159.34265198709258, 66.0, 146.33997935156663)
+[04Dec2024 16:45:50.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho joined the game
+[04Dec2024 16:45:50.203] [Server thread/INFO] [Jade/]: Syncing config to Legacho (0554007c-9414-3a80-bf36-963138b35007)
+[04Dec2024 16:46:20.318] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/19427, l='ServerLevel[world]', x=-896.50, y=72.00, z=-1024.50]
+[04Dec2024 16:46:58.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Knowledge of Death]
+[04Dec2024 16:46:58.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Ambush]
+[04Dec2024 16:47:18.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Applied skin changes for Cinnamoroll]
+[04Dec2024 16:47:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Stone Age]
+[04Dec2024 16:47:48.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Getting an Upgrade]
+[04Dec2024 16:48:42.070] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/20740, l='ServerLevel[world]', x=-244.50, y=73.00, z=-189.50]
+[04Dec2024 16:48:43.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Cinnamoroll: No skin changes]
+[04Dec2024 16:48:47.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [An Extra Seedy Place]
+[04Dec2024 16:48:57.393] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cinnamoroll lost connection: Disconnected
+[04Dec2024 16:48:57.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll left the game
+[04Dec2024 16:48:57.444] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[04Dec2024 16:49:49.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Junior Summoner]
+[04Dec2024 16:49:50.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Piece of Chaos]
+[04Dec2024 16:50:01.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Monster Hunter]
+[04Dec2024 16:50:02.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [A Strange Grave Dust]
+[04Dec2024 16:51:03.921] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22136, l='ServerLevel[world]', x=-361.50, y=73.00, z=-352.50]
+[04Dec2024 16:51:20.070] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22307, l='ServerLevel[world]', x=-324.50, y=71.00, z=-346.50]
+[04Dec2024 16:51:38.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Legacho: Skin changed]
+[04Dec2024 16:52:14.070] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22810, l='ServerLevel[world]', x=-345.50, y=72.00, z=-357.50]
+[04Dec2024 16:52:29.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Acquire Hardware]
+[04Dec2024 16:52:35.100] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cinnamoroll[/127.201.248.73:36705] logged in with entity id 23077 at (-116.1671613733222, 68.0, 52.06021722180523)
+[04Dec2024 16:52:35.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll joined the game
+[04Dec2024 16:52:35.170] [Server thread/INFO] [Jade/]: Syncing config to Cinnamoroll (9e49deb4-c830-3337-af7f-4224139633fb)
+[04Dec2024 16:52:55.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Bone Crusher]
+[04Dec2024 16:52:56.674] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23218, l='ServerLevel[world]', x=-305.50, y=70.00, z=-346.50]
+[04Dec2024 16:53:20.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was slain by Cinnamoroll
+[04Dec2024 16:53:20.951] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 16:53:20.956] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 16:53:28.117] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23492, l='ServerLevel[world]', x=-346.50, y=72.00, z=-357.50]
+[04Dec2024 16:53:32.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was slain by Cinnamoroll
+[04Dec2024 16:53:32.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Your First Grave]
+[04Dec2024 16:53:35.172] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23547, l='ServerLevel[world]', x=-504.50, y=71.00, z=-345.50]
+[04Dec2024 16:53:39.950] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 16:53:39.951] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 16:54:01.867] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23818, l='ServerLevel[world]', x=-358.50, y=70.00, z=-346.50]
+[04Dec2024 16:54:04.868] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23871, l='ServerLevel[world]', x=-359.50, y=70.00, z=-345.50]
+[04Dec2024 16:54:11.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Suit Up]
+[04Dec2024 16:54:16.320] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/24138, l='ServerLevel[world]', x=-454.50, y=74.00, z=-180.50]
+[04Dec2024 16:54:22.978] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/24290, l='ServerLevel[world]', x=-453.50, y=74.00, z=-180.50]
+[04Dec2024 16:54:36.430] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/24779, l='ServerLevel[world]', x=-345.50, y=72.00, z=-358.50]
+[04Dec2024 16:54:44.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[04Dec2024 16:55:03.224] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[04Dec2024 16:55:07.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Wither Skeleton
+[04Dec2024 16:55:07.453] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 16:55:07.472] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 16:55:18.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Wither Skeleton
+[04Dec2024 16:55:20.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[04Dec2024 16:55:24.916] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 16:55:24.917] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 16:55:47.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Gravedigger]
+[04Dec2024 16:55:49.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Mine? Mine? Mine?]
+[04Dec2024 16:58:39.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was slain by Jugandito
+[04Dec2024 16:58:39.595] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[04Dec2024 16:58:39.603] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 16:58:48.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was slain by Jugandito
+[04Dec2024 16:58:48.319] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[04Dec2024 16:58:54.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Knowledge of Death]
+[04Dec2024 16:58:54.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Funeral Theft]
+[04Dec2024 16:58:55.994] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 16:58:55.994] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 16:59:02.509] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-127, y=72, z=96} BlockPos{x=-128, y=72, z=96}
+[04Dec2024 16:59:02.654] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-127, y=72, z=96} BlockPos{x=-128, y=72, z=96}
+[04Dec2024 16:59:02.826] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-129, y=72, z=95} BlockPos{x=-128, y=72, z=96}
+[04Dec2024 16:59:02.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has reached the goal [Here They Come]
+[04Dec2024 16:59:05.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Teleported Legacho to rongorus]
+[04Dec2024 16:59:36.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Spooky Scary Skeleton]
+[04Dec2024 17:00:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Disturbing the Dead I]
+[04Dec2024 17:01:12.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Isn't It Iron Pick]
+[04Dec2024 17:01:32.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [An Extra Seedy Place]
+[04Dec2024 17:02:14.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Monster Hunter]
+[04Dec2024 17:03:18.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Monster Hunter]
+[04Dec2024 17:04:09.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Disturbing the Dead I]
+[04Dec2024 17:04:12.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Disturbing the Dead I]
+[04Dec2024 17:04:50.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Suit Up]
+[04Dec2024 17:05:02.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Suit Up]
+[04Dec2024 17:05:13.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD is bleeding. iTzBorisxD was slain by Dire Hound Leader
+[04Dec2024 17:05:13.893] [Server thread/WARN] [tombstone/]: The death event of the player iTzBorisxD was canceled by another mod
+[04Dec2024 17:05:13.905] [Server thread/INFO] [tombstone/]: The player iTzBorisxD has successfully been saved
+[04Dec2024 17:05:22.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was slain by Dire Hound Leader
+[04Dec2024 17:05:29.449] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:05:29.450] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:05:36.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iTzBorisxD> zzzz
+[04Dec2024 17:05:39.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iTzBorisxD> zzzzzzzzzzzzz
+[04Dec2024 17:05:40.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iTzBorisxD> zzz
+[04Dec2024 17:06:14.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Deceived Hopes]
+[04Dec2024 17:06:36.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [Sweet Dreams]
+[04Dec2024 17:06:37.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Sweet Dreams]
+[04Dec2024 17:07:00.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Legacho> ./kick Jugandito
+[04Dec2024 17:07:11.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito lost connection: Disconnected
+[04Dec2024 17:07:11.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito left the game
+[04Dec2024 17:07:24.695] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ec0d164[id=<null>,name=Jugandito,properties={},legacy=false] (/127.64.92.131:54655) lost connection: Disconnected
+[04Dec2024 17:07:36.955] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jugandito[/127.64.92.131:38745] logged in with entity id 36298 at (47.80843244438173, 11.0, -352.6980609612036)
+[04Dec2024 17:07:36.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito joined the game
+[04Dec2024 17:07:37.022] [Server thread/INFO] [Jade/]: Syncing config to Jugandito (3e09c1e6-86b0-33d9-bc2b-bfb1d0c4be9b)
+[04Dec2024 17:07:37.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Diamonds!]
+[04Dec2024 17:07:37.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [rongorus: Gamerule playersSleepingPercentage is now set to: 30]
+[04Dec2024 17:10:33.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [An Extra Seedy Place]
+[04Dec2024 17:10:37.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[04Dec2024 17:10:40.933] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=26, z=-592}
+[04Dec2024 17:10:40.934] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=27, z=-592}
+[04Dec2024 17:10:40.935] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=27, z=-591}
+[04Dec2024 17:10:40.935] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-282, y=35, z=-587}
+[04Dec2024 17:10:41.721] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[04Dec2024 17:10:41.721] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[04Dec2024 17:10:44.336] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=27, z=-586}
+[04Dec2024 17:10:46.119] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[04Dec2024 17:10:46.121] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[04Dec2024 17:10:50.455] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[04Dec2024 17:10:50.456] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[04Dec2024 17:10:50.993] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-630}
+[04Dec2024 17:10:50.994] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-631}
+[04Dec2024 17:10:50.994] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-631}
+[04Dec2024 17:10:50.995] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-629}
+[04Dec2024 17:10:50.995] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-626}
+[04Dec2024 17:10:50.995] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-628}
+[04Dec2024 17:10:50.996] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-354, y=26, z=-626}
+[04Dec2024 17:10:50.996] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-623}
+[04Dec2024 17:10:50.996] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-622}
+[04Dec2024 17:10:50.997] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-623}
+[04Dec2024 17:10:50.997] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-354, y=26, z=-622}
+[04Dec2024 17:10:50.997] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-622}
+[04Dec2024 17:10:50.998] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-620}
+[04Dec2024 17:10:50.998] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-620}
+[04Dec2024 17:10:52.140] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-257, y=27, z=-591}
+[04Dec2024 17:10:52.142] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-253, y=27, z=-591}
+[04Dec2024 17:10:52.347] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-624}
+[04Dec2024 17:10:52.348] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-624}
+[04Dec2024 17:10:52.348] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-624}
+[04Dec2024 17:10:52.348] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-624}
+[04Dec2024 17:10:52.348] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-624}
+[04Dec2024 17:10:55.839] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-615}
+[04Dec2024 17:10:55.840] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-609}
+[04Dec2024 17:10:55.841] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-366, y=26, z=-609}
+[04Dec2024 17:10:55.841] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-366, y=26, z=-613}
+[04Dec2024 17:10:55.841] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-613}
+[04Dec2024 17:10:55.841] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-613}
+[04Dec2024 17:10:55.842] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-614}
+[04Dec2024 17:10:55.842] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-615}
+[04Dec2024 17:10:55.842] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-616}
+[04Dec2024 17:10:55.842] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-615}
+[04Dec2024 17:10:55.842] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-614}
+[04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-607}
+[04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-606}
+[04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-606}

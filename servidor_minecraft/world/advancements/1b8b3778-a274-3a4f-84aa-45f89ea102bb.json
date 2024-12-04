@@ -5098,6 +5098,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2024-12-04 16:49:49 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
@@ -5152,6 +5158,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/wither": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-12-04 16:59:36 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_kitchen_counter": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
@@ -5194,6 +5206,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:pieceof_chaos": {
+    "criteria": {
+      "pieceof_chaos_0": "2024-12-04 16:49:50 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/food/vanilla_cake": {
     "criteria": {
       "has_vanilla": "2024-12-04 16:16:36 +0000"
@@ -5212,6 +5230,18 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 16:52:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-12-04 16:59:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
@@ -5227,6 +5257,12 @@
   "cfm:recipes/decorations/jungle_desk": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-12-04 16:59:36 +0000"
     },
     "done": true
   },
