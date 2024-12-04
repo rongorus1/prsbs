@@ -2568,6 +2568,7 @@
       "minecraft:hoglin": "2024-12-03 02:18:33 +0000",
       "minecraft:spider": "2024-12-02 22:42:10 +0000",
       "minecraft:slime": "2024-12-03 23:53:48 +0000",
+      "minecraft:phantom": "2024-12-04 17:18:02 +0000",
       "minecraft:wither_skeleton": "2024-12-03 02:03:58 +0000",
       "minecraft:zombie": "2024-12-03 02:17:19 +0000",
       "minecraft:zombie_villager": "2024-12-04 00:05:07 +0000"
@@ -4978,9 +4979,33 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/birch_cabinet": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2024-12-04 17:10:33 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/food/fire_stew": {
     "criteria": {
       "has_item": "2024-12-04 16:36:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
     },
     "done": true
   },
@@ -4990,15 +5015,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_table": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_upgraded_gate": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_desk": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
     },
     "done": true
   },
@@ -5011,6 +5090,12 @@
   "cfm:recipes/decorations/stripped_jungle_table": {
     "criteria": {
       "has_planks": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
     },
     "done": true
   },
@@ -5029,6 +5114,30 @@
   "cfm:recipes/decorations/jungle_bedside_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_jungle": {
+    "criteria": {
+      "turnip_seed": "2024-12-04 17:10:33 +0000"
+    },
+    "done": false
+  },
+  "croptopia:gather_forest": {
+    "criteria": {
+      "raspberry_seed": "2024-12-04 17:10:33 +0000"
+    },
+    "done": false
+  },
+  "cfm:recipes/decorations/birch_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_crate": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
     },
     "done": true
   },
@@ -5062,6 +5171,20 @@
     },
     "done": true
   },
+  "croptopia:gather_all": {
+    "criteria": {
+      "turnip_seed": "2024-12-04 17:10:33 +0000",
+      "raspberry_seed": "2024-12-04 17:10:33 +0000",
+      "lettuce_seed": "2024-12-04 17:10:33 +0000"
+    },
+    "done": false
+  },
+  "cfm:recipes/decorations/birch_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_desk_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
@@ -5074,9 +5197,21 @@
     },
     "done": true
   },
+  "croptopia:getseeds": {
+    "criteria": {
+      "has_seeds": "2024-12-04 17:10:33 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_chair": {
     "criteria": {
       "has_planks": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-04 17:11:51 +0000"
     },
     "done": true
   },
@@ -5095,6 +5230,12 @@
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold_smithing": {
+    "criteria": {
+      "has_gold": "2024-12-04 17:17:33 +0000"
     },
     "done": true
   },
@@ -5122,9 +5263,21 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2024-12-04 17:18:00 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_coffee_table": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/prismarine": {
+    "criteria": {
+      "has_item": "2024-12-04 17:11:51 +0000"
     },
     "done": true
   },
@@ -5146,6 +5299,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 17:19:27 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/fruit_smoothie": {
     "criteria": {
       "has_fruit": "2024-12-04 16:22:28 +0000"
@@ -5158,6 +5323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/wither": {
     "criteria": {
       "has_wither_skeleton_skull": "2024-12-04 16:59:36 +0000"
@@ -5167,6 +5338,12 @@
   "cfm:recipes/decorations/stripped_jungle_kitchen_counter": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
     },
     "done": true
   },
@@ -5224,9 +5401,27 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/birch_chair": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_park_bench": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 17:18:02 +0000"
     },
     "done": true
   },
@@ -5242,15 +5437,51 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/birch_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
     },
     "done": true
   },
+  "croptopia:gather_plains": {
+    "criteria": {
+      "lettuce_seed": "2024-12-04 17:10:33 +0000"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/combat/diamond_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2024-12-04 17:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_jungle_crate": {
     "criteria": {
       "has_planks": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-04 17:11:51 +0000"
     },
     "done": true
   },

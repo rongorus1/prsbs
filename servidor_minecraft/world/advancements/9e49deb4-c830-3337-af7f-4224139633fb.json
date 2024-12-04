@@ -487,6 +487,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_the_recipe": "2024-12-04 17:18:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-04 16:58:20 +0000"
@@ -811,6 +817,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/ham_sandwich": {
+    "criteria": {
+      "has_cooked_porkchop": "2024-12-04 17:18:17 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/dog_food": {
     "criteria": {
       "has_any_ingredient": "2024-12-04 17:03:19 +0000"
@@ -911,6 +923,12 @@
   "cfm:recipes/decorations/stripped_oak_bedside_cabinet": {
     "criteria": {
       "has_planks": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2024-12-04 17:10:05 +0000"
     },
     "done": true
   },
@@ -1025,6 +1043,12 @@
   "mcwwindows:recipes/sandstone": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-12-04 17:09:53 +0000"
     },
     "done": true
   },
@@ -1456,7 +1480,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2024-12-04 17:02:27 +0000"
+      "cooked_porkchop": "2024-12-04 17:18:22 +0000",
+      "apple": "2024-12-04 17:02:27 +0000",
+      "mutton": "2024-12-04 17:17:11 +0000"
     },
     "done": false
   },

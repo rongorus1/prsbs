@@ -9194,3 +9194,110 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-607}
 [04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-606}
 [04Dec2024 17:10:55.844] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-606}
+[04Dec2024 17:10:59.273] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6810ms or 136 ticks behind
+[04Dec2024 17:11:01.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Best Friends Forever]
+[04Dec2024 17:11:05.812] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-612}
+[04Dec2024 17:11:05.812] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-607}
+[04Dec2024 17:11:05.815] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-612}
+[04Dec2024 17:11:05.815] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-612}
+[04Dec2024 17:11:05.815] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-607}
+[04Dec2024 17:11:05.816] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-607}
+[04Dec2024 17:11:07.127] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[04Dec2024 17:11:07.129] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[04Dec2024 17:11:09.958] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-612}
+[04Dec2024 17:11:09.959] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-612}
+[04Dec2024 17:11:09.959] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-607}
+[04Dec2024 17:11:09.959] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-607}
+[04Dec2024 17:11:10.088] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
+[04Dec2024 17:11:10.149] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
+[04Dec2024 17:11:12.860] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-589}
+[04Dec2024 17:11:12.861] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-587}
+[04Dec2024 17:11:27.404] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13141ms or 262 ticks behind
+[04Dec2024 17:11:40.417] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-629}
+[04Dec2024 17:11:40.418] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-629}
+[04Dec2024 17:11:40.418] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-629}
+[04Dec2024 17:11:40.418] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-629}
+[04Dec2024 17:11:40.418] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-629}
+[04Dec2024 17:11:40.768] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-589}
+[04Dec2024 17:11:40.768] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-587}
+[04Dec2024 17:11:59.661] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17298ms or 345 ticks behind
+[04Dec2024 17:12:20.559] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5946ms or 118 ticks behind
+[04Dec2024 17:12:43.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8398ms or 167 ticks behind
+[04Dec2024 17:12:45.848] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=27, z=-536}
+[04Dec2024 17:12:45.849] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=27, z=-536}
+[04Dec2024 17:12:45.849] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=27, z=-536}
+[04Dec2024 17:12:45.849] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=28, z=-536}
+[04Dec2024 17:12:45.849] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=28, z=-536}
+[04Dec2024 17:12:45.850] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=28, z=-536}
+[04Dec2024 17:12:54.193] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:12:54.239] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:13:06.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7634ms or 152 ticks behind
+[04Dec2024 17:13:26.377] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4914ms or 98 ticks behind
+[04Dec2024 17:13:44.938] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3575ms or 71 ticks behind
+[04Dec2024 17:14:03.108] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3194ms or 63 ticks behind
+[04Dec2024 17:14:20.868] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2805ms or 56 ticks behind
+[04Dec2024 17:14:39.983] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4119ms or 82 ticks behind
+[04Dec2024 17:14:59.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4132ms or 82 ticks behind
+[04Dec2024 17:15:17.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3694ms or 73 ticks behind
+[04Dec2024 17:15:24.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Bypassing the Expiration Date]
+[04Dec2024 17:15:31.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Chest Slayer]
+[04Dec2024 17:15:31.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Amateur Archaeologist]
+[04Dec2024 17:15:35.880] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3167ms or 63 ticks behind
+[04Dec2024 17:15:54.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3175ms or 63 ticks behind
+[04Dec2024 17:16:12.092] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3078ms or 61 ticks behind
+[04Dec2024 17:16:30.544] [Server thread/INFO] [Scaling Health/]: Blight Glow Squid has died
+[04Dec2024 17:16:31.123] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4059ms or 81 ticks behind
+[04Dec2024 17:16:41.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Diamonds!]
+[04Dec2024 17:16:55.410] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9297ms or 185 ticks behind
+[04Dec2024 17:17:07.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Diamonds!]
+[04Dec2024 17:17:17.325] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6962ms or 139 ticks behind
+[04Dec2024 17:17:37.996] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/41209, l='ServerLevel[world]', x=170.53, y=67.00, z=-867.39] died, message: 'Unemployed was burnt to a crisp whilst fighting Fire Dragon'
+[04Dec2024 17:17:44.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12185ms or 243 ticks behind
+[04Dec2024 17:17:52.606] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/41333, l='ServerLevel[world]', x=172.49, y=71.76, z=-875.20] died, message: 'Scribe was slain by Fire Dragon'
+[04Dec2024 17:17:58.752] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/41336, l='ServerLevel[world]', x=173.80, y=68.00, z=-894.69] died, message: 'Fletcher was incinerated by Fire Dragon'
+[04Dec2024 17:18:00.162] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/41213, l='ServerLevel[world]', x=168.50, y=67.94, z=-882.47] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:18:00.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Life turned out to be a comedy]
+[04Dec2024 17:18:02.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Ambush]
+[04Dec2024 17:18:06.010] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6547ms or 130 ticks behind
+[04Dec2024 17:18:15.907] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/41212, l='ServerLevel[world]', x=159.54, y=69.02, z=-887.21] died, message: 'Unemployed was slain by Fire Dragon'
+[04Dec2024 17:18:27.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6132ms or 122 ticks behind
+[04Dec2024 17:18:41.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was slain by Lightning Dragon
+[04Dec2024 17:18:41.113] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[04Dec2024 17:18:41.162] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[04Dec2024 17:18:51.085] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9022ms or 180 ticks behind
+[04Dec2024 17:18:53.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was slain by Lightning Dragon
+[04Dec2024 17:18:53.246] [Server thread/DEBUG] [tombstone/]: A new grave of the player rongorus was created at position [x:-91, y:70, z:-932, dim:minecraft:overworld]
+[04Dec2024 17:19:00.784] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:19:00.785] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:19:13.617] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7554ms or 151 ticks behind
+[04Dec2024 17:19:17.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has reached the goal [Here They Come]
+[04Dec2024 17:19:27.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Knowledge raises the soul]
+[04Dec2024 17:19:28.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was struck with lightning by Lightning Dragon
+[04Dec2024 17:19:28.716] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[04Dec2024 17:19:28.737] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[04Dec2024 17:19:36.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has reached the goal [Chain Death]
+[04Dec2024 17:19:36.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was energized by Lightning Dragon
+[04Dec2024 17:19:36.987] [Server thread/DEBUG] [tombstone/]: A new grave of the player rongorus was created at position [x:-98, y:70, z:-949, dim:minecraft:overworld]
+[04Dec2024 17:19:37.224] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8611ms or 172 ticks behind
+[04Dec2024 17:19:40.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Rotten to the Core]
+[04Dec2024 17:19:44.062] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:19:44.062] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[04Dec2024 17:19:46.540] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 17:19:46.587] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 17:20:01.823] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9610ms or 192 ticks behind
+[04Dec2024 17:20:21.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll is bleeding. Cinnamoroll was incinerated by Fire Dragon
+[04Dec2024 17:20:21.878] [Server thread/WARN] [tombstone/]: The death event of the player Cinnamoroll was canceled by another mod
+[04Dec2024 17:20:21.911] [Server thread/INFO] [tombstone/]: The player Cinnamoroll has successfully been saved
+[04Dec2024 17:20:24.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7939ms or 158 ticks behind
+[04Dec2024 17:20:35.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll burned to death
+[04Dec2024 17:20:35.865] [Server thread/DEBUG] [tombstone/]: A new grave of the player Cinnamoroll was created at position [x:153, y:63, z:-854, dim:minecraft:overworld]
+[04Dec2024 17:20:35.869] [Server thread/INFO] [tombstone/]: The player Cinnamoroll has successfully been saved
+[04Dec2024 17:20:39.224] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/41284, l='ServerLevel[world]', x=156.07, y=68.23, z=-876.16] died, message: 'Leatherworker was turned into KFC by Fire Dragon'
+[04Dec2024 17:20:40.621] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Disconnected
+[04Dec2024 17:20:40.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[04Dec2024 17:20:44.115] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[04Dec2024 17:20:44.115] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 17:20:44.522] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4809ms or 96 ticks behind
+[04Dec2024 17:20:53.796] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/41210, l='ServerLevel[world]', x=162.22, y=65.54, z=-858.30] died, message: 'Scribe was turned into KFC by Fire Dragon'
+[04Dec2024 17:21:02.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2647ms or 52 ticks behind
+[04Dec2024 17:21:20.301] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3187ms or 63 ticks behind
