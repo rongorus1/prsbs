@@ -5015,9 +5015,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_lightning_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-04 17:22:03 +0000"
     },
     "done": true
   },
@@ -5105,6 +5117,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/misc/cinnamon_wood": {
     "criteria": {
       "has_cinnamon_log": "2024-12-04 16:21:17 +0000"
@@ -5114,6 +5132,24 @@
   "cfm:recipes/decorations/jungle_bedside_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5144,6 +5180,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-04 16:25:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5206,6 +5248,12 @@
   "cfm:recipes/decorations/stripped_jungle_chair": {
     "criteria": {
       "has_planks": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5281,9 +5329,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
   "mcwdoors:recipes/jungle": {
     "criteria": {
       "has_wood": "2024-12-04 16:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5314,6 +5374,12 @@
   "croptopia:recipes/fruit_smoothie": {
     "criteria": {
       "has_fruit": "2024-12-04 16:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5359,6 +5425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/jungle_park_bench": {
     "criteria": {
       "has_log": "2024-12-04 16:21:08 +0000"
@@ -5401,9 +5473,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/birch_chair": {
     "criteria": {
       "has_planks": "2024-12-04 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
     },
     "done": true
   },
@@ -5479,9 +5563,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-12-04 17:20:48 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_reach": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-04 17:22:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2024-12-04 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-04 17:21:27 +0000"
     },
     "done": true
   },

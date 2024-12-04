@@ -82,6 +82,7 @@
       "minecraft:sunflower_plains": "2024-12-04 16:55:47 +0000",
       "minecraft:beach": "2024-12-04 16:27:34 +0000",
       "minecraft:river": "2024-12-04 16:58:20 +0000",
+      "minecraft:forest": "2024-12-04 17:22:43 +0000",
       "minecraft:ocean": "2024-12-04 16:27:42 +0000",
       "minecraft:flower_forest": "2024-12-04 16:58:24 +0000",
       "minecraft:savanna": "2024-12-04 17:02:48 +0000",
@@ -269,6 +270,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/sentry": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
@@ -353,6 +360,30 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/backpack_tank": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/blue_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_blue_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/brown_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2024-12-04 17:07:37 +0000"
@@ -374,6 +405,12 @@
   "mcwwindows:recipes/dark_oak": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -414,6 +451,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/decorations/floor_trap": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/chicken_soup": {
     "criteria": {
       "has_any_ingredient": "2024-12-04 17:03:10 +0000"
@@ -432,6 +475,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/fridge_dark": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
     "criteria": {
       "fried_egg": "2024-12-04 17:03:08 +0000"
@@ -444,9 +493,27 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/storage_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-12-04 16:57:10 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -471,6 +538,12 @@
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2024-12-04 17:05:20 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/yellow_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -510,6 +583,18 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/fridge_light": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-12-04 17:09:21 +0000"
@@ -522,9 +607,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "mcwwindows:recipes/curtain_rods": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/track_mine": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -549,6 +646,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2024-12-04 17:18:37 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/blue_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -582,9 +685,21 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/whitelist_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/apple_cider": {
     "criteria": {
       "has_apple": "2024-12-04 16:56:28 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/lime_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -655,9 +770,27 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/security_camera": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/lemon_chicken": {
     "criteria": {
       "has_lemon": "2024-12-04 17:03:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_toast": {
+    "criteria": {
+      "has_bread": "2024-12-04 17:22:45 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/white_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -673,9 +806,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/calibrated_sculk_sensor": {
     "criteria": {
       "has_amethyst_shard": "2024-12-04 17:05:20 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/yellow_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -691,6 +836,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/iron": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tinted_glass": {
     "criteria": {
       "has_amethyst_shard": "2024-12-04 17:05:20 +0000"
@@ -703,15 +854,33 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/briefcase": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_bamboo_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
     },
     "done": true
   },
+  "securitycraft:recipes/redstone/reinforced_fence_gate": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/food/chocolate_cake": {
     "criteria": {
       "has_egg": "2024-12-04 17:03:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/orange_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -739,15 +908,63 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/electrified_iron_fence": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keycard_lv5": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keycard_lv3": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keycard_lv4": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keycard_lv1": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keycard_lv2": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2024-12-04 17:04:12 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_white": {
     "criteria": {
       "has_white_wool": "2024-12-04 16:56:23 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/frying_pan": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -763,15 +980,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/mine": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/gray_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -805,6 +1046,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/metal": {
+    "criteria": {
+      "has_wood": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/oak_upgraded_gate": {
     "criteria": {
       "has_log": "2024-12-04 16:56:40 +0000"
@@ -835,9 +1088,21 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/magenta_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/oak_blinds": {
     "criteria": {
       "has_log": "2024-12-04 16:56:40 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/pink_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -871,9 +1136,21 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/gray_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/chicken_and_dumplings": {
     "criteria": {
       "has_chicken": "2024-12-04 17:03:10 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/brown_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -889,9 +1166,27 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-04 17:25:14 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_dark_oak_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/trophy_system": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -904,6 +1199,12 @@
   "paraglider:recipes/misc/paraglider": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -949,6 +1250,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/misc/knife": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_string": "2024-12-04 17:09:21 +0000"
@@ -970,6 +1277,12 @@
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2024-12-04 17:19:01 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_blue_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1009,6 +1322,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/speed_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
@@ -1018,6 +1337,12 @@
   "securitycraft:recipes/misc/reinforced_oak_fence": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/camera_monitor": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1036,6 +1361,12 @@
   "farmersdelight:recipes/food/pie_crust": {
     "criteria": {
       "has_wheat": "2024-12-04 17:18:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1066,6 +1397,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-04 17:07:37 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/redstone_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1105,6 +1442,24 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/door_indestructible_iron_item": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_bread": {
+    "criteria": {
+      "has_bread": "2024-12-04 17:22:45 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_block_remover": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_oak_desk": {
     "criteria": {
       "has_planks": "2024-12-04 16:56:40 +0000"
@@ -1120,6 +1475,12 @@
   "cfm:recipes/decorations/door_mat": {
     "criteria": {
       "has_wheat": "2024-12-04 17:18:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1162,6 +1523,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2024-12-04 17:03:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1231,9 +1598,21 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/blacklist_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
     "criteria": {
       "has_chicken": "2024-12-04 17:03:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1286,6 +1665,24 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/limited_use_keycard": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/bouncing_betty": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/oak_bedside_cabinet": {
     "criteria": {
       "has_log": "2024-12-04 16:56:40 +0000"
@@ -1298,9 +1695,45 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/light_gray_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/green_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/disguise_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-12-04 17:09:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1310,15 +1743,33 @@
     },
     "done": true
   },
+  "cfm:recipes/tools/spatula": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/carnitas": {
     "criteria": {
       "has_porkchop": "2024-12-04 17:01:09 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/pink_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "immersive_armors:recipes/misc/wooden": {
     "criteria": {
       "has_item": "2024-12-04 16:56:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/block_change_detector": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1358,9 +1809,21 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/purple_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/misc/apple_pie": {
     "criteria": {
       "has_apple": "2024-12-04 16:56:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1382,9 +1845,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-04 17:24:04 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/food/strawberry_cake": {
     "criteria": {
       "has_egg": "2024-12-04 17:03:08 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheeseburger": {
+    "criteria": {
+      "has_bread": "2024-12-04 17:22:45 +0000"
     },
     "done": true
   },
@@ -1409,6 +1884,12 @@
   "farmersdelight:recipes/food/wheat_dough_from_water": {
     "criteria": {
       "has_wheat": "2024-12-04 17:18:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1460,6 +1941,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald": "2024-12-04 17:24:04 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/spider": {
     "criteria": {
       "has_string": "2024-12-04 17:09:21 +0000"
@@ -1469,6 +1956,18 @@
   "iceandfire:recipes/misc/earplugs": {
     "criteria": {
       "has_item": "2024-12-04 16:57:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_smoking_bread": {
+    "criteria": {
+      "has_bread": "2024-12-04 17:22:45 +0000"
     },
     "done": true
   },
@@ -1562,6 +2061,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/light_gray_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_oak_coffee_table": {
     "criteria": {
       "has_planks": "2024-12-04 16:56:40 +0000"
@@ -1574,15 +2079,45 @@
     },
     "done": true
   },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-04 17:25:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/food/vanilla_cake": {
     "criteria": {
       "has_egg": "2024-12-04 17:03:08 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/reinforced_cherry_fence": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1616,6 +2151,18 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/iron_tier_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/post_box": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_warped_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
@@ -1625,6 +2172,12 @@
   "mcwwindows:recipes/mangrove": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:40 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hose_nozzle": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1646,6 +2199,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/cyan_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2024-12-04 16:56:23 +0000"
@@ -1658,6 +2217,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/harming_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/keypad_item": {
     "criteria": {
       "has_stone_button": "2024-12-04 17:18:28 +0000"
@@ -1667,6 +2232,12 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2024-12-04 17:22:38 +0000"
     },
     "done": true
   },
@@ -1706,6 +2277,18 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/smart_module": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_mangrove_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-04 16:57:20 +0000"
@@ -1724,6 +2307,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/green_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
     "criteria": {
       "has_needed_dye": "2024-12-04 17:19:01 +0000"
@@ -1739,6 +2328,12 @@
   "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
       "has_needed_dye": "2024-12-04 17:19:01 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/cyan_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1784,6 +2379,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/orange_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "mcwwindows:recipes/bricks": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:40 +0000"
@@ -1805,6 +2406,18 @@
   "immersive_armors:recipes/misc/bone": {
     "criteria": {
       "has_item": "2024-12-04 17:05:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/magenta_trampoline": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },
@@ -1863,6 +2476,12 @@
     },
     "done": false
   },
+  "cfm:recipes/decorations/lime_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/oak_kitchen_drawer": {
     "criteria": {
       "has_log": "2024-12-04 16:56:40 +0000"
@@ -1914,6 +2533,24 @@
   "croptopia:recipes/misc/orange_juice": {
     "criteria": {
       "has_orange": "2024-12-04 17:00:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_grill": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cooking_pot": {
+    "criteria": {
+      "has_iron": "2024-12-04 17:24:41 +0000"
     },
     "done": true
   },

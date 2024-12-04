@@ -197,6 +197,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_grill_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/cyan_sleeping_bag": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
+    },
+    "done": true
+  },
   "mcwwindows:recipes/warped": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:56 +0000"
@@ -212,6 +224,12 @@
   "ecologics:recipes/ecologics/azalea_boat": {
     "criteria": {
       "in_water": "2024-12-04 16:53:36 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_cyan": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
     },
     "done": true
   },
@@ -242,6 +260,12 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2024-12-04 16:58:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/potato_chips": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
     },
     "done": true
   },
@@ -451,6 +475,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
+    },
+    "done": true
+  },
   "mcwwindows:recipes/cherry": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:56 +0000"
@@ -460,6 +490,12 @@
   "ecologics:recipes/ecologics/walnut_boat": {
     "criteria": {
       "in_water": "2024-12-04 16:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-12-04 17:21:48 +0000"
     },
     "done": true
   },
@@ -514,6 +550,12 @@
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2024-12-04 16:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
     },
     "done": true
   },
@@ -613,9 +655,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_grill_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-04 17:21:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2024-12-04 16:58:04 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-12-04 17:26:08 +0000"
     },
     "done": true
   },
@@ -646,6 +700,12 @@
   "cfm:recipes/decorations/oak_table": {
     "criteria": {
       "has_log": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-12-04 17:26:08 +0000"
     },
     "done": true
   },
@@ -871,6 +931,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-12-04 17:21:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_chestplate": "2024-12-04 17:05:02 +0000"
@@ -880,6 +946,12 @@
   "cfm:recipes/decorations/stripped_oak_table": {
     "criteria": {
       "has_planks": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
     },
     "done": true
   },
@@ -901,6 +973,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-04 17:21:48 +0000"
+    },
+    "done": true
+  },
   "mcwwindows:recipes/oak": {
     "criteria": {
       "has_wood": "2024-12-04 16:56:56 +0000",
@@ -914,6 +992,12 @@
     },
     "done": true
   },
+  "immersive_armors:recipes/misc/slime": {
+    "criteria": {
+      "has_item": "2024-12-04 17:26:08 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/flint_knife": {
     "criteria": {
       "has_stick": "2024-12-04 16:58:04 +0000"
@@ -923,6 +1007,12 @@
   "cfm:recipes/decorations/stripped_oak_bedside_cabinet": {
     "criteria": {
       "has_planks": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
     },
     "done": true
   },
@@ -1064,6 +1154,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/cyan_sofa": {
+    "criteria": {
+      "has_wool": "2024-12-04 17:26:43 +0000"
+    },
+    "done": true
+  },
   "ecologics:recipes/ecologics/coconut_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 16:55:56 +0000"
@@ -1091,6 +1187,12 @@
   "biomesoplenty:recipes/transportation/redwood_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 16:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
     },
     "done": true
   },
@@ -1139,6 +1241,12 @@
   "biomesoplenty:recipes/transportation/dead_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 16:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-12-04 17:26:08 +0000"
     },
     "done": true
   },
@@ -1250,6 +1358,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-12-04 17:26:08 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2024-12-04 16:53:36 +0000"
@@ -1268,6 +1382,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-04 17:20:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2024-12-04 16:56:23 +0000"
@@ -1277,6 +1397,12 @@
   "biomesoplenty:recipes/transportation/mahogany_boat": {
     "criteria": {
       "in_water": "2024-12-04 16:53:36 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/cyan_trampoline": {
+    "criteria": {
+      "has_wool": "2024-12-04 17:26:43 +0000"
     },
     "done": true
   },
@@ -1292,9 +1418,27 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2024-12-04 17:25:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2024-12-04 16:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2024-12-04 17:25:47 +0000"
     },
     "done": true
   },
@@ -1331,6 +1475,12 @@
   "croptopia:recipes/documentation": {
     "criteria": {
       "has_crop": "2024-12-04 16:56:32 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_cyan": {
+    "criteria": {
+      "has_cyan_wool": "2024-12-04 17:26:43 +0000"
     },
     "done": true
   },
@@ -1495,6 +1645,12 @@
   "mcwwindows:recipes/prismarine": {
     "criteria": {
       "has_the_recipe": "2024-12-04 16:56:56 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/french_fries": {
+    "criteria": {
+      "has_potato": "2024-12-04 17:20:19 +0000"
     },
     "done": true
   },
