@@ -1094,3 +1094,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04Dec2024 16:29:11.367] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/9263, l='ServerLevel[world]', x=176.50, y=72.00, z=303.50]
 [04Dec2024 16:29:56.537] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Legacho lost connection: Disconnected
 [04Dec2024 16:29:56.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho left the game
+[04Dec2024 16:32:06.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Isn't It Iron Pick]
+[04Dec2024 16:35:38.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Stone Age]
