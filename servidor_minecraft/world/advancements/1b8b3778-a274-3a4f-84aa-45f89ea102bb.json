@@ -6084,6 +6084,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2024-12-04 19:08:26 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/kill_deathworm": {
     "criteria": {
       "killed_fire_dragon": "2024-12-04 18:44:41 +0000"

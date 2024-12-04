@@ -8007,3 +8007,9 @@ java.lang.IllegalStateException: onTrackingStart called during navigation iterat
 [04Dec2024 19:08:26.951] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/19985, l='ServerLevel[world]', x=1858.70, y=71.05, z=-1490.49] died, message: 'Unemployed was slain by iTzBorisxD'
 [04Dec2024 19:08:26.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Neighborhood Brawl]
 [04Dec2024 19:08:29.905] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/19986, l='ServerLevel[world]', x=1858.70, y=71.05, z=-1490.49] died, message: 'Unemployed was slain by iTzBorisxD'
+[04Dec2024 19:09:08.683] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 19:09:08.717] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 19:09:09.346] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/20299, l='ServerLevel[world]', x=1919.51, y=71.00, z=-1557.30] died, message: 'Fisherman was slain by Myrmex Worker'
+[04Dec2024 19:10:16.968] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=11}
+[04Dec2024 19:14:08.818] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 19:14:08.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
