@@ -7989,3 +7989,7 @@ java.lang.IllegalStateException: onTrackingStart called during navigation iterat
 [04Dec2024 18:47:31.118] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [84, -93], pos: BlockPos{x=1349, y=-33, z=-1488}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
 [04Dec2024 18:47:31.118] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [84, -93], pos: BlockPos{x=1348, y=-33, z=-1488}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
 [04Dec2024 18:47:31.118] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [84, -93], pos: BlockPos{x=1352, y=-30, z=-1488}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[04Dec2024 18:49:08.669] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 18:49:08.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 18:54:08.672] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 18:54:08.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

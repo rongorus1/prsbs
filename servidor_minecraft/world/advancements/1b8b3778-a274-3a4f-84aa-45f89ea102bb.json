@@ -2826,6 +2826,8 @@
       "scrubland": "2024-12-04 18:30:35 +0000",
       "old_growth_woodland": "2024-12-04 17:45:32 +0000",
       "mediterranean_forest": "2024-12-04 18:21:45 +0000",
+      "dryland": "2024-12-04 18:44:26 +0000",
+      "volcano": "2024-12-04 18:47:34 +0000",
       "rocky_rainforest": "2024-12-03 02:03:18 +0000",
       "volcanic_plains": "2024-12-04 16:19:29 +0000",
       "grassland": "2024-12-02 22:49:31 +0000",
@@ -6081,6 +6083,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_deathworm": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-04 18:44:41 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/lectern": {
     "criteria": {
       "bestiary": "2024-12-04 18:35:42 +0000"
@@ -6093,9 +6101,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
+    },
+    "done": true
+  },
   "paraglider:pray_to_the_goddess": {
     "criteria": {
       "bargain": "2024-12-04 18:27:44 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/raw_silver_to_raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
     },
     "done": true
   },
