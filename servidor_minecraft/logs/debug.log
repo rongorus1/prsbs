@@ -7863,3 +7863,11 @@ java.lang.IllegalStateException: not found
 [04Dec2024 00:09:24.312] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
 [04Dec2024 00:11:50.532] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [04Dec2024 00:11:50.566] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 00:16:50.544] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 00:16:50.578] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Dec2024 00:18:22.666] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iTzBorisxD lost connection: Disconnected
+[04Dec2024 00:18:22.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD left the game
+[04Dec2024 00:21:11.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rancho99 lost connection: Disconnected
+[04Dec2024 00:21:11.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rancho99 left the game
+[04Dec2024 00:21:50.481] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Dec2024 00:21:50.507] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

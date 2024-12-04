@@ -16,3 +16,7 @@
 [04Dec2024 00:09:17.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD was doomed to fall
 [04Dec2024 00:09:24.312] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [04Dec2024 00:09:24.312] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[04Dec2024 00:18:22.666] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iTzBorisxD lost connection: Disconnected
+[04Dec2024 00:18:22.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD left the game
+[04Dec2024 00:21:11.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rancho99 lost connection: Disconnected
+[04Dec2024 00:21:11.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rancho99 left the game
