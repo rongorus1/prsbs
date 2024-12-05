@@ -1840,3 +1840,61 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 03:24:09.854] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rongorus[/127.49.150.48:53159] logged in with entity id 91634 at (-840.5, 62.0, -1252.5)
 [05Dec2024 03:24:09.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus joined the game
 [05Dec2024 03:24:09.904] [Server thread/INFO] [Jade/]: Syncing config to rongorus (6968255d-bb3f-3534-8e7f-116f63b338b0)
+[05Dec2024 03:25:09.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus has made the advancement [Amateur Archaeologist]
+[05Dec2024 03:26:16.138] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/93750, l='ServerLevel[world]', x=-571.50, y=72.00, z=199.50]
+[05Dec2024 03:26:29.187] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/93872, l='ServerLevel[world]', x=-475.50, y=71.00, z=113.50]
+[05Dec2024 03:26:31.088] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/93900, l='ServerLevel[world]', x=-639.50, y=71.00, z=90.50]
+[05Dec2024 03:26:33.738] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/93926, l='ServerLevel[world]', x=-480.50, y=71.00, z=129.50]
+[05Dec2024 03:26:38.086] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/93983, l='ServerLevel[world]', x=-700.50, y=71.00, z=70.50]
+[05Dec2024 03:26:45.091] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94114, l='ServerLevel[world]', x=-638.50, y=71.00, z=88.50]
+[05Dec2024 03:26:48.386] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94172, l='ServerLevel[world]', x=-663.50, y=73.00, z=199.50]
+[05Dec2024 03:26:51.687] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94209, l='ServerLevel[world]', x=-678.50, y=71.00, z=149.50]
+[05Dec2024 03:26:54.091] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94253, l='ServerLevel[world]', x=-620.50, y=69.00, z=110.50]
+[05Dec2024 03:26:54.584] [Worker-Main-8/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-713, y=0, z=-1490}
+[05Dec2024 03:26:58.539] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94400, l='ServerLevel[world]', x=-639.50, y=75.00, z=89.50]
+[05Dec2024 03:27:14.780] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/94767, l='ServerLevel[world]', x=-661.50, y=76.00, z=95.50]
+[05Dec2024 03:27:16.404] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/91889, l='ServerLevel[world]', x=-938.33, y=74.00, z=-1376.56] died, message: 'Unemployed was incinerated by Fire Dragon'
+[05Dec2024 03:27:40.699] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/91897, l='ServerLevel[world]', x=-929.51, y=68.50, z=-1323.37] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
+[05Dec2024 03:27:40.746] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/91847, l='ServerLevel[world]', x=-925.23, y=69.25, z=-1332.44] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
+[05Dec2024 03:27:49.298] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/91849, l='ServerLevel[world]', x=-918.95, y=68.00, z=-1305.35] died, message: 'Nitwit was incinerated by Fire Dragon'
+[05Dec2024 03:27:52.341] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/91821, l='ServerLevel[world]', x=-924.52, y=67.00, z=-1307.65] died, message: 'Unemployed was burnt to a crisp whilst fighting Fire Dragon'
+[05Dec2024 03:27:54.645] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/91822, l='ServerLevel[world]', x=-899.76, y=67.00, z=-1303.50] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
+[05Dec2024 03:28:14.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was burnt to a crisp whilst fighting Fire Dragon
+[05Dec2024 03:28:14.776] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[05Dec2024 03:28:14.819] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[05Dec2024 03:28:21.753] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/91688, l='ServerLevel[world]', x=-921.41, y=70.34, z=-1308.02] died, message: 'Farmer was slain by Fire Dragon'
+[05Dec2024 03:28:21.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus burned to death
+[05Dec2024 03:28:28.364] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-76, -4], pos: BlockPos{x=-1216, y=-32, z=-54}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:28:28.364] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-76, -4], pos: BlockPos{x=-1216, y=-32, z=-55}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:28:28.364] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-76, -4], pos: BlockPos{x=-1216, y=-32, z=-56}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:28:28.365] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-76, -4], pos: BlockPos{x=-1216, y=-29, z=-52}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:28:29.621] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 03:28:29.621] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[05Dec2024 03:28:51.533] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/96966, l='ServerLevel[world]', x=-921.21, y=69.56, z=-1306.38] died, message: 'Farmer was incinerated by Fire Dragon'
+[05Dec2024 03:29:33.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was slain by Fire Dragon
+[05Dec2024 03:29:33.599] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[05Dec2024 03:29:33.618] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[05Dec2024 03:29:39.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was slain by Fire Dragon
+[05Dec2024 03:29:46.716] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 03:29:46.717] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[05Dec2024 03:30:51.088] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/98727, l='ServerLevel[world]', x=-882.41, y=67.00, z=-1310.86] died, message: 'Farmer was slain by Zoglin'
+[05Dec2024 03:31:28.219] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 03:31:43.885] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-120, -2], pos: BlockPos{x=-1919, y=-56, z=-32}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:31:43.886] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-120, -2], pos: BlockPos{x=-1920, y=-56, z=-32}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:31:43.886] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-121, -2], pos: BlockPos{x=-1921, y=-56, z=-32}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:31:43.887] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-120, -2], pos: BlockPos{x=-1917, y=-53, z=-32}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:31:48.970] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[05Dec2024 03:32:28.852] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-134, -3], pos: BlockPos{x=-2129, y=-38, z=-40}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:32:28.853] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-134, -3], pos: BlockPos{x=-2129, y=-38, z=-41}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:32:28.854] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-134, -3], pos: BlockPos{x=-2129, y=-38, z=-42}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:32:28.854] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-134, -3], pos: BlockPos{x=-2129, y=-35, z=-38}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 03:33:03.246] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 03:33:03.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was burnt to a crisp whilst fighting Fire Dragon
+[05Dec2024 03:33:03.769] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[05Dec2024 03:33:03.771] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[05Dec2024 03:33:11.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus burned to death
+[05Dec2024 03:33:20.284] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 03:33:20.286] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Dec2024 03:33:55.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Timed out
+[05Dec2024 03:33:55.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[05Dec2024 03:33:55.992] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice

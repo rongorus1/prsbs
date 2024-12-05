@@ -2884,6 +2884,7 @@
       "lush_desert": "2024-12-05 02:42:42 +0000",
       "redwood_forest": "2024-12-05 03:18:36 +0000",
       "volcano": "2024-12-05 02:34:33 +0000",
+      "rocky_rainforest": "2024-12-05 03:27:28 +0000",
       "volcanic_plains": "2024-12-05 02:34:41 +0000",
       "grassland": "2024-12-05 02:59:17 +0000",
       "rainforest": "2024-12-05 03:18:58 +0000"
@@ -3370,6 +3371,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/misc/fig_sapling": {
+    "criteria": {
+      "has_fig": "2024-12-05 03:33:18 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/deathworm_red_leggings": {
     "criteria": {
       "has_item": "2024-12-05 02:22:15 +0000"
@@ -3562,6 +3569,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/shaped_figgy_pudding": {
+    "criteria": {
+      "has_fig": "2024-12-05 03:33:18 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/spruce_blinds": {
     "criteria": {
       "has_log": "2024-12-05 02:53:07 +0000"
@@ -3697,6 +3710,12 @@
   "comforts:sleeping_bag_gray": {
     "criteria": {
       "has_gray_wool": "2024-12-05 02:29:49 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/mushroom_stew_from_coconut_husk": {
+    "criteria": {
+      "has_bowl": "2024-12-05 03:26:14 +0000"
     },
     "done": true
   },
