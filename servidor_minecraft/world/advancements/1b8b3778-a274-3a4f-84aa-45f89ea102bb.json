@@ -2840,6 +2840,7 @@
       "old_growth_woodland": "2024-12-04 17:45:32 +0000",
       "field": "2024-12-05 02:20:56 +0000",
       "orchard": "2024-12-05 02:15:40 +0000",
+      "lavender_forest": "2024-12-05 02:56:39 +0000",
       "moor": "2024-12-05 02:18:51 +0000",
       "mediterranean_forest": "2024-12-04 18:21:45 +0000",
       "coniferous_forest": "2024-12-05 02:21:22 +0000",
@@ -6548,6 +6549,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
       "location1": "2024-12-05 02:26:37 +0000"
@@ -6608,6 +6615,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-05 02:49:34 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/building_blocks/peach_wood": {
     "criteria": {
       "has_planks": "2024-12-05 01:46:08 +0000"
@@ -6650,6 +6663,24 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/jacaranda_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
+    "criteria": {
+      "has_log": "2024-12-05 02:56:46 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_door": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_spruce_table": {
     "criteria": {
       "has_planks": "2024-12-05 02:43:46 +0000"
@@ -6659,6 +6690,18 @@
   "tombstone:adventure/use_feather_fall": {
     "criteria": {
       "has_magic_scroll": "2024-12-05 02:29:03 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_fence": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_button": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
     },
     "done": true
   },
@@ -6692,6 +6735,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
+    "criteria": {
+      "has_logs": "2024-12-05 02:56:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2024-12-05 02:43:46 +0000"
@@ -6701,6 +6750,12 @@
   "croptopia:recipes/campfire_molasses": {
     "criteria": {
       "has_sugar_cane": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
     },
     "done": true
   },
@@ -6722,15 +6777,33 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/jacaranda_sign": {
+    "criteria": {
+      "has_jacaranda_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2024-12-05 02:11:20 +0000"
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/building_blocks/peach_stairs": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-05 03:00:50 +0000"
     },
     "done": true
   },
@@ -6749,6 +6822,12 @@
   "cfm:recipes/decorations/stripped_spruce_desk_cabinet": {
     "criteria": {
       "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-05 02:49:34 +0000"
     },
     "done": true
   },

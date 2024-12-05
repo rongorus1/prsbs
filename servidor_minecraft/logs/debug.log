@@ -8485,3 +8485,44 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 02:52:30.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevinhtp moved too quickly! 9.944283509197021,0.7531999805212024,2.216032535938666
 [05Dec2024 02:52:30.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Legacho moved too quickly! 9.351728567155988,-0.9755759117863079,3.713091437836738
 [05Dec2024 02:52:30.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5363ms or 107 ticks behind
+[05Dec2024 02:52:49.648] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=4403, y=33, z=-2711} but found not block entity block Block{minecraft:water}[level=0] at location
+[05Dec2024 02:52:49.649] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=0] but failed at location BlockPos{x=4403, y=33, z=-2711}
+[05Dec2024 02:52:57.169] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[05Dec2024 02:53:16.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4464ms or 89 ticks behind
+[05Dec2024 02:53:24.441] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Dec2024 02:53:24.489] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Dec2024 02:55:31.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Knowledge of Death]
+[05Dec2024 02:55:31.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has reached the goal [Strong or Careful]
+[05Dec2024 02:55:31.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp was turned into gorgonzola by Gorgon
+[05Dec2024 02:55:31.867] [Server thread/DEBUG] [tombstone/]: A new grave of the player kevinhtp was created at position [x:582, y:58, z:-405, dim:minecraft:overworld]
+[05Dec2024 02:55:31.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Your First Grave]
+[05Dec2024 02:55:31.905] [Server thread/INFO] [tombstone/]: The player kevinhtp has successfully been saved
+[05Dec2024 02:55:46.764] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 02:55:46.765] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[05Dec2024 02:56:54.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has reached the goal [Here They Come]
+[05Dec2024 02:58:24.385] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Dec2024 02:58:24.419] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Dec2024 02:58:28.431] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63321, l='ServerLevel[world]', x=214.50, y=72.00, z=-315.50]
+[05Dec2024 02:58:33.492] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63452, l='ServerLevel[world]', x=269.50, y=73.00, z=-324.50]
+[05Dec2024 02:59:45.253] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65031, l='ServerLevel[world]', x=645.50, y=96.00, z=-319.50]
+[05Dec2024 02:59:49.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp was turned to stone by Gorgon
+[05Dec2024 02:59:49.928] [Server thread/DEBUG] [tombstone/]: A new grave of the player kevinhtp was created at position [x:584, y:63, z:-409, dim:minecraft:overworld]
+[05Dec2024 02:59:49.950] [Server thread/INFO] [tombstone/]: The player kevinhtp has successfully been saved
+[05Dec2024 02:59:56.875] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 02:59:56.876] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Dec2024 03:00:44.717] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 03:03:12.884] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.28131999818799613
+[05Dec2024 03:03:12.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.5626399963759923
+[05Dec2024 03:03:13.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.8439599945639884
+[05Dec2024 03:03:13.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.28131999818799613
+[05Dec2024 03:03:13.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.28131999818799613
+[05Dec2024 03:03:13.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.48707295597523625
+[05Dec2024 03:03:13.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.27287868687153605
+[05Dec2024 03:03:13.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.5021326967584514
+[05Dec2024 03:03:13.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.7864898116440031
+[05Dec2024 03:03:13.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.41175649925361313
+[05Dec2024 03:03:13.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.6961136141391648
+[05Dec2024 03:03:13.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.6961136141391648
+[05Dec2024 03:03:13.624] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kevinhtp) moved wrongly! 0.41175649925361313
+[05Dec2024 03:03:24.448] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Dec2024 03:03:24.485] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
