@@ -87,7 +87,10 @@
       "minecraft:beach": "2024-12-04 16:27:34 +0000",
       "minecraft:sparse_jungle": "2024-12-04 17:34:28 +0000",
       "minecraft:river": "2024-12-04 16:58:20 +0000",
+      "minecraft:stony_shore": "2024-12-05 03:11:31 +0000",
+      "minecraft:cold_ocean": "2024-12-05 03:07:55 +0000",
       "minecraft:forest": "2024-12-04 17:22:43 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-05 03:08:19 +0000",
       "minecraft:desert": "2024-12-04 18:02:18 +0000",
       "minecraft:ocean": "2024-12-04 16:27:42 +0000",
       "minecraft:jungle": "2024-12-05 02:50:13 +0000",
@@ -2867,17 +2870,23 @@
       "scrubland": "2024-12-04 17:45:32 +0000",
       "lush_savanna": "2024-12-05 02:46:25 +0000",
       "highland": "2024-12-05 03:01:53 +0000",
+      "clover_patch": "2024-12-05 03:15:02 +0000",
       "old_growth_woodland": "2024-12-04 17:47:20 +0000",
+      "maple_woods": "2024-12-05 03:11:57 +0000",
+      "field": "2024-12-05 03:10:46 +0000",
       "orchard": "2024-12-05 03:00:51 +0000",
       "lavender_forest": "2024-12-05 03:02:06 +0000",
       "mediterranean_forest": "2024-12-05 02:32:13 +0000",
+      "forested_field": "2024-12-05 03:12:57 +0000",
       "spider_nest": "2024-12-05 02:34:12 +0000",
       "dryland": "2024-12-05 02:37:11 +0000",
       "wasteland": "2024-12-05 02:46:02 +0000",
       "lush_desert": "2024-12-05 02:42:42 +0000",
+      "redwood_forest": "2024-12-05 03:18:36 +0000",
       "volcano": "2024-12-05 02:34:33 +0000",
       "volcanic_plains": "2024-12-05 02:34:41 +0000",
-      "grassland": "2024-12-05 02:59:17 +0000"
+      "grassland": "2024-12-05 02:59:17 +0000",
+      "rainforest": "2024-12-05 03:18:58 +0000"
     },
     "done": false
   },
@@ -3187,6 +3196,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2024-12-05 03:08:36 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_spruce_kitchen_counter": {
     "criteria": {
       "has_log": "2024-12-05 02:53:07 +0000"
@@ -3318,6 +3333,12 @@
       "coded_trigger": "2024-12-05 02:35:18 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2024-12-05 03:17:39 +0000"
+    },
+    "done": false
   },
   "cfm:recipes/decorations/stripped_spruce_cabinet": {
     "criteria": {
@@ -3523,6 +3544,12 @@
     },
     "done": true
   },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_01": "2024-12-05 03:17:54 +0000"
+    },
+    "done": true
+  },
   "comforts:hammock_gray": {
     "criteria": {
       "has_gray_wool": "2024-12-05 02:29:49 +0000"
@@ -3568,6 +3595,12 @@
   "iceandfire:recipes/combat/deathworm_red_chestplate": {
     "criteria": {
       "has_item": "2024-12-05 02:22:15 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_fishing_hut": {
+    "criteria": {
+      "location0": "2024-12-05 03:07:22 +0000"
     },
     "done": true
   },
@@ -3754,6 +3787,12 @@
   "cfm:recipes/decorations/stripped_spruce_desk_cabinet": {
     "criteria": {
       "has_planks": "2024-12-05 02:53:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-05 03:17:39 +0000"
     },
     "done": true
   },
