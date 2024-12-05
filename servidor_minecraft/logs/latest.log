@@ -1376,3 +1376,174 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 02:27:15.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Fortuitous Militia]
 [05Dec2024 02:29:03.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Like a bird]
 [05Dec2024 02:29:04.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [It's an Emu!!!]
+[05Dec2024 02:31:56.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Hot Stuff]
+[05Dec2024 02:32:08.142] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[05Dec2024 02:32:16.539] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:32:22.975] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:32:53.925] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[05Dec2024 02:32:53.926] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[05Dec2024 02:32:53.926] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[05Dec2024 02:32:53.965] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[05Dec2024 02:32:53.965] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[05Dec2024 02:32:53.966] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[05Dec2024 02:32:53.966] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[05Dec2024 02:32:54.005] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[05Dec2024 02:32:54.006] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[05Dec2024 02:32:54.006] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[05Dec2024 02:32:54.006] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[05Dec2024 02:32:54.081] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[05Dec2024 02:32:54.081] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[05Dec2024 02:32:54.082] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[05Dec2024 02:32:54.082] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[05Dec2024 02:32:54.110] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[05Dec2024 02:32:54.110] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[05Dec2024 02:32:54.110] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[05Dec2024 02:32:54.110] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[05Dec2024 02:32:54.246] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[05Dec2024 02:32:54.246] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[05Dec2024 02:32:54.246] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[05Dec2024 02:32:54.246] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[05Dec2024 02:32:55.175] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[05Dec2024 02:32:55.175] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[05Dec2024 02:32:55.175] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[05Dec2024 02:32:55.175] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[05Dec2024 02:32:57.736] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:33:02.880] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[05Dec2024 02:33:02.881] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[05Dec2024 02:33:02.881] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[05Dec2024 02:33:02.881] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[05Dec2024 02:33:05.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.20240480051234044,0.0,-10.398027903767797
+[05Dec2024 02:33:05.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.21018932079596198,0.0,-10.797952062455806
+[05Dec2024 02:33:05.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.21797383495595568,0.0,-11.197876221331171
+[05Dec2024 02:33:05.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.22575834360486624,0.0,-11.597800380374792
+[05Dec2024 02:33:05.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.23354284729384744,0.0,-11.99772453956939
+[05Dec2024 02:33:05.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2413273465185739,0.0,-12.397648698900412
+[05Dec2024 02:33:05.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.24911184172560752,0.0,-12.797572858354215
+[05Dec2024 02:33:05.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.25689633331694495,0.0,-13.197497017918977
+[05Dec2024 02:33:05.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2646808216536556,0.0,-13.597421177582873
+[05Dec2024 02:33:05.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Legacho moved too quickly! 4.157945065657827,-8.808731948272708,2.595571316265932
+[05Dec2024 02:33:05.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2724653070617933,0.0,-13.9973453373359
+[05Dec2024 02:33:05.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2802497898337606,0.0,-14.397269497169873
+[05Dec2024 02:33:05.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.28803427023331096,0.0,-14.797193657075695
+[05Dec2024 02:33:05.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2958187484978225,0.0,-15.197117817047001
+[05Dec2024 02:33:05.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3036032248405718,0.0,-15.597041977077424
+[05Dec2024 02:33:05.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.31138769945391687,0.0,-15.996966137160598
+[05Dec2024 02:33:05.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.31917217251066177,0.0,-16.396890297291066
+[05Dec2024 02:33:05.175] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3269566441667848,0.0,-16.79681445746428
+[05Dec2024 02:33:05.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3347411145618935,0.0,-17.196738617675692
+[05Dec2024 02:33:05.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3425255838224075,0.0,-17.596662777921665
+[05Dec2024 02:33:05.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.35031005206155896,0.0,-17.99658693819947
+[05Dec2024 02:33:05.180] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.35809451938166603,0.0,-18.39651109850547
+[05Dec2024 02:33:05.181] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.36587898587458767,0.0,-18.796435258836027
+[05Dec2024 02:33:05.182] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3736634516230879,0.0,-19.19635941918932
+[05Dec2024 02:33:05.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3814479167012905,0.0,-19.596283579563533
+[05Dec2024 02:33:05.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.38923238117649817,0.0,-19.996207739955935
+[05Dec2024 02:33:05.185] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4651ms or 93 ticks behind
+[05Dec2024 02:33:05.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.20239657168440317,0.0,-10.398028155077554
+[05Dec2024 02:33:05.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.21018103512869857,0.0,-10.797952315501789
+[05Dec2024 02:33:05.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.21796549813325328,0.0,-11.197876475938756
+[05Dec2024 02:33:05.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2257499607421778,0.0,-11.597800636388456
+[05Dec2024 02:33:05.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.23353442299503513,0.0,-11.99772479684907
+[05Dec2024 02:33:05.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.24131888492729558,0.0,-12.39764895731878
+[05Dec2024 02:33:05.318] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.24910334657124622,0.0,-12.797573117797583
+[05Dec2024 02:33:05.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2568878079555361,0.0,-13.197497278284573
+[05Dec2024 02:33:05.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2646722691060859,0.0,-13.597421438778838
+[05Dec2024 02:33:05.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.27245673004654236,0.0,-13.99734559927947
+[05Dec2024 02:33:05.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.28024119079782395,0.0,-14.397269759785559
+[05Dec2024 02:33:05.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.2880256513785753,0.0,-14.797193920297104
+[05Dec2024 02:33:05.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.29581011180607675,0.0,-15.197118080813198
+[05Dec2024 02:33:05.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.30359457209578977,0.0,-15.597042241333838
+[05Dec2024 02:33:05.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.31137903226135677,0.0,-15.996966401858117
+[05Dec2024 02:33:05.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3191634923150559,0.0,-16.396890562386034
+[05Dec2024 02:33:05.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3269479522682559,0.0,-16.79681472291668
+[05Dec2024 02:33:05.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.33473241213096117,0.0,-17.196738883450053
+[05Dec2024 02:33:05.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.34251687191226665,0.0,-17.596663043986155
+[05Dec2024 02:33:05.332] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3503013316203578,0.0,-17.996587204524076
+[05Dec2024 02:33:05.333] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3580857912625106,0.0,-18.396511365063816
+[05Dec2024 02:33:05.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3658702508450915,0.0,-18.796435525605375
+[05Dec2024 02:33:05.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3736547103740122,0.0,-19.196359686148753
+[05Dec2024 02:33:05.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.38143916985518445,0.0,-19.59628384669395
+[05Dec2024 02:33:05.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.38922362929270093,0.0,-19.996208007240057
+[05Dec2024 02:33:05.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.3970080886915639,0.0,-20.396132167787982
+[05Dec2024 02:33:05.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4047925480554113,0.0,-20.796056328336817
+[05Dec2024 02:33:05.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4125770073874264,0.0,-21.195980488886562
+[05Dec2024 02:33:05.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4203614666912472,0.0,-21.595904649437216
+[05Dec2024 02:33:05.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4281459259696021,0.0,-21.99582880998878
+[05Dec2024 02:33:05.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4359303852247649,0.0,-22.395752970540343
+[05Dec2024 02:33:05.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4437148444594641,0.0,-22.795677131092816
+[05Dec2024 02:33:05.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4514993036755186,0.0,-23.1956012916462
+[05Dec2024 02:33:05.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4592837628747475,0.0,-23.59552545219958
+[05Dec2024 02:33:05.404] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.46706822205851495,0.0,-23.995449612753873
+[05Dec2024 02:33:05.405] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.47485268122909474,0.0,-24.395373773308165
+[05Dec2024 02:33:05.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.48263714038739636,0.0,-24.795297933863367
+[05Dec2024 02:33:05.408] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4904215995343293,0.0,-25.19522209441857
+[05Dec2024 02:33:05.408] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.4982060586717125,0.0,-25.59514625497377
+[05Dec2024 02:33:05.410] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5059905178000008,0.0,-25.99507041552988
+[05Dec2024 02:33:05.411] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5137749769201037,0.0,-26.394994576085992
+[05Dec2024 02:33:05.412] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5215594360333853,0.0,-26.794918736642103
+[05Dec2024 02:33:05.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5293438951398457,0.0,-27.194842897198214
+[05Dec2024 02:33:05.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5371283542403944,0.0,-27.594767057755234
+[05Dec2024 02:33:05.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5449128133359409,0.0,-27.994691218312255
+[05Dec2024 02:33:05.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved too quickly! 0.5526972724264851,0.0,-28.394615378869275
+[05Dec2024 02:33:06.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Hearty Meal]
+[05Dec2024 02:33:06.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved wrongly! 0.373362874043778
+[05Dec2024 02:33:06.883] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved wrongly! 0.4601808660017923
+[05Dec2024 02:33:06.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved wrongly! 0.5267345781066979
+[05Dec2024 02:33:07.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of iTzBorisxD) moved wrongly! 0.30130692088914657
+[05Dec2024 02:33:15.514] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[05Dec2024 02:33:15.515] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[05Dec2024 02:33:15.516] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[05Dec2024 02:33:15.516] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[05Dec2024 02:33:21.789] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[05Dec2024 02:33:21.857] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[05Dec2024 02:33:21.857] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[05Dec2024 02:33:21.857] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[05Dec2024 02:33:29.164] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[05Dec2024 02:33:29.165] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[05Dec2024 02:33:29.165] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[05Dec2024 02:33:29.166] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[05Dec2024 02:33:34.299] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:34:48.805] [Worker-Main-9/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1221, y=0, z=-1121}
+[05Dec2024 02:35:16.530] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [150, -412], pos: BlockPos{x=2410, y=-45, z=-6592}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:35:16.531] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [150, -412], pos: BlockPos{x=2411, y=-45, z=-6592}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:35:16.531] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [150, -412], pos: BlockPos{x=2412, y=-45, z=-6592}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:35:16.532] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [150, -412], pos: BlockPos{x=2408, y=-42, z=-6592}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:35:18.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Knowledge of Death]
+[05Dec2024 02:35:18.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [A Strange Grave Dust]
+[05Dec2024 02:36:46.249] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/40559, l='ServerLevel[world]', x=1716.33, y=64.00, z=-1490.25, removed=DISCARDED]
+[05Dec2024 02:38:31.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Local Brewery]
+[05Dec2024 02:38:31.782] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/41534, l='ServerLevel[world]', x=1931.70, y=65.00, z=-1518.17] died, message: 'Unemployed was slain by Zombie'
+[05Dec2024 02:40:16.390] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-282, y=35, z=-587}
+[05Dec2024 02:40:16.540] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=26, z=-592}
+[05Dec2024 02:40:16.540] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=27, z=-592}
+[05Dec2024 02:40:16.541] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=27, z=-591}
+[05Dec2024 02:40:20.794] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-316, y=32, z=-583}
+[05Dec2024 02:40:20.795] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-316, y=32, z=-586}
+[05Dec2024 02:40:20.795] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-315, y=32, z=-582}
+[05Dec2024 02:40:20.795] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-315, y=32, z=-587}
+[05Dec2024 02:40:20.796] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-312, y=32, z=-582}
+[05Dec2024 02:40:20.796] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-312, y=32, z=-587}
+[05Dec2024 02:40:25.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Dust, Sand and Bones]
+[05Dec2024 02:40:42.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to kevinhtp
+[05Dec2024 02:40:43.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to kevinhtp
+[05Dec2024 02:40:45.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to iTzBorisxD
+[05Dec2024 02:40:55.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to Legacho
+[05Dec2024 02:42:04.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [An Ancient Tomb]
+[05Dec2024 02:43:46.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Disturbing the Dead I]
+[05Dec2024 02:45:17.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Spooky Scary Skeleton]
+[05Dec2024 02:45:28.887] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[05Dec2024 02:45:42.847] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:45:54.642] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[05Dec2024 02:48:48.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevinhtp has made the advancement [Well prepared]
+[05Dec2024 02:49:03.435] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [232, -147], pos: BlockPos{x=3727, y=-33, z=-2340}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:49:03.435] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [232, -147], pos: BlockPos{x=3727, y=-33, z=-2339}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:49:03.436] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [232, -147], pos: BlockPos{x=3727, y=-33, z=-2338}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:49:03.437] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [232, -147], pos: BlockPos{x=3727, y=-30, z=-2342}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:49:49.891] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[05Dec2024 02:50:11.038] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[05Dec2024 02:50:45.939] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[05Dec2024 02:51:08.286] [Worker-Main-8/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[05Dec2024 02:52:01.434] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7150ms or 143 ticks behind
+[05Dec2024 02:52:30.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevinhtp moved too quickly! 9.944283509197021,0.7531999805212024,2.216032535938666
+[05Dec2024 02:52:30.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Legacho moved too quickly! 9.351728567155988,-0.9755759117863079,3.713091437836738
+[05Dec2024 02:52:30.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5363ms or 107 ticks behind

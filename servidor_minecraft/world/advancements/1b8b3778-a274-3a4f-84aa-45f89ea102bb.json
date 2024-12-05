@@ -79,6 +79,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2024-12-05 02:32:45 +0000",
       "minecraft:birch_forest": "2024-12-02 22:40:19 +0000",
       "minecraft:bamboo_jungle": "2024-12-04 16:14:21 +0000",
       "minecraft:wooded_badlands": "2024-12-05 01:58:37 +0000",
@@ -89,6 +90,7 @@
       "minecraft:stony_shore": "2024-12-05 02:24:41 +0000",
       "minecraft:cold_ocean": "2024-12-05 02:25:48 +0000",
       "minecraft:forest": "2024-12-02 22:39:34 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-05 02:31:50 +0000",
       "minecraft:desert": "2024-12-04 19:28:06 +0000",
       "minecraft:jungle": "2024-12-02 22:51:04 +0000",
       "minecraft:ocean": "2024-12-02 22:13:45 +0000",
@@ -2575,6 +2577,7 @@
       "minecraft:pillager": "2024-12-05 02:26:44 +0000",
       "minecraft:skeleton": "2024-12-02 22:57:32 +0000",
       "minecraft:hoglin": "2024-12-03 02:18:33 +0000",
+      "minecraft:vindicator": "2024-12-05 02:29:13 +0000",
       "minecraft:spider": "2024-12-02 22:42:10 +0000",
       "minecraft:creeper": "2024-12-04 17:29:26 +0000",
       "minecraft:slime": "2024-12-03 23:53:48 +0000",
@@ -2833,6 +2836,7 @@
       "scrubland": "2024-12-04 18:30:35 +0000",
       "lush_savanna": "2024-12-04 19:38:21 +0000",
       "jade_cliffs": "2024-12-05 02:17:26 +0000",
+      "clover_patch": "2024-12-05 02:35:53 +0000",
       "old_growth_woodland": "2024-12-04 17:45:32 +0000",
       "field": "2024-12-05 02:20:56 +0000",
       "orchard": "2024-12-05 02:15:40 +0000",
@@ -6550,6 +6554,12 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_spruce_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/food/molasses_from_smoking_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2024-12-05 02:11:20 +0000"
@@ -6559,6 +6569,12 @@
   "mysticsbiomes:recipes/decorations/peach_sign": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_park_bench": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
     },
     "done": true
   },
@@ -6580,9 +6596,27 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_spruce_cabinet": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/building_blocks/peach_wood": {
     "criteria": {
       "has_planks": "2024-12-05 01:46:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_chair": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
     },
     "done": true
   },
@@ -6598,9 +6632,33 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/spruce_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/redstone/peach_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_table": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_feather_fall": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-05 02:29:03 +0000"
     },
     "done": true
   },
@@ -6610,15 +6668,33 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/spruce_blinds": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/decorations/peach_fence": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/stripped_spruce_crate": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/redstone/peach_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-12-05 02:43:46 +0000"
     },
     "done": true
   },
@@ -6631,6 +6707,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-12-05 02:43:46 +0000"
     },
     "done": true
   },
@@ -6649,6 +6731,30 @@
   "mysticsbiomes:recipes/building_blocks/peach_stairs": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_desk": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-12-05 02:43:46 +0000"
     },
     "done": true
   },
