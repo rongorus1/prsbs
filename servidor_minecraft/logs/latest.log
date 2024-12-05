@@ -1197,3 +1197,182 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 02:11:20.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2165, y=120, z=-5353} BlockPos{x=2167, y=118, z=-5355}
 [05Dec2024 02:11:21.007] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2165, y=120, z=-5353} BlockPos{x=2167, y=118, z=-5355}
 [05Dec2024 02:11:24.754] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2162, y=120, z=-5355} BlockPos{x=2161, y=118, z=-5355}
+[05Dec2024 02:12:39.687] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/13891, l='ServerLevel[world]', x=177.50, y=69.00, z=257.50]
+[05Dec2024 02:15:08.146] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-273, y=25, z=-319}
+[05Dec2024 02:15:08.148] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=25, z=-318}
+[05Dec2024 02:15:08.148] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=26, z=-318}
+[05Dec2024 02:15:08.149] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-272, y=25, z=-318}
+[05Dec2024 02:15:08.150] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-272, y=25, z=-317}
+[05Dec2024 02:15:08.390] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-271, y=25, z=-318}
+[05Dec2024 02:15:08.391] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-271, y=25, z=-319}
+[05Dec2024 02:15:08.391] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=25, z=-317}
+[05Dec2024 02:15:08.391] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-269, y=25, z=-319}
+[05Dec2024 02:15:08.391] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-268, y=25, z=-317}
+[05Dec2024 02:15:08.567] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-420}
+[05Dec2024 02:15:08.568] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-376, y=31, z=-419}
+[05Dec2024 02:15:08.568] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-370, y=31, z=-408}
+[05Dec2024 02:15:14.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2419ms or 48 ticks behind
+[05Dec2024 02:15:32.411] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [170, -347], pos: BlockPos{x=2720, y=-48, z=-5542}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:15:32.412] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [170, -347], pos: BlockPos{x=2720, y=-48, z=-5543}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:15:32.412] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [170, -347], pos: BlockPos{x=2720, y=-48, z=-5544}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:15:32.412] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [170, -347], pos: BlockPos{x=2720, y=-45, z=-5540}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:15:42.291] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-269, y=25, z=-309}
+[05Dec2024 02:15:42.292] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-269, y=25, z=-310}
+[05Dec2024 02:15:42.292] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-267, y=25, z=-309}
+[05Dec2024 02:15:42.293] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-268, y=25, z=-308}
+[05Dec2024 02:15:42.293] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-267, y=25, z=-307}
+[05Dec2024 02:15:42.293] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-269, y=25, z=-307}
+[05Dec2024 02:15:42.294] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=25, z=-307}
+[05Dec2024 02:15:42.294] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=25, z=-306}
+[05Dec2024 02:15:42.294] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-268, y=25, z=-306}
+[05Dec2024 02:15:42.295] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-269, y=25, z=-305}
+[05Dec2024 02:15:42.295] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-267, y=25, z=-311}
+[05Dec2024 02:15:48.908] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-384, y=31, z=-363}
+[05Dec2024 02:15:48.909] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-384, y=31, z=-362}
+[05Dec2024 02:15:49.068] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-391, y=27, z=-366}
+[05Dec2024 02:15:49.462] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-297, y=25, z=-317}
+[05Dec2024 02:15:53.058] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-246, y=27, z=-330}
+[05Dec2024 02:15:53.397] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=26, z=-339}
+[05Dec2024 02:15:53.397] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-226, y=31, z=-338}
+[05Dec2024 02:15:53.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-227, y=31, z=-338}
+[05Dec2024 02:15:53.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-332}
+[05Dec2024 02:15:53.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-333}
+[05Dec2024 02:15:53.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-334}
+[05Dec2024 02:15:53.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-335}
+[05Dec2024 02:15:53.399] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-228, y=33, z=-336}
+[05Dec2024 02:16:02.277] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-241, y=27, z=-334}
+[05Dec2024 02:16:02.279] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-241, y=27, z=-333}
+[05Dec2024 02:16:02.391] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-244, y=27, z=-330}
+[05Dec2024 02:16:02.594] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=26, z=-337}
+[05Dec2024 02:16:02.594] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=27, z=-337}
+[05Dec2024 02:16:02.595] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-223, y=26, z=-336}
+[05Dec2024 02:16:04.937] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [173, -341], pos: BlockPos{x=2771, y=-54, z=-5456}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:16:04.937] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [173, -341], pos: BlockPos{x=2772, y=-54, z=-5456}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:16:04.937] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [173, -341], pos: BlockPos{x=2773, y=-54, z=-5456}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:16:04.937] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [173, -341], pos: BlockPos{x=2769, y=-51, z=-5456}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:16:57.762] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[05Dec2024 02:18:00.917] [Worker-Main-8/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[05Dec2024 02:18:05.372] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Legacho[/127.232.66.244:52037] logged in with entity id 17038 at (-227.69999998807907, 69.0, -1485.699999988079)
+[05Dec2024 02:18:05.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho joined the game
+[05Dec2024 02:18:05.424] [Server thread/INFO] [Jade/]: Syncing config to Legacho (0554007c-9414-3a80-bf36-963138b35007)
+[05Dec2024 02:18:47.526] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 02:18:47.527] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[05Dec2024 02:19:41.092] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [172, -371], pos: BlockPos{x=2762, y=-31, z=-5936}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:19:41.093] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [172, -371], pos: BlockPos{x=2763, y=-31, z=-5936}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:19:41.093] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [172, -371], pos: BlockPos{x=2764, y=-31, z=-5936}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:19:41.094] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [172, -371], pos: BlockPos{x=2760, y=-28, z=-5936}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:20:04.303] [Worker-Main-9/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 02:20:04.854] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [179, -375], pos: BlockPos{x=2879, y=-33, z=-5988}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:20:04.854] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [179, -375], pos: BlockPos{x=2879, y=-33, z=-5987}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:20:04.854] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [179, -375], pos: BlockPos{x=2879, y=-33, z=-5986}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:20:04.855] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [179, -375], pos: BlockPos{x=2879, y=-30, z=-5990}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:21:18.678] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/20555, l='ServerLevel[world]', x=-218.30, y=66.00, z=-1547.64] died, message: 'Scribe was slain by Ghost'
+[05Dec2024 02:21:44.881] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/20846, l='ServerLevel[world]', x=-240.30, y=64.00, z=-1590.37] died, message: 'Unemployed was slain by Ghost'
+[05Dec2024 02:22:03.900] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.016] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.105] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.196] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.295] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.397] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.520] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.620] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.747] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.877] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:04.974] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.105] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.235] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.312] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.390] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.479] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.570] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.662] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.755] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:05.866] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.026] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.149] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.261] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.348] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.446] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.525] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.637] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.729] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.828] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.914] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:06.979] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.039] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.138] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.237] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.332] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.416] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.505] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.599] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.700] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.805] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.895] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:07.997] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.099] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.298] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.407] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.501] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.598] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.695] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.796] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.895] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:08.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.095] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.196] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.296] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.400] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.598] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.700] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.799] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.895] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:09.996] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.107] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.195] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.295] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.394] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.496] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:10.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:18.662] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/20593, l='ServerLevel[world]', x=-232.39, y=68.00, z=-1513.52] died, message: 'Scribe was slain by Ghost'
+[05Dec2024 02:22:40.181] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:43.150] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/20021, l='ServerLevel[world]', x=-223.38, y=69.00, z=-1530.75] died, message: 'Unemployed was slain by Ghost'
+[05Dec2024 02:22:43.662] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:45.063] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:45.752] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:46.516] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:49.805] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:51.208] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:51.894] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:52.649] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:22:56.313] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:23:03.737] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:23:10.913] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:23:12.628] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:23:14.649] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/20359, l='ServerLevel[world]', x=-266.63, y=68.00, z=-1588.37] died, message: 'Nitwit was slain by Ghost'
+[05Dec2024 02:23:38.604] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [156, -393], pos: BlockPos{x=2511, y=-36, z=-6279}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:23:38.606] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [156, -393], pos: BlockPos{x=2511, y=-36, z=-6280}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:23:38.606] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [156, -393], pos: BlockPos{x=2511, y=-36, z=-6281}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:23:38.607] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [156, -393], pos: BlockPos{x=2511, y=-33, z=-6277}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / deep_dark_regrowth:ancient_fossil]
+[05Dec2024 02:24:04.286] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityCrow['Crow'/23598, l='ServerLevel[world]', x=-15.89, y=67.34, z=-144.72]
+[05Dec2024 02:24:17.979] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:24:26.952] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:24:28.355] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:24:29.046] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:24:32.647] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 02:24:41.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho was slain by Ghost
+[05Dec2024 02:24:42.000] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[05Dec2024 02:24:42.025] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[05Dec2024 02:24:58.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho was slain by Ghost
+[05Dec2024 02:25:05.794] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 02:25:05.795] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[05Dec2024 02:25:15.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[05Dec2024 02:25:52.349] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[05Dec2024 02:26:10.294] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2960ms or 59 ticks behind
+[05Dec2024 02:26:27.786] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[05Dec2024 02:26:37.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [You Are A Pirate]
+[05Dec2024 02:27:15.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Fortuitous Militia]
+[05Dec2024 02:29:03.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has reached the goal [Like a bird]
+[05Dec2024 02:29:04.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [It's an Emu!!!]

@@ -3100,78 +3100,23 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-12-04 18:26:26 +0000",
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
+      "has_iron_nugget": "2024-12-04 18:21:13 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_kill": {
+  "farmersdelight:recipes/cooking/dog_food": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
+      "has_any_ingredient": "2024-12-04 18:21:13 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
+      "has_rotten_flesh": "2024-12-04 18:21:13 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 18:26:06 +0000"
-    },
-    "done": false
+    "done": true
   },
   "ecologics:recipes/ecologics/cooked_prickly_pear_from_campfire_cooking": {
     "criteria": {
@@ -3185,15 +3130,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "ecologics:recipes/ecologics/cooked_prickly_pear_from_smoking": {
     "criteria": {
-      "has_iron_nugget": "2024-12-04 18:21:13 +0000"
+      "cooked_prickly_pear": "2024-12-04 18:22:00 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/dog_food": {
+  "artifacts:amateur_archaeologist": {
     "criteria": {
-      "has_any_ingredient": "2024-12-04 18:21:13 +0000"
+      "find_artifact": "2024-12-04 18:22:32 +0000"
     },
     "done": true
   },
@@ -3203,21 +3148,27 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/cooked_prickly_pear_from_smoking": {
+  "iceandfire:recipes/combat/deathworm_red_leggings": {
     "criteria": {
-      "cooked_prickly_pear": "2024-12-04 18:22:00 +0000"
+      "has_item": "2024-12-05 02:22:15 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+  "iceandfire:recipes/combat/deathworm_red_helmet": {
     "criteria": {
-      "has_rotten_flesh": "2024-12-04 18:21:13 +0000"
+      "has_item": "2024-12-05 02:22:15 +0000"
     },
     "done": true
   },
-  "artifacts:amateur_archaeologist": {
+  "iceandfire:recipes/combat/deathworm_red_chestplate": {
     "criteria": {
-      "find_artifact": "2024-12-04 18:22:32 +0000"
+      "has_item": "2024-12-05 02:22:15 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_red_boots": {
+    "criteria": {
+      "has_item": "2024-12-05 02:22:15 +0000"
     },
     "done": true
   },

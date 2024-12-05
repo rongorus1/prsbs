@@ -86,6 +86,8 @@
       "minecraft:sparse_jungle": "2024-12-04 16:14:43 +0000",
       "minecraft:river": "2024-12-02 22:17:52 +0000",
       "minecraft:lukewarm_ocean": "2024-12-04 17:31:02 +0000",
+      "minecraft:stony_shore": "2024-12-05 02:24:41 +0000",
+      "minecraft:cold_ocean": "2024-12-05 02:25:48 +0000",
       "minecraft:forest": "2024-12-02 22:39:34 +0000",
       "minecraft:desert": "2024-12-04 19:28:06 +0000",
       "minecraft:jungle": "2024-12-02 22:51:04 +0000",
@@ -2570,6 +2572,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-12-05 02:26:44 +0000",
       "minecraft:skeleton": "2024-12-02 22:57:32 +0000",
       "minecraft:hoglin": "2024-12-03 02:18:33 +0000",
       "minecraft:spider": "2024-12-02 22:42:10 +0000",
@@ -2826,18 +2829,26 @@
     "criteria": {
       "woodland": "2024-12-04 17:34:11 +0000",
       "shrubland": "2024-12-02 22:46:07 +0000",
+      "rocky_shrubland": "2024-12-05 02:15:37 +0000",
       "scrubland": "2024-12-04 18:30:35 +0000",
       "lush_savanna": "2024-12-04 19:38:21 +0000",
+      "jade_cliffs": "2024-12-05 02:17:26 +0000",
       "old_growth_woodland": "2024-12-04 17:45:32 +0000",
+      "field": "2024-12-05 02:20:56 +0000",
+      "orchard": "2024-12-05 02:15:40 +0000",
+      "moor": "2024-12-05 02:18:51 +0000",
       "mediterranean_forest": "2024-12-04 18:21:45 +0000",
+      "coniferous_forest": "2024-12-05 02:21:22 +0000",
       "dryland": "2024-12-04 18:44:26 +0000",
       "wasteland": "2024-12-05 01:58:53 +0000",
       "lush_desert": "2024-12-04 18:56:48 +0000",
+      "seasonal_forest": "2024-12-05 02:22:29 +0000",
       "volcano": "2024-12-04 18:47:34 +0000",
       "rocky_rainforest": "2024-12-03 02:03:18 +0000",
       "volcanic_plains": "2024-12-04 16:19:29 +0000",
       "grassland": "2024-12-02 22:49:31 +0000",
-      "rainforest": "2024-12-02 22:50:03 +0000"
+      "rainforest": "2024-12-02 22:50:03 +0000",
+      "crag": "2024-12-05 02:22:57 +0000"
     },
     "done": false
   },
@@ -6533,9 +6544,27 @@
     },
     "done": true
   },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location1": "2024-12-05 02:26:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/molasses_from_smoking_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/decorations/peach_sign": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2024-12-05 02:27:15 +0000"
     },
     "done": true
   },
@@ -6590,6 +6619,30 @@
   "mysticsbiomes:recipes/redstone/peach_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_molasses": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/molasses_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-05 02:11:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-05 02:11:20 +0000"
     },
     "done": true
   },
