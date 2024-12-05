@@ -81,6 +81,7 @@
     "criteria": {
       "minecraft:birch_forest": "2024-12-02 22:40:19 +0000",
       "minecraft:bamboo_jungle": "2024-12-04 16:14:21 +0000",
+      "minecraft:wooded_badlands": "2024-12-05 01:58:37 +0000",
       "minecraft:beach": "2024-12-02 22:13:15 +0000",
       "minecraft:sparse_jungle": "2024-12-04 16:14:43 +0000",
       "minecraft:river": "2024-12-02 22:17:52 +0000",
@@ -2830,6 +2831,7 @@
       "old_growth_woodland": "2024-12-04 17:45:32 +0000",
       "mediterranean_forest": "2024-12-04 18:21:45 +0000",
       "dryland": "2024-12-04 18:44:26 +0000",
+      "wasteland": "2024-12-05 01:58:53 +0000",
       "lush_desert": "2024-12-04 18:56:48 +0000",
       "volcano": "2024-12-04 18:47:34 +0000",
       "rocky_rainforest": "2024-12-03 02:03:18 +0000",
@@ -6087,106 +6089,33 @@
     },
     "done": true
   },
-  "mysticsbiomes:recipes/transportation/tropical_chest_boat": {
+  "paraglider:pray_to_the_goddess": {
     "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "bargain": "2024-12-04 18:27:44 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+  "paraglider:recipes/misc/cosmetic/goddess_statue": {
     "criteria": {
-      "has_smithing_trim_template": "2024-12-04 19:32:24 +0000"
+      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "paraglider:recipes/misc/cosmetic/rito_goddess_statue": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "mcwfurnitures:recipes/acacia": {
-    "criteria": {
-      "has_wood": "2024-12-04 19:39:54 +0000"
+      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/azalea_chest_boat": {
+  "paraglider:recipes/misc/cosmetic/kakariko_goddess_statue": {
     "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/neighborhood_brawl": {
+  "paraglider:recipes/misc/cosmetic/goron_goddess_statue": {
     "criteria": {
-      "coded_trigger": "2024-12-04 19:08:26 +0000"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/heavy": {
-    "criteria": {
-      "has_item": "2024-12-04 19:49:19 +0000"
-    },
-    "done": true
-  },
-  "mcwdoors:recipes/acacia": {
-    "criteria": {
-      "has_wood": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/jacaranda_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/cactus": {
-    "criteria": {
-      "has_cactus": "2024-12-04 19:55:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-12-04 19:58:39 +0000",
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_upgraded_fence": {
-    "criteria": {
-      "has_log": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/kill_deathworm": {
-    "criteria": {
-      "killed_fire_dragon": "2024-12-04 18:44:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/fir_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
@@ -6196,33 +6125,75 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/palm_chest_boat": {
+  "iceandfire:iceandfire/kill_deathworm": {
     "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "killed_fire_dragon": "2024-12-04 18:44:41 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/combat/tide_green_leggings": {
+  "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
     "criteria": {
-      "has_item": "2024-12-04 19:56:17 +0000"
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_chest_boat": {
+  "iceandfire:recipes/building_blocks/raw_silver_to_raw_silver_block": {
     "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_kill": {
+  "iceandfire:recipes/tools/silver_ingot_from_blasting_raw_silver": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
+      "has_raw_silver": "2024-12-04 18:52:07 +0000"
     },
-    "done": false
+    "done": true
   },
-  "ecologics:recipes/ecologics/flowering_azalea_chest_boat": {
+  "tombstone:adventure/neighborhood_brawl": {
     "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
+      "coded_trigger": "2024-12-04 19:08:26 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/oak_hedge": {
+    "criteria": {
+      "has_leaves": "2024-12-04 19:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-12-04 19:32:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2024-12-04 19:32:24 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-04 19:37:36 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-12-04 19:39:54 +0000"
     },
     "done": true
   },
@@ -6244,57 +6215,9 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/walnut_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_chest_raft": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/kill_sea_serpent": {
-    "criteria": {
-      "killed_fire_dragon": "2024-12-04 19:56:15 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/hellbark_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "mysticsbiomes:recipes/transportation/peach_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2024-12-04 19:49:19 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/stripped_acacia_desk_cabinet": {
     "criteria": {
       "has_planks": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "paraglider:recipes/misc/cosmetic/goddess_statue": {
-    "criteria": {
-      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
@@ -6316,27 +6239,123 @@
     },
     "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "cfm:recipes/decorations/stripped_acacia_table": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
+      "has_planks": "2024-12-04 19:39:54 +0000"
     },
-    "done": false
+    "done": true
   },
-  "mysticsbiomes:recipes/transportation/strawberry_chest_boat": {
+  "cfm:recipes/decorations/stripped_acacia_park_bench": {
+    "criteria": {
+      "has_log": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_desk": {
+    "criteria": {
+      "has_planks": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_chair": {
+    "criteria": {
+      "has_planks": "2024-12-04 19:39:54 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/transportation/tropical_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_block": {
+  "ecologics:recipes/ecologics/azalea_chest_boat": {
     "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
+      "has_boat": "2024-12-04 19:41:14 +0000"
     },
-    "done": false
+    "done": true
   },
-  "cfm:recipes/decorations/oak_hedge": {
+  "biomesoplenty:recipes/transportation/jacaranda_chest_boat": {
     "criteria": {
-      "has_leaves": "2024-12-04 19:18:05 +0000"
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/transportation/peach_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/transportation/strawberry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
     },
     "done": true
   },
@@ -6352,42 +6371,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_diamond_block": "2024-12-04 19:50:25 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
-    "criteria": {
-      "has_raw_silver": "2024-12-04 18:52:07 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "paraglider:pray_to_the_goddess": {
-    "criteria": {
-      "bargain": "2024-12-04 18:27:44 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/kill_siren": {
-    "criteria": {
-      "killed_fire_dragon": "2024-12-04 19:37:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
@@ -6400,21 +6383,9 @@
     },
     "done": true
   },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
   "ecologics:recipes/ecologics/coconut_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2024-12-04 19:55:30 +0000"
     },
     "done": true
   },
@@ -6423,18 +6394,6 @@
       "has_boat": "2024-12-04 19:41:14 +0000"
     },
     "done": true
-  },
-  "iceandfire:recipes/building_blocks/raw_silver_to_raw_silver_block": {
-    "criteria": {
-      "has_raw_silver": "2024-12-04 18:52:07 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/transportation/cherry_chest_boat": {
     "criteria": {
@@ -6448,33 +6407,9 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_acacia_table": {
-    "criteria": {
-      "has_planks": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/dead_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/silver_ingot_from_blasting_raw_silver": {
-    "criteria": {
-      "has_raw_silver": "2024-12-04 18:52:07 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "paraglider:recipes/misc/cosmetic/rito_goddess_statue": {
-    "criteria": {
-      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
     },
     "done": true
   },
@@ -6484,21 +6419,9 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_acacia_park_bench": {
-    "criteria": {
-      "has_log": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
   "mysticsbiomes:recipes/transportation/cherry_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_trident": {
-    "criteria": {
-      "has_item": "2024-12-04 19:56:16 +0000"
     },
     "done": true
   },
@@ -6508,45 +6431,81 @@
     },
     "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-04 19:58:12 +0000"
-    },
-    "done": false
-  },
-  "cfm:recipes/decorations/stripped_acacia_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_desk": {
-    "criteria": {
-      "has_planks": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
-    "criteria": {
-      "has_eye_armor_trim_smithing_template": "2024-12-04 19:32:24 +0000"
-    },
-    "done": true
-  },
   "mysticsbiomes:recipes/transportation/sea_foam_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
     },
     "done": true
   },
-  "paraglider:recipes/misc/cosmetic/kakariko_goddess_statue": {
-    "criteria": {
-      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
-    },
-    "done": true
-  },
   "mysticsbiomes:recipes/transportation/maple_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-04 19:41:14 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/heavy": {
+    "criteria": {
+      "has_item": "2024-12-04 19:49:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-12-04 19:49:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-12-04 19:49:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-12-04 19:50:25 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cactus": {
+    "criteria": {
+      "has_cactus": "2024-12-04 19:55:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-12-04 19:55:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-04 19:56:15 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_trident": {
+    "criteria": {
+      "has_item": "2024-12-04 19:56:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/sea_serpent_arrow": {
+    "criteria": {
+      "has_item": "2024-12-04 19:56:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_leggings": {
+    "criteria": {
+      "has_item": "2024-12-04 19:56:17 +0000"
     },
     "done": true
   },
@@ -6562,45 +6521,81 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/mahogany_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-12-04 19:41:14 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_chair": {
-    "criteria": {
-      "has_planks": "2024-12-04 19:39:54 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/sea_serpent_arrow": {
-    "criteria": {
-      "has_item": "2024-12-04 19:56:16 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/building_blocks/sea_serpent_scales_green_to_sea_serpent_scale_block_green": {
     "criteria": {
       "has_sea_serpent_scales_green": "2024-12-04 19:56:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
-    "criteria": {
-      "has_iron_block": "2024-12-04 19:49:19 +0000"
-    },
-    "done": true
-  },
-  "paraglider:recipes/misc/cosmetic/goron_goddess_statue": {
-    "criteria": {
-      "has_goddess_statue": "2024-12-04 18:27:52 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/tide_green_helmet": {
     "criteria": {
       "has_item": "2024-12-04 19:56:17 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/peach_sign": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/peach_planks": {
+    "criteria": {
+      "has_logs": "2024-12-05 01:46:08 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/peach_door": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/peach_wood": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:46:08 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/peach_button": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/peach_slab": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/peach_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/peach_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/peach_fence": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/peach_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/peach_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-05 01:51:57 +0000"
     },
     "done": true
   },
