@@ -1524,3 +1524,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 17:21:05.943] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
 [05Dec2024 17:21:05.950] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
 [05Dec2024 17:21:05.950] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[05Dec2024 17:25:50.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho has made the advancement [Take Aim]
+[05Dec2024 17:27:35.453] [Worker-Main-66/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[05Dec2024 17:28:21.758] [Worker-Main-65/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 17:29:57.817] [Worker-Main-66/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 17:30:29.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Cinnamoroll> a
+[05Dec2024 17:30:39.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Cinnamoroll to Legacho
+[05Dec2024 17:30:58.809] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jugandito[/127.64.92.131:35283] logged in with entity id 27898 at (57.38509778271831, 62.585770760660886, 436.2088189399302)
+[05Dec2024 17:30:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito joined the game
+[05Dec2024 17:30:58.934] [Server thread/INFO] [Jade/]: Syncing config to Jugandito (3e09c1e6-86b0-33d9-bc2b-bfb1d0c4be9b)
+[05Dec2024 17:32:20.834] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/30774, l='ServerLevel[world]', x=-6506.50, y=78.00, z=-1538.50]
+[05Dec2024 17:32:28.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cinnamoroll has made the advancement [An Extra Seedy Place]
+[05Dec2024 17:32:36.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Nausea to Jugandito

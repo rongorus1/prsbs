@@ -1869,9 +1869,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-12-05 17:18:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2024-12-05 16:59:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_ice_brick": {
+    "criteria": {
+      "has_item": "2024-12-05 17:18:36 +0000"
     },
     "done": true
   },
@@ -1887,9 +1923,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/melon_popsicle": {
     "criteria": {
       "has_melon": "2024-12-05 17:12:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
     },
     "done": true
   },
@@ -1914,6 +1968,12 @@
   "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
     "criteria": {
       "has_flower": "2024-12-05 16:56:53 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_fire_brick": {
+    "criteria": {
+      "has_item": "2024-12-05 17:18:36 +0000"
     },
     "done": true
   },
@@ -1947,6 +2007,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:44:06 +0000"
@@ -1971,6 +2043,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_birch_chair": {
     "criteria": {
       "has_planks": "2024-12-05 17:05:48 +0000"
@@ -1988,6 +2066,12 @@
       "rice": "2024-12-05 17:13:39 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
@@ -2025,6 +2109,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/root": {
     "criteria": {
       "scrubland": "2024-12-05 16:38:54 +0000"
@@ -2037,6 +2133,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "scalinghealth:recipes/misc/heart_dust": {
     "criteria": {
       "cobblestone": "2024-12-05 16:44:06 +0000"
@@ -2046,6 +2148,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:44:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
     },
     "done": true
   },
@@ -2163,6 +2271,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/birch_kitchen_drawer": {
     "criteria": {
       "has_log": "2024-12-05 17:05:48 +0000"
@@ -2199,15 +2313,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/plant_rice": {
     "criteria": {
       "plant_rice": "2024-12-05 17:13:39 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
     "criteria": {
       "has_raw_silver": "2024-12-05 16:46:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_lightning_brick": {
+    "criteria": {
+      "has_item": "2024-12-05 17:18:36 +0000"
     },
     "done": true
   },
@@ -2223,6 +2355,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_birch_crate": {
     "criteria": {
       "has_planks": "2024-12-05 17:05:48 +0000"
@@ -2232,6 +2370,12 @@
   "cfm:recipes/decorations/stripped_birch_bedside_cabinet": {
     "criteria": {
       "has_planks": "2024-12-05 17:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2024-12-05 17:18:36 +0000"
     },
     "done": true
   },
@@ -2295,6 +2439,12 @@
   "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-05 17:18:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
     },
     "done": true
   },
@@ -2394,6 +2544,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-05 17:18:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
     "criteria": {
       "has_planks": "2024-12-05 17:18:04 +0000"
@@ -2466,6 +2622,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/gold_tier_upgrade": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/kill_ghost": {
     "criteria": {
       "killed_fire_dragon": "2024-12-05 17:09:32 +0000"
@@ -2475,6 +2637,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:44:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
     },
     "done": true
   },
@@ -2505,6 +2673,12 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2024-12-05 16:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-05 17:23:07 +0000"
     },
     "done": true
   },
