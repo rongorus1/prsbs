@@ -79,9 +79,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-12-05 17:50:47 +0000",
+      "minecraft:taiga": "2024-12-05 17:51:13 +0000",
       "minecraft:eroded_badlands": "2024-12-05 02:37:23 +0000",
       "minecraft:sunflower_plains": "2024-12-04 16:55:47 +0000",
       "minecraft:birch_forest": "2024-12-05 02:58:58 +0000",
+      "minecraft:windswept_hills": "2024-12-05 17:42:32 +0000",
       "minecraft:bamboo_jungle": "2024-12-05 02:50:36 +0000",
       "minecraft:wooded_badlands": "2024-12-05 02:49:39 +0000",
       "minecraft:beach": "2024-12-04 16:27:34 +0000",
@@ -93,6 +96,7 @@
       "minecraft:forest": "2024-12-04 17:22:43 +0000",
       "minecraft:deep_cold_ocean": "2024-12-05 03:08:19 +0000",
       "minecraft:desert": "2024-12-04 18:02:18 +0000",
+      "minecraft:windswept_forest": "2024-12-05 17:43:13 +0000",
       "minecraft:ocean": "2024-12-04 16:27:42 +0000",
       "minecraft:jungle": "2024-12-05 02:50:13 +0000",
       "minecraft:warm_ocean": "2024-12-05 02:44:54 +0000",
@@ -2884,6 +2888,7 @@
       "orchard": "2024-12-05 03:00:51 +0000",
       "lavender_forest": "2024-12-05 03:02:06 +0000",
       "mediterranean_forest": "2024-12-05 02:32:13 +0000",
+      "coniferous_forest": "2024-12-05 17:39:29 +0000",
       "forested_field": "2024-12-05 03:12:57 +0000",
       "spider_nest": "2024-12-05 02:34:12 +0000",
       "dryland": "2024-12-05 02:37:11 +0000",
@@ -2894,8 +2899,10 @@
       "rocky_rainforest": "2024-12-05 03:27:28 +0000",
       "volcanic_plains": "2024-12-05 02:34:41 +0000",
       "lavender_field": "2024-12-05 17:34:51 +0000",
+      "pumpkin_patch": "2024-12-05 17:52:31 +0000",
       "grassland": "2024-12-05 02:59:17 +0000",
-      "rainforest": "2024-12-05 03:18:58 +0000"
+      "rainforest": "2024-12-05 03:18:58 +0000",
+      "ominous_woods": "2024-12-05 17:44:13 +0000"
     },
     "done": false
   },
@@ -3985,6 +3992,12 @@
     },
     "done": true
   },
+  "mysticsbiomes:mysticsbiomes/root": {
+    "criteria": {
+      "strawberry_fields": "2024-12-05 17:38:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2024-12-05 16:53:09 +0000"
@@ -4048,6 +4061,12 @@
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:48:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2024-12-05 17:49:42 +0000"
     },
     "done": true
   },

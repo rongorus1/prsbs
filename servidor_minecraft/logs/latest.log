@@ -1703,3 +1703,64 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05Dec2024 17:42:59.018] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/49533, l='ServerLevel[world]', x=-7804.62, y=71.00, z=-2965.87] died, message: 'Unemployed was slain by Hydra'
 [05Dec2024 17:43:02.238] [Worker-Main-66/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
 [05Dec2024 17:43:02.239] [Worker-Main-66/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[05Dec2024 17:44:30.986] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[05Dec2024 17:44:30.986] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[05Dec2024 17:44:30.987] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[05Dec2024 17:44:51.650] [Worker-Main-66/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[05Dec2024 17:44:51.651] [Worker-Main-66/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[05Dec2024 17:44:51.651] [Worker-Main-66/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[05Dec2024 17:44:51.651] [Worker-Main-66/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[05Dec2024 17:46:56.541] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:41971] logged in with entity id 59213 at (-142.5, 72.0, 121.5)
+[05Dec2024 17:46:56.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[05Dec2024 17:46:56.610] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[05Dec2024 17:46:56.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx has made the advancement [Ice and Fire]
+[05Dec2024 17:47:18.968] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-141, y=73, z=121}
+[05Dec2024 17:47:40.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx has made the advancement [Alex's Mobs]
+[05Dec2024 17:47:54.739] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[05Dec2024 17:47:54.740] [Worker-Main-65/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[05Dec2024 17:47:55.078] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[05Dec2024 17:47:55.078] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[05Dec2024 17:47:55.079] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[05Dec2024 17:47:55.079] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[05Dec2024 17:47:55.079] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[05Dec2024 17:48:03.248] [Worker-Main-64/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[05Dec2024 17:49:40.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Legacho is bleeding. Legacho walked into a cactus whilst trying to escape Ice Dragon
+[05Dec2024 17:49:40.911] [Server thread/WARN] [tombstone/]: The death event of the player Legacho was canceled by another mod
+[05Dec2024 17:49:40.916] [Server thread/INFO] [tombstone/]: The player Legacho has successfully been saved
+[05Dec2024 17:49:42.048] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rongorus[/127.49.150.48:52527] logged in with entity id 64022 at (-1040.6840105120164, 67.6409938976045, -1369.6922187621358)
+[05Dec2024 17:49:42.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus joined the game
+[05Dec2024 17:49:42.092] [Server thread/INFO] [Jade/]: Syncing config to rongorus (6968255d-bb3f-3534-8e7f-116f63b338b0)
+[05Dec2024 17:49:43.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito moved too quickly! 5.2815009038181415,0.25799910351527444,8.669917746391889
+[05Dec2024 17:50:20.058] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64951, l='ServerLevel[world]', x=581.50, y=71.00, z=-394.50]
+[05Dec2024 17:51:01.266] [Worker-Main-64/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=11}
+[05Dec2024 17:51:02.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[05Dec2024 17:51:11.281] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66112, l='ServerLevel[world]', x=621.50, y=72.00, z=-387.50]
+[05Dec2024 17:51:12.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was incinerated by Fire Dragon
+[05Dec2024 17:51:12.491] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[05Dec2024 17:51:12.516] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[05Dec2024 17:51:18.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was turned into KFC by a dragon
+[05Dec2024 17:51:26.665] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 17:51:26.666] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Dec2024 17:52:20.677] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[05Dec2024 17:52:22.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus is bleeding. rongorus was turned into KFC by Fire Dragon
+[05Dec2024 17:52:22.086] [Server thread/WARN] [tombstone/]: The death event of the player rongorus was canceled by another mod
+[05Dec2024 17:52:22.105] [Server thread/INFO] [tombstone/]: The player rongorus has successfully been saved
+[05Dec2024 17:52:42.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus was incinerated by a dragon
+[05Dec2024 17:52:49.859] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Dec2024 17:52:49.860] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[05Dec2024 17:53:10.049] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/69485, l='ServerLevel[world]', x=-899.91, y=67.84, z=-1285.47] died, message: 'Nitwit was slain by Fire Dragon'
+[05Dec2024 17:53:21.679] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/69508, l='ServerLevel[world]', x=-878.30, y=67.00, z=-1311.30] died, message: 'Farmer hit the ground too hard'
+[05Dec2024 17:53:29.117] [Worker-Main-66/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[05Dec2024 17:53:30.378] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.3058721249106213
+[05Dec2024 17:53:30.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.3628002019065093
+[05Dec2024 17:53:30.574] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 1.356195612090005
+[05Dec2024 17:53:30.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.9874324095009115
+[05Dec2024 17:53:30.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 1.356195612090005
+[05Dec2024 17:53:30.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.9725743963003879
+[05Dec2024 17:53:30.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 1.3412409156690046
+[05Dec2024 17:53:30.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.9761075596741762
+[05Dec2024 17:53:30.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.6076136105704677
+[05Dec2024 17:53:30.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of emiiilx) moved wrongly! 0.2592306839676439
+[05Dec2024 17:53:31.220] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito lost connection: Disconnected
+[05Dec2024 17:53:31.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito left the game
+[05Dec2024 17:53:31.303] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
