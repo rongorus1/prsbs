@@ -83,6 +83,8 @@
       "minecraft:beach": "2024-12-04 16:54:53 +0000",
       "minecraft:sparse_jungle": "2024-12-04 17:34:38 +0000",
       "minecraft:river": "2024-12-04 17:02:45 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-05 17:33:55 +0000",
+      "minecraft:stony_shore": "2024-12-05 17:32:35 +0000",
       "minecraft:forest": "2024-12-05 16:38:30 +0000",
       "minecraft:ocean": "2024-12-04 16:53:46 +0000",
       "minecraft:jungle": "2024-12-05 17:11:12 +0000",
@@ -1995,6 +1997,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-12-05 17:31:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:44:06 +0000"
@@ -2097,6 +2105,12 @@
     },
     "done": true
   },
+  "croptopia:gather_forest": {
+    "criteria": {
+      "blueberry_seed": "2024-12-05 17:32:28 +0000"
+    },
+    "done": false
+  },
   "cfm:recipes/decorations/birch_bedside_cabinet": {
     "criteria": {
       "has_log": "2024-12-05 17:05:48 +0000"
@@ -2139,6 +2153,12 @@
     },
     "done": true
   },
+  "croptopia:gather_all": {
+    "criteria": {
+      "blueberry_seed": "2024-12-05 17:32:28 +0000"
+    },
+    "done": false
+  },
   "scalinghealth:recipes/misc/heart_dust": {
     "criteria": {
       "cobblestone": "2024-12-05 16:44:06 +0000"
@@ -2166,6 +2186,12 @@
   "cfm:recipes/decorations/stripped_birch_desk_cabinet": {
     "criteria": {
       "has_planks": "2024-12-05 17:05:48 +0000"
+    },
+    "done": true
+  },
+  "croptopia:getseeds": {
+    "criteria": {
+      "has_seeds": "2024-12-05 17:32:28 +0000"
     },
     "done": true
   },
@@ -2379,6 +2405,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-05 17:36:40 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "woodland": "2024-12-05 16:56:03 +0000",
@@ -2389,6 +2421,8 @@
       "old_growth_woodland": "2024-12-05 17:07:19 +0000",
       "lavender_forest": "2024-12-05 17:17:58 +0000",
       "mediterranean_forest": "2024-12-05 16:47:35 +0000",
+      "dune_beach": "2024-12-05 17:34:55 +0000",
+      "lavender_field": "2024-12-05 17:34:53 +0000",
       "grassland": "2024-12-05 17:13:08 +0000",
       "rainforest": "2024-12-05 17:12:00 +0000"
     },
@@ -2409,6 +2443,18 @@
   "cfm:recipes/decorations/stripped_birch_cabinet": {
     "criteria": {
       "has_log": "2024-12-05 17:05:48 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald": "2024-12-05 17:36:40 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/blueberry_jam": {
+    "criteria": {
+      "has_blueberry": "2024-12-05 17:32:19 +0000"
     },
     "done": true
   },
@@ -2601,6 +2647,12 @@
   "securitycraft:recipes/building_blocks/reinforced_andesite": {
     "criteria": {
       "has_cobblestone": "2024-12-05 16:44:06 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/blueberry_seed": {
+    "criteria": {
+      "has_blueberry": "2024-12-05 17:32:19 +0000"
     },
     "done": true
   },

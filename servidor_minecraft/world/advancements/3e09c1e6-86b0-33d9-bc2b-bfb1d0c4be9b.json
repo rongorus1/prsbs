@@ -84,6 +84,7 @@
       "minecraft:river": "2024-12-04 16:45:33 +0000",
       "minecraft:forest": "2024-12-04 16:46:00 +0000",
       "minecraft:ocean": "2024-12-04 16:44:03 +0000",
+      "minecraft:windswept_savanna": "2024-12-05 17:37:39 +0000",
       "minecraft:flower_forest": "2024-12-04 16:58:28 +0000",
       "minecraft:savanna": "2024-12-04 16:55:29 +0000",
       "minecraft:plains": "2024-12-04 16:41:31 +0000"
@@ -1454,8 +1455,10 @@
     "criteria": {
       "woodland": "2024-12-04 16:49:01 +0000",
       "old_growth_woodland": "2024-12-04 17:47:31 +0000",
+      "lavender_forest": "2024-12-05 17:33:49 +0000",
       "mediterranean_forest": "2024-12-04 16:55:10 +0000",
       "redwood_forest": "2024-12-04 17:42:57 +0000",
+      "dune_beach": "2024-12-05 17:34:04 +0000",
       "volcanic_plains": "2024-12-04 17:48:13 +0000"
     },
     "done": false
@@ -1511,7 +1514,9 @@
     "criteria": {
       "cooked_porkchop": "2024-12-04 16:50:49 +0000",
       "cooked_mutton": "2024-12-04 16:59:12 +0000",
-      "golden_apple": "2024-12-04 17:15:19 +0000"
+      "apple": "2024-12-05 17:33:44 +0000",
+      "golden_apple": "2024-12-04 17:15:19 +0000",
+      "bread": "2024-12-05 17:36:55 +0000"
     },
     "done": false
   },
@@ -3534,6 +3539,90 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2024-12-04 17:59:27 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/diving_board": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_toast": {
+    "criteria": {
+      "has_bread": "2024-12-05 17:36:50 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/flour": {
+    "criteria": {
+      "has_grain": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_bread": {
+    "criteria": {
+      "has_bread": "2024-12-05 17:36:50 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/door_mat": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hay": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheeseburger": {
+    "criteria": {
+      "has_bread": "2024-12-05 17:36:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2024-12-05 17:35:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_smoking_bread": {
+    "criteria": {
+      "has_bread": "2024-12-05 17:36:50 +0000"
     },
     "done": true
   },
