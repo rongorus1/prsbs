@@ -1039,3 +1039,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06Dec2024 01:26:39.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
 [06Dec2024 01:27:12.916] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7271770b[id=<null>,name=rongorus,properties={},legacy=false] (/127.49.150.48:47163) lost connection: Disconnected
 [06Dec2024 01:27:15.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD has made the advancement [Gone Bananas!]
+[06Dec2024 01:40:15.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:46105] logged in with entity id 9682 at (-431.2775511715155, 64.0, -369.28059301594277)
+[06Dec2024 01:40:15.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 01:40:15.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx has made the advancement [Christmas]
+[06Dec2024 01:40:15.156] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 01:40:40.457] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10054, l='ServerLevel[world]', x=-343.50, y=70.00, z=-325.50]
+[06Dec2024 01:40:51.059] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10114, l='ServerLevel[world]', x=-343.50, y=70.00, z=-327.50]
+[06Dec2024 01:41:06.656] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10200, l='ServerLevel[world]', x=-344.50, y=70.00, z=-326.50]
+[06Dec2024 01:41:21.907] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10311, l='ServerLevel[world]', x=-360.50, y=73.00, z=-353.50]
