@@ -1047,3 +1047,60 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06Dec2024 01:40:51.059] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10114, l='ServerLevel[world]', x=-343.50, y=70.00, z=-327.50]
 [06Dec2024 01:41:06.656] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10200, l='ServerLevel[world]', x=-344.50, y=70.00, z=-326.50]
 [06Dec2024 01:41:21.907] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/10311, l='ServerLevel[world]', x=-360.50, y=73.00, z=-353.50]
+[06Dec2024 01:45:06.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx has made the advancement [Hunt and Gather]
+[06Dec2024 01:45:06.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx has made the advancement [Iron Torch]
+[06Dec2024 01:49:16.177] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
+[06Dec2024 01:49:16.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 01:50:03.837] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:38985] logged in with entity id 13014 at (-383.69999998807907, 65.0, -575.4121021921964)
+[06Dec2024 01:50:03.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 01:50:03.878] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 01:50:04.986] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Disconnected
+[06Dec2024 01:50:04.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 01:51:45.828] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:36509] logged in with entity id 13453 at (-383.69999998807907, 65.0, -575.4121021921964)
+[06Dec2024 01:51:45.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 01:51:45.853] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 01:52:15.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
+[06Dec2024 01:52:15.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 01:58:14.386] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jugandito[/127.123.216.160:34665] logged in with entity id 15304 at (919.7942362582769, 75.0, -714.4843085422863)
+[06Dec2024 01:58:14.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito joined the game
+[06Dec2024 01:58:14.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Christmas]
+[06Dec2024 01:58:14.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Mysterious Gift]
+[06Dec2024 01:58:14.418] [Server thread/INFO] [Jade/]: Syncing config to Jugandito (3e09c1e6-86b0-33d9-bc2b-bfb1d0c4be9b)
+[06Dec2024 02:02:04.404] [Server thread/INFO] [Scaling Health/]: Blight Decaying Zombie was killed by iTzBorisxD
+[06Dec2024 02:02:31.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rongorus[/127.49.150.48:50573] logged in with entity id 18496 at (-1404.5, 63.0, -2089.5)
+[06Dec2024 02:02:32.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus joined the game
+[06Dec2024 02:02:32.012] [Server thread/INFO] [Jade/]: Syncing config to rongorus (6968255d-bb3f-3534-8e7f-116f63b338b0)
+[06Dec2024 02:02:56.051] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{iTzBorisxD})
+[06Dec2024 02:03:02.144] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Timed out
+[06Dec2024 02:03:02.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[06Dec2024 02:04:18.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:50663] logged in with entity id 20710 at (-383.69999998807907, 65.0, -575.4121021921964)
+[06Dec2024 02:04:18.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 02:04:18.665] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 02:04:48.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
+[06Dec2024 02:04:48.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 02:05:24.541] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
+[06Dec2024 02:05:24.541] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
+[06Dec2024 02:05:24.542] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
+[06Dec2024 02:05:24.542] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
+[06Dec2024 02:05:24.576] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[06Dec2024 02:05:24.576] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[06Dec2024 02:05:24.577] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[06Dec2024 02:05:24.665] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
+[06Dec2024 02:05:24.666] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
+[06Dec2024 02:05:24.666] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
+[06Dec2024 02:05:24.666] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
+[06Dec2024 02:05:24.705] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
+[06Dec2024 02:07:43.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [What Happens in Las Vegas...]
+[06Dec2024 02:08:49.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito is bleeding. Jugandito went off with a bang
+[06Dec2024 02:08:49.141] [Server thread/WARN] [tombstone/]: The death event of the player Jugandito was canceled by another mod
+[06Dec2024 02:08:49.146] [Server thread/INFO] [tombstone/]: The player Jugandito has successfully been saved
+[06Dec2024 02:09:33.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito went off with a bang
+[06Dec2024 02:09:33.096] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jugandito with unique ID travelersbackpack.standard_06.12.2024-02.09.33.dat
+[06Dec2024 02:09:33.100] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 218 Y: 81 Z: -1887
+[06Dec2024 02:09:39.770] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[06Dec2024 02:09:39.771] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[06Dec2024 02:09:39.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [The Most Useful Key]
+[06Dec2024 02:09:55.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has reached the goal [A Fast Comeback]
+[06Dec2024 02:10:06.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Ambush]
+[06Dec2024 02:11:18.928] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito lost connection: Disconnected
+[06Dec2024 02:11:18.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito left the game
