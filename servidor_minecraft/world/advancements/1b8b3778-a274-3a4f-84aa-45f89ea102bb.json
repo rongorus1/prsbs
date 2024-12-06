@@ -7053,5 +7053,11 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/spruce_hedge": {
+    "criteria": {
+      "has_leaves": "2024-12-06 02:50:36 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
