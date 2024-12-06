@@ -1114,3 +1114,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06Dec2024 02:19:29.854] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
 [06Dec2024 02:19:59.980] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
 [06Dec2024 02:19:59.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 02:59:37.031] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rongorus[/127.49.150.48:54535] logged in with entity id 35279 at (-1404.5, 63.0, -2089.5)
+[06Dec2024 02:59:37.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus joined the game
+[06Dec2024 02:59:37.062] [Server thread/INFO] [Jade/]: Syncing config to rongorus (6968255d-bb3f-3534-8e7f-116f63b338b0)
+[06Dec2024 03:00:07.125] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Timed out
+[06Dec2024 03:00:07.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[06Dec2024 03:03:10.427] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rongorus[/127.49.150.48:56501] logged in with entity id 36289 at (-1404.5, 63.0, -2089.5)
+[06Dec2024 03:03:10.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus joined the game
+[06Dec2024 03:03:10.459] [Server thread/INFO] [Jade/]: Syncing config to rongorus (6968255d-bb3f-3534-8e7f-116f63b338b0)
+[06Dec2024 03:03:40.524] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rongorus lost connection: Timed out
+[06Dec2024 03:03:40.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rongorus left the game
+[06Dec2024 03:07:23.466] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iTzBorisxD lost connection: Disconnected
+[06Dec2024 03:07:23.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iTzBorisxD left the game
+[06Dec2024 03:07:23.525] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
