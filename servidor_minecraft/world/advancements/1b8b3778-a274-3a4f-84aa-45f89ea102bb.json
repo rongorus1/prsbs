@@ -6873,6 +6873,12 @@
     },
     "done": true
   },
+  "mysticsbiomes:recipes/building_blocks/stripped_peach_wood": {
+    "criteria": {
+      "has_planks": "2024-12-06 02:13:04 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/banana_nut_bread": {
     "criteria": {
       "has_banana": "2024-12-06 01:27:15 +0000"
@@ -6954,6 +6960,12 @@
   "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
       "has_wood": "2024-12-06 01:52:15 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/peach_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-06 02:13:04 +0000"
     },
     "done": true
   },

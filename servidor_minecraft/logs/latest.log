@@ -1104,3 +1104,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06Dec2024 02:10:06.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito has made the advancement [Ambush]
 [06Dec2024 02:11:18.928] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jugandito lost connection: Disconnected
 [06Dec2024 02:11:18.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jugandito left the game
+[06Dec2024 02:17:55.924] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:42171] logged in with entity id 27586 at (-383.69999998807907, 65.0, -575.4121021921964)
+[06Dec2024 02:17:55.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 02:17:55.955] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 02:18:26.073] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
+[06Dec2024 02:18:26.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
+[06Dec2024 02:19:29.828] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emiiilx[/127.91.151.198:45385] logged in with entity id 28062 at (-383.69999998807907, 65.0, -575.4121021921964)
+[06Dec2024 02:19:29.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx joined the game
+[06Dec2024 02:19:29.854] [Server thread/INFO] [Jade/]: Syncing config to emiiilx (709fee45-2d14-3760-9563-805119c60995)
+[06Dec2024 02:19:59.980] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emiiilx lost connection: Timed out
+[06Dec2024 02:19:59.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emiiilx left the game
