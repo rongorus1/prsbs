@@ -6873,6 +6873,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/building_blocks/stripped_peach_wood": {
     "criteria": {
       "has_planks": "2024-12-06 02:13:04 +0000"
@@ -6912,6 +6918,12 @@
   "croptopia:recipes/banana_cream_pie": {
     "criteria": {
       "has_banana": "2024-12-06 01:27:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-06 02:32:00 +0000"
     },
     "done": true
   },
@@ -6990,6 +7002,18 @@
   "cfm:recipes/decorations/stripped_dark_oak_coffee_table": {
     "criteria": {
       "has_planks": "2024-12-06 01:52:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_blinds": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
     },
     "done": true
   },
