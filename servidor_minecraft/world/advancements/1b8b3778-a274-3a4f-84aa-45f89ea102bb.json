@@ -2849,6 +2849,7 @@
       "dryland": "2024-12-04 18:44:26 +0000",
       "wasteland": "2024-12-05 01:58:53 +0000",
       "lush_desert": "2024-12-04 18:56:48 +0000",
+      "wasteland_steppe": "2024-12-07 02:18:05 +0000",
       "seasonal_forest": "2024-12-05 02:22:29 +0000",
       "volcano": "2024-12-04 18:47:34 +0000",
       "rocky_rainforest": "2024-12-03 02:03:18 +0000",
@@ -7067,6 +7068,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-12-07 02:29:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-12-07 00:55:54 +0000"
@@ -7094,6 +7101,12 @@
   "croptopia:recipes/misc/apple_pie": {
     "criteria": {
       "has_apple": "2024-12-07 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_village": {
+    "criteria": {
+      "location0": "2024-12-07 02:24:09 +0000"
     },
     "done": true
   },
