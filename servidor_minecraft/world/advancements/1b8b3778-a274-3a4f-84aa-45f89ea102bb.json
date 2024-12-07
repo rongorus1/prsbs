@@ -6837,78 +6837,47 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "tombstone:adventure/christmas": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-12-06 03:06:59 +0000",
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "coded_trigger": "2024-12-06 01:17:33 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_kill": {
+  "tombstone:adventure/mysterious_gift": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "coded_trigger": "2024-12-06 01:17:33 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "croptopia:recipes/banana_nut_bread": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "has_banana": "2024-12-06 01:27:15 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "croptopia:recipes/banana_cream_pie": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "has_banana": "2024-12-06 01:27:15 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "croptopia:recipes/misc/banana_smoothie": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "has_banana": "2024-12-06 01:27:15 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "alexsmobs:alexsmobs/banana": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "banana": "2024-12-06 01:27:15 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "croptopia:recipes/fruit_salad": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
+      "has_banana": "2024-12-06 01:27:15 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-06 03:06:43 +0000"
-    },
-    "done": false
+    "done": true
   },
   "cfm:recipes/decorations/stripped_dark_oak_park_bench": {
     "criteria": {
@@ -6946,33 +6915,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
-    "criteria": {
-      "has_log": "2024-12-06 02:32:00 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/building_blocks/stripped_peach_wood": {
-    "criteria": {
-      "has_planks": "2024-12-06 02:13:04 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/banana_nut_bread": {
-    "criteria": {
-      "has_banana": "2024-12-06 01:27:15 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/dark_oak_upgraded_fence": {
     "criteria": {
       "has_log": "2024-12-06 01:52:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/chainmail_helmet": {
-    "criteria": {
-      "has_item": "2024-12-06 02:01:14 +0000"
     },
     "done": true
   },
@@ -6982,75 +6927,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/chainmail_leggings": {
-    "criteria": {
-      "has_item": "2024-12-06 02:01:14 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/banana_cream_pie": {
-    "criteria": {
-      "has_banana": "2024-12-06 01:27:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-12-06 02:32:00 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/chain": {
-    "criteria": {
-      "has_item": "2024-12-06 02:01:14 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/christmas": {
-    "criteria": {
-      "coded_trigger": "2024-12-06 01:17:33 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/mysterious_gift": {
-    "criteria": {
-      "coded_trigger": "2024-12-06 01:17:33 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/cake": {
-    "criteria": {
-      "has_egg": "2024-12-06 02:00:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2024-12-06 02:00:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/chainmail_boots": {
-    "criteria": {
-      "has_item": "2024-12-06 02:01:14 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/banana_smoothie": {
-    "criteria": {
-      "has_banana": "2024-12-06 01:27:15 +0000"
-    },
-    "done": true
-  },
   "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
       "has_wood": "2024-12-06 01:52:15 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/decorations/peach_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-12-06 02:13:04 +0000"
     },
     "done": true
   },
@@ -7066,39 +6945,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/chainmail_chestplate": {
-    "criteria": {
-      "has_item": "2024-12-06 02:01:14 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/stripped_dark_oak_coffee_table": {
     "criteria": {
       "has_planks": "2024-12-06 01:52:15 +0000"
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_dark_oak_upgraded_fence": {
-    "criteria": {
-      "has_log": "2024-12-06 02:32:00 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_dark_oak_blinds": {
-    "criteria": {
-      "has_log": "2024-12-06 02:32:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2024-12-06 01:52:15 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/banana": {
-    "criteria": {
-      "banana": "2024-12-06 01:27:15 +0000"
     },
     "done": true
   },
@@ -7114,15 +6969,87 @@
     },
     "done": true
   },
-  "croptopia:recipes/fruit_salad": {
-    "criteria": {
-      "has_banana": "2024-12-06 01:27:15 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/stripped_dark_oak_desk_cabinet": {
     "criteria": {
       "has_planks": "2024-12-06 01:52:15 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2024-12-06 02:00:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-06 02:00:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_helmet": {
+    "criteria": {
+      "has_item": "2024-12-06 02:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_leggings": {
+    "criteria": {
+      "has_item": "2024-12-06 02:01:14 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/chain": {
+    "criteria": {
+      "has_item": "2024-12-06 02:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_boots": {
+    "criteria": {
+      "has_item": "2024-12-06 02:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_chestplate": {
+    "criteria": {
+      "has_item": "2024-12-06 02:01:14 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/stripped_peach_wood": {
+    "criteria": {
+      "has_planks": "2024-12-06 02:13:04 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/peach_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-06 02:13:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-06 02:32:00 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_blinds": {
+    "criteria": {
+      "has_log": "2024-12-06 02:32:00 +0000"
     },
     "done": true
   },
