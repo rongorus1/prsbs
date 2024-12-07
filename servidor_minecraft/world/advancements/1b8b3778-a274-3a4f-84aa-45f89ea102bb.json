@@ -7104,6 +7104,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "potato": "2024-12-07 03:11:23 +0000"
+    },
+    "done": false
+  },
   "alexsmobs:alexsmobs/guster": {
     "criteria": {
       "killed_by": "2024-12-07 02:08:39 +0000"
